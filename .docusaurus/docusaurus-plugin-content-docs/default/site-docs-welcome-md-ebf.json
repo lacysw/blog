@@ -1,0 +1,21 @@
+{
+  "unversionedId": "welcome",
+  "id": "welcome",
+  "title": "Welcome!",
+  "description": "The Docs & Tutorials section hosts a growing number of technical tutorials, mostly focused on infosec and Linux-related development projects. Relatively sparse now, my intention is to share all of my interesting projects here, so if nothing sparks your interest now, check back soon. The sidebar on the right can be used to navigate between this section's content.",
+  "source": "@site/docs/welcome.md",
+  "sourceDirName": ".",
+  "slug": "/welcome",
+  "permalink": "/docs/welcome",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Previse",
+    "permalink": "/docs/Reports/hack-the-box/previse"
+  }
+}

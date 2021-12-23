@@ -1,0 +1,376 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "versionLabel": "Next",
+          "versionPath": "/docs",
+          "tagsPath": "/docs/tags",
+          "versionBanner": null,
+          "versionBadge": false,
+          "versionClassName": "docs-version-current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/home/sid/blog/sidebars.js",
+          "contentPath": "/home/sid/blog/docs",
+          "contentPathLocalized": "/home/sid/blog/i18n/en/docusaurus-plugin-content-docs/current",
+          "docs": [
+            {
+              "unversionedId": "Reports/hack-the-box/previse",
+              "id": "Reports/hack-the-box/previse",
+              "title": "Previse",
+              "description": "Hello, and thank you for expressing interest in my report on Previse, a CTF hosted by Hack the Box. Previse was uploaded by HTB user m4lwhere 138 days prior to the publication of this report and is currently considered by the HTB community to be easy to intermediate in terms of difficulty.",
+              "source": "@site/docs/Reports/hack-the-box/previse.md",
+              "sourceDirName": "Reports/hack-the-box",
+              "slug": "/Reports/hack-the-box/previse",
+              "permalink": "/docs/Reports/hack-the-box/previse",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Welcome!",
+                "permalink": "/docs/welcome"
+              },
+              "next": {
+                "title": "Introduction",
+                "permalink": "/docs/website-hosting/introduction"
+              }
+            },
+            {
+              "unversionedId": "website-hosting/bonus",
+              "id": "website-hosting/bonus",
+              "title": "Bonus: Configuring GitHub Actions & Email",
+              "description": "This page is coming soon.",
+              "source": "@site/docs/website-hosting/bonus.md",
+              "sourceDirName": "website-hosting",
+              "slug": "/website-hosting/bonus",
+              "permalink": "/docs/website-hosting/bonus",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_position": 6
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Deploying Your Site to Firebase",
+                "permalink": "/docs/website-hosting/deploy-to-firebase"
+              }
+            },
+            {
+              "unversionedId": "website-hosting/deploy-to-firebase",
+              "id": "website-hosting/deploy-to-firebase",
+              "title": "Deploying Your Site to Firebase",
+              "description": "This page is coming soon.",
+              "source": "@site/docs/website-hosting/deploy-to-firebase.md",
+              "sourceDirName": "website-hosting",
+              "slug": "/website-hosting/deploy-to-firebase",
+              "permalink": "/docs/website-hosting/deploy-to-firebase",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Registering a Domain",
+                "permalink": "/docs/website-hosting/register-domain"
+              },
+              "next": {
+                "title": "Bonus: Configuring GitHub Actions & Email",
+                "permalink": "/docs/website-hosting/bonus"
+              }
+            },
+            {
+              "unversionedId": "website-hosting/dev-env",
+              "id": "website-hosting/dev-env",
+              "title": "Setting Up Your Development Environment",
+              "description": "Of course, you can't reasonably develop a website without first configuring the tools to do so. As mentioned in the previous section, Ubuntu Server will be used to host the development environment. I write code regularly and host a variety of services on my local network, so I have a physical computer running Ubuntu Server on bare metal, which I use SSH to access. If you would also like to use Ubuntu on bare metal, you may do the same by following this guide or by creating a virtual instance using the hypervisor of your choice or Multipass (which is very simple). Alternatively, if you don't have access to another computer and cannot/would prefer not to use virtualization for whatever reason, you may use your physical computer, but note that all commands will assume use of Ubuntu 20.04.3 LTS.",
+              "source": "@site/docs/website-hosting/dev-env.md",
+              "sourceDirName": "website-hosting",
+              "slug": "/website-hosting/dev-env",
+              "permalink": "/docs/website-hosting/dev-env",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Introduction",
+                "permalink": "/docs/website-hosting/introduction"
+              },
+              "next": {
+                "title": "Editing Docusaurus Defaults",
+                "permalink": "/docs/website-hosting/edit-defaults"
+              }
+            },
+            {
+              "unversionedId": "website-hosting/edit-defaults",
+              "id": "website-hosting/edit-defaults",
+              "title": "Editing Docusaurus Defaults",
+              "description": "This page is coming soon.",
+              "source": "@site/docs/website-hosting/edit-defaults.md",
+              "sourceDirName": "website-hosting",
+              "slug": "/website-hosting/edit-defaults",
+              "permalink": "/docs/website-hosting/edit-defaults",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Setting Up Your Development Environment",
+                "permalink": "/docs/website-hosting/dev-env"
+              },
+              "next": {
+                "title": "Registering a Domain",
+                "permalink": "/docs/website-hosting/register-domain"
+              }
+            },
+            {
+              "unversionedId": "website-hosting/introduction",
+              "id": "website-hosting/introduction",
+              "title": "Introduction",
+              "description": "This tutorial aims to serve as an introduction to hosting a simple personal website using a static site generator (because apparently there aren’t enough of those already). If you like how this website appears and performs, keep reading – all of the steps I followed, from setting up a development environment and registering a domain to pushing my build to Firebase (my web host) are documented in the following few pages.",
+              "source": "@site/docs/website-hosting/introduction.md",
+              "sourceDirName": "website-hosting",
+              "slug": "/website-hosting/introduction",
+              "permalink": "/docs/website-hosting/introduction",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Previse",
+                "permalink": "/docs/Reports/hack-the-box/previse"
+              },
+              "next": {
+                "title": "Setting Up Your Development Environment",
+                "permalink": "/docs/website-hosting/dev-env"
+              }
+            },
+            {
+              "unversionedId": "website-hosting/register-domain",
+              "id": "website-hosting/register-domain",
+              "title": "Registering a Domain",
+              "description": "This page is coming soon.",
+              "source": "@site/docs/website-hosting/register-domain.md",
+              "sourceDirName": "website-hosting",
+              "slug": "/website-hosting/register-domain",
+              "permalink": "/docs/website-hosting/register-domain",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Editing Docusaurus Defaults",
+                "permalink": "/docs/website-hosting/edit-defaults"
+              },
+              "next": {
+                "title": "Deploying Your Site to Firebase",
+                "permalink": "/docs/website-hosting/deploy-to-firebase"
+              }
+            },
+            {
+              "unversionedId": "welcome",
+              "id": "welcome",
+              "title": "Welcome!",
+              "description": "The Docs & Tutorials section hosts a growing number of technical tutorials, mostly focused on infosec and Linux-related development projects. Relatively sparse now, my intention is to share all of my interesting projects here, so if nothing sparks your interest now, check back soon. The sidebar on the right can be used to navigate between this section's content.",
+              "source": "@site/docs/welcome.md",
+              "sourceDirName": ".",
+              "slug": "/welcome",
+              "permalink": "/docs/welcome",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "Previse",
+                "permalink": "/docs/Reports/hack-the-box/previse"
+              }
+            }
+          ],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "doc",
+                "id": "welcome"
+              },
+              {
+                "type": "category",
+                "label": "Reports",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "category",
+                    "label": "Hack the Box",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "Reports/hack-the-box/previse"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Tutorial - Creating a Static Website: A to Z",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "website-hosting/introduction"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "website-hosting/dev-env"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "website-hosting/edit-defaults"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "website-hosting/register-domain"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "website-hosting/deploy-to-firebase"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "website-hosting/bonus"
+                  }
+                ]
+              }
+            ]
+          },
+          "mainDocId": "welcome",
+          "categoryGeneratedIndices": []
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogSidebarTitle": "Recent posts",
+      "blogPosts": [
+        {
+          "id": "about-me",
+          "metadata": {
+            "permalink": "/blog/about-me",
+            "source": "@site/blog/2021-12-10-about-me.md",
+            "title": "About Me",
+            "description": "Hello, and welcome to my website. I'm glad you stopped by!",
+            "date": "2021-12-10T00:00:00.000Z",
+            "formattedDate": "December 10, 2021",
+            "tags": [
+              {
+                "label": "welcome",
+                "permalink": "/blog/tags/welcome"
+              },
+              {
+                "label": "about me",
+                "permalink": "/blog/tags/about-me"
+              }
+            ],
+            "readingTime": 0.72,
+            "truncated": false,
+            "authors": [
+              {
+                "name": "Sid Lacy",
+                "title": "Website Maintainer",
+                "url": "https://swlacy.com",
+                "imageURL": "https://avatars.githubusercontent.com/u/77074184?v=4",
+                "key": "sid"
+              }
+            ]
+          },
+          "content": "Hello, and welcome to my website. I'm glad you stopped by!\n\nMy name is Sid. I am a student at Western Washington University, currently majoring\nin cybersecurity and political science. I created *swlacy.com* to practice my web\ndevelopment skills and to provide myself a more elegant, professional location to publish\nwork, which I can tailor to my specific needs. I am humbled by your interest in my\npage, and I hope you find something here that intrigues or helps you in some capacity.\n\nWhile this site is not particularly dense in terms of posted content at the moment,\nit is my intention to make positing here a regular occurance. Check back soon to see\nmore submissions.\n\nI would love to connect with you — please, feel free to reach out to me for any reason\nvia the links below:\n\n[Email](mailto:contact@swlacy.com?subject=Hello!) • [LinkedIn](https://www.linkedin.com/in/lacysw/) • \n[GitHub](https://github.com/lacysw)"
+        }
+      ],
+      "blogListPaginated": [
+        {
+          "metadata": {
+            "permalink": "/blog",
+            "page": 1,
+            "postsPerPage": 10,
+            "totalPages": 1,
+            "totalCount": 1,
+            "previousPage": null,
+            "nextPage": null,
+            "blogDescription": "Blog",
+            "blogTitle": "Blog"
+          },
+          "items": [
+            "about-me"
+          ]
+        }
+      ],
+      "blogTags": {
+        "/blog/tags/welcome": {
+          "name": "welcome",
+          "items": [
+            "about-me"
+          ],
+          "permalink": "/blog/tags/welcome"
+        },
+        "/blog/tags/about-me": {
+          "name": "about me",
+          "items": [
+            "about-me"
+          ],
+          "permalink": "/blog/tags/about-me"
+        }
+      },
+      "blogTagsListPath": "/blog/tags"
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.js"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/markdown-page",
+        "source": "@site/src/pages/markdown-page.md"
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {
+    "default": null
+  },
+  "docusaurus-theme-classic": {
+    "default": null
+  },
+  "@easyops-cn/docusaurus-search-local": {
+    "default": null
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "welcome",
+          "docs": [
+            {
+              "id": "Reports/hack-the-box/previse",
+              "path": "/docs/Reports/hack-the-box/previse",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "website-hosting/bonus",
+              "path": "/docs/website-hosting/bonus",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "website-hosting/deploy-to-firebase",
+              "path": "/docs/website-hosting/deploy-to-firebase",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "website-hosting/dev-env",
+              "path": "/docs/website-hosting/dev-env",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "website-hosting/edit-defaults",
+              "path": "/docs/website-hosting/edit-defaults",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "website-hosting/introduction",
+              "path": "/docs/website-hosting/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "website-hosting/register-domain",
+              "path": "/docs/website-hosting/register-domain",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "welcome",
+              "path": "/docs/welcome",
+              "sidebar": "tutorialSidebar"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

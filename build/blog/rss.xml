@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Sid's Blog Blog</title>
+        <link>https://swlacy.com/blog</link>
+        <description>Sid's Blog Blog</description>
+        <lastBuildDate>Fri, 10 Dec 2021 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[About Me]]></title>
+            <link>https://swlacy.com/blog/about-me</link>
+            <guid>about-me</guid>
+            <pubDate>Fri, 10 Dec 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hello, and welcome to my website. I'm glad you stopped by!]]></description>
+            <content:encoded><![CDATA[<p>Hello, and welcome to my website. I&#x27;m glad you stopped by!</p><p>My name is Sid. I am a student at Western Washington University, currently majoring
+in cybersecurity and political science. I created <em>swlacy.com</em> to practice my web
+development skills and to provide myself a more elegant, professional location to publish
+work, which I can tailor to my specific needs. I am humbled by your interest in my
+page, and I hope you find something here that intrigues or helps you in some capacity.</p><p>While this site is not particularly dense in terms of posted content at the moment,
+it is my intention to make positing here a regular occurance. Check back soon to see
+more submissions.</p><p>I would love to connect with you — please, feel free to reach out to me for any reason
+via the links below:</p><p><a href="mailto:contact@swlacy.com?subject=Hello!">Email</a> • <a href="https://www.linkedin.com/in/lacysw/">LinkedIn</a> •
+<a href="https://github.com/lacysw">GitHub</a></p>]]></content:encoded>
+        </item>
+    </channel>
+</rss>

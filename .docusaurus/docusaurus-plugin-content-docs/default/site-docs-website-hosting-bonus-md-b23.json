@@ -1,0 +1,21 @@
+{
+  "unversionedId": "website-hosting/bonus",
+  "id": "website-hosting/bonus",
+  "title": "Bonus: Configuring GitHub Actions & Email",
+  "description": "This page is coming soon.",
+  "source": "@site/docs/website-hosting/bonus.md",
+  "sourceDirName": "website-hosting",
+  "slug": "/website-hosting/bonus",
+  "permalink": "/docs/website-hosting/bonus",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Deploying Your Site to Firebase",
+    "permalink": "/docs/website-hosting/deploy-to-firebase"
+  }
+}
