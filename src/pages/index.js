@@ -16,7 +16,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/Reports/hack-the-box/previse">
+            to="/docs/reports/hack-the-box/previse">
             Featured: HTB Previse Report
           </Link>
         </div>

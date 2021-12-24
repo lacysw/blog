@@ -191,7 +191,7 @@
               "unversionedId": "welcome",
               "id": "welcome",
               "title": "Welcome!",
-              "description": "The Docs & Tutorials section hosts a growing number of technical tutorials, mostly focused on infosec and Linux-related development projects. Relatively sparse now, my intention is to share all of my interesting projects here, so if nothing sparks your interest now, check back soon. The sidebar on the right can be used to navigate between this section's content.",
+              "description": "The Docs & Tutorials section hosts a growing number of technical articles, mostly focused on infosec challenges and Linux-related development projects. While relatively sparse now, my intention is to share my interesting activity here, so if nothing immediately sparks your interest, please check back soon. The sidebar on the left can be used to navigate between the pages of this section.",
               "source": "@site/docs/welcome.md",
               "sourceDirName": ".",
               "slug": "/welcome",

@@ -277,9 +277,9 @@ export default {
       "disableSwitch": false,
       "respectPrefersColorScheme": false,
       "switchConfig": {
-        "darkIcon": "🌜",
+        "darkIcon": "🔅",
         "darkIconStyle": {},
-        "lightIcon": "🌞",
+        "lightIcon": "🔆",
         "lightIconStyle": {}
       }
     },
