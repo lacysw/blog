@@ -34,11 +34,6 @@ export default [
     exact: true
   },
   {
-    path: '/markdown-page',
-    component: ComponentCreator('/markdown-page','be1'),
-    exact: true
-  },
-  {
     path: '/search',
     component: ComponentCreator('/search','79a'),
     exact: true

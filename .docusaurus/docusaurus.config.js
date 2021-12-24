@@ -5,7 +5,7 @@ export default {
   "baseUrl": "/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
-  "favicon": "img/favicon.ico",
+  "favicon": "img/favicon.svg",
   "organizationName": "lacysw",
   "projectName": "swlacy.com",
   "trailingSlash": false,
@@ -46,14 +46,18 @@ export default {
       },
       "items": [
         {
-          "type": "doc",
-          "docId": "welcome",
-          "position": "left",
-          "label": "Docs & Tutorials"
+          "to": "/docs/welcome",
+          "label": "Docs & Tutorials",
+          "position": "left"
         },
         {
           "to": "/blog",
           "label": "Blog",
+          "position": "left"
+        },
+        {
+          "to": "/blog/about-me",
+          "label": "About Me",
           "position": "left"
         },
         {

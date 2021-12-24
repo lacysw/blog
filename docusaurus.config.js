@@ -12,7 +12,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.svg',
   organizationName: 'lacysw', // Usually your GitHub org/user name.
   projectName: 'swlacy.com', // Usually your repo name.
   trailingSlash: false,
@@ -66,28 +66,12 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          {
-            type: 'doc',
-            docId: 'welcome',
-            position: 'left',
-            label: 'Docs & Tutorials',
-          },
+          {to: '/docs/welcome', label: 'Docs & Tutorials', position: 'left'},
           {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'mailto:contact@swlacy.com?subject=Hello!',
-            label: 'Email Me',
-            position: 'right',
-          },
-          {
-            href: 'https://www.linkedin.com/in/lacysw/',
-            label: 'LinkedIn',
-            position: 'right',
-          },
-          {
-            href: 'https://github.com/lacysw',
-            label: 'GitHub',
-            position: 'right',
-          },
+          {to: '/blog/about-me', label: 'About Me', position: 'left'},
+          {href: 'mailto:contact@swlacy.com?subject=Hello!', label: 'Email Me', position: 'right'},
+          {href: 'https://www.linkedin.com/in/lacysw/', label: 'LinkedIn', position: 'right'},
+          {href: 'https://github.com/lacysw', label: 'GitHub', position: 'right'},
         ],
       },
       footer: {
