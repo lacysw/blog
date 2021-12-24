@@ -273,13 +273,13 @@ export default {
       "additionalLanguages": []
     },
     "colorMode": {
-      "defaultMode": "light",
+      "defaultMode": "dark",
       "disableSwitch": false,
-      "respectPrefersColorScheme": true,
+      "respectPrefersColorScheme": false,
       "switchConfig": {
-        "darkIcon": "🌜",
+        "darkIcon": "🔅",
         "darkIconStyle": {},
-        "lightIcon": "🌞",
+        "lightIcon": "🔆",
         "lightIconStyle": {}
       }
     },
