@@ -13,6 +13,7 @@ export default {
     [
       "/home/sid/blog/node_modules/@easyops-cn/docusaurus-search-local/dist/server/server/index.js",
       {
+        "highlightSearchTermsOnTargetPage": true,
         "hashed": true,
         "language": [
           "en"

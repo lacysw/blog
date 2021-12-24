@@ -7,7 +7,7 @@ Hello, and thank you for expressing interest in my report on [Previse](https://a
 
 Previse requires the submission of a USER flag and a SYSTEM flag, and I have described the process I used to capture both in-depth below.
 
-*Feedback? [I can be reached via email](mailto:contact@swlacy.com?subject=Suggestion%20Regarding%20Previse%20Report).*
+*Feedback? [I can be reached via email](mailto:contact@swlacy.com?subject=Feedback%20Regarding%20Previse%20Report).*
 
 ## Enumeration
 ### Nmap
@@ -114,8 +114,6 @@ Content-Type: text/html; charset=UTF-8
     <head>
         <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
         <meta charset="utf-8" />
-    
-            
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="Previse rocks your socks." />
         <meta name="author" content="m4lwhere" />
@@ -545,4 +543,4 @@ I hope you found this guide helpful or inspirational. Thank you so much for read
 
 https://www.hackthebox.com/achievement/machine/787255/373 ![https://www.hackthebox.com/achievement/machine/787255/373](./previse6.png)
 
-*Feedback? [I can be reached via email](mailto:contact@swlacy.com?subject=Suggestion%20Regarding%20Previse%20Report).*
+*Feedback? [I can be reached via email](mailto:contact@swlacy.com?subject=Feedback%20Regarding%20Previse%20Report).*

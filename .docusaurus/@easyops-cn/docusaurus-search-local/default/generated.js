@@ -1,7 +1,7 @@
 import lunr from "/home/sid/blog/node_modules/lunr/lunr.js";
 export const language = ["en"];
 export const removeDefaultStopWordFilter = false;
-export const Mark = null;
+export { default as Mark } from "/home/sid/blog/node_modules/mark.js/dist/mark.js"
 export const indexHash = "df2dc80b";
 export const searchResultLimits = 8;
 export const searchResultContextMaxLength = 50;
