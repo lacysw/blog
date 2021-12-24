@@ -5,7 +5,7 @@ export default {
   "baseUrl": "/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
-  "favicon": "img/favicon.svg",
+  "favicon": "static/img/favicon.svg",
   "organizationName": "lacysw",
   "projectName": "swlacy.com",
   "trailingSlash": false,

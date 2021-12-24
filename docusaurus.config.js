@@ -12,7 +12,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.svg',
+  favicon: 'static/img/favicon.svg',
   organizationName: 'lacysw', // Usually your GitHub org/user name.
   projectName: 'swlacy.com', // Usually your repo name.
   trailingSlash: false,
