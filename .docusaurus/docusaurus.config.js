@@ -273,21 +273,25 @@ export default {
       "additionalLanguages": []
     },
     "colorMode": {
-      "defaultMode": "light",
+      "defaultMode": "dark",
       "disableSwitch": false,
       "respectPrefersColorScheme": false,
       "switchConfig": {
-        "darkIcon": "🌜",
-        "darkIconStyle": {},
-        "lightIcon": "🌞",
-        "lightIconStyle": {}
+        "darkIcon": "🔅",
+        "darkIconStyle": {
+          "marginLeft": "2px"
+        },
+        "lightIcon": "🔆",
+        "lightIconStyle": {
+          "marginLeft": "1px"
+        }
       }
     },
+    "hideableSidebar": true,
     "docs": {
       "versionPersistence": "localStorage"
     },
     "metadata": [],
-    "hideableSidebar": false,
     "tableOfContents": {
       "minHeadingLevel": 2,
       "maxHeadingLevel": 3
