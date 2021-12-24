@@ -73,8 +73,8 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/lacysw',
-            label: 'GitHub',
+            href: 'mailto:contact@swlacy.com?subject=Hello!',
+            label: 'Email Me',
             position: 'right',
           },
           {
@@ -83,20 +83,19 @@ const config = {
             position: 'right',
           },
           {
-            href: 'mailto:contact@swlacy.com?subject=Hello!',
-            label: 'Email',
+            href: 'https://github.com/lacysw',
+            label: 'GitHub',
             position: 'right',
           },
         ],
       },
       footer: {
         style: 'light',
-        
-        copyright: `Copyright © ${new Date().getFullYear()} Sid Lacy • Generated with <a href="https://docusaurus.io"> Docusaurus`,
+        copyright: `Copyright © ${new Date().getFullYear()} Sid Lacy • Generated with <a href="https://docusaurus.io"> Docusaurus </a> • Last Built ${new Date().toJSON().slice(0,10).replace(/-/g,'.')} UTC`,
       },
       prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        theme: require('prism-react-renderer/themes/github'),
+        darkTheme: require('prism-react-renderer/themes/vsDark'),
       },
       colorMode: {
         defaultMode: 'dark',
@@ -111,7 +110,7 @@ const config = {
           // Unicode with 5 chars require brackets: '\u{1F602}'
           lightIcon: '🔆',
           lightIconStyle: {
-            marginLeft: '1px',
+            marginLeft: '0px',
           },
         },
       },

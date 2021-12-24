@@ -12,16 +12,8 @@
         <id>about-me</id>
         <link href="https://swlacy.com/blog/about-me"/>
         <updated>2021-12-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Hello, and welcome to my website. I'm glad you stopped by!]]></summary>
-        <content type="html"><![CDATA[<p>Hello, and welcome to my website. I&#x27;m glad you stopped by!</p><p>My name is Sid. I am a student at Western Washington University, currently majoring
-in cybersecurity and political science. I created <em>swlacy.com</em> to practice my web
-development skills and to provide myself a more elegant, professional location to publish
-work, which I can tailor to my specific needs. I am humbled by your interest in my
-page, and I hope you find something here that intrigues or helps you in some capacity.</p><p>While this site is not particularly dense in terms of posted content at the moment,
-it is my intention to make positing here a regular occurance. Check back soon to see
-more submissions.</p><p>I would love to connect with you — please, feel free to reach out to me for any reason
-via the links below:</p><p><a href="mailto:contact@swlacy.com?subject=Hello!">Email</a> • <a href="https://www.linkedin.com/in/lacysw/">LinkedIn</a> •
-<a href="https://github.com/lacysw">GitHub</a></p>]]></content>
+        <summary type="html"><![CDATA[Hello, and welcome to my website. I'm glad you stopped by.]]></summary>
+        <content type="html"><![CDATA[<p>Hello, and welcome to my website. I&#x27;m glad you stopped by.</p><p>My name is Sid. I am a student at Western Washington University, currently majoring in cybersecurity and political science. I created <em>swlacy.com</em> to practice my web development skills and to provide myself a more elegant, professional location to publish work, which I can tailor to my specific needs. I intend for this space to become a trove of information others can use to learn from alongside myself. I am humbled by your interest in my page, and I hope you find something here that intrigues or helps you in some capacity.</p><p>While this site is not particularly dense in terms of posted content at the moment, regularly uploading new articles is a personal goal I have set for myself... If nothing interests you now, please revist soon to see new content.</p><p>I would love to connect with you — please, feel free to reach out to me for any reason via the links below:</p><p><a href="mailto:contact@swlacy.com?subject=Hello!">Email</a> • <a href="https://www.linkedin.com/in/lacysw/">LinkedIn</a> • <a href="https://github.com/lacysw">GitHub</a></p>]]></content>
         <author>
             <name>Sid Lacy</name>
             <uri>https://swlacy.com</uri>

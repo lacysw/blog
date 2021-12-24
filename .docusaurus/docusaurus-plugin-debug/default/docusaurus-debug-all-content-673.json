@@ -285,7 +285,7 @@
             "permalink": "/blog/about-me",
             "source": "@site/blog/2021-12-10-about-me.md",
             "title": "About Me",
-            "description": "Hello, and welcome to my website. I'm glad you stopped by!",
+            "description": "Hello, and welcome to my website. I'm glad you stopped by.",
             "date": "2021-12-10T00:00:00.000Z",
             "formattedDate": "December 10, 2021",
             "tags": [
@@ -298,7 +298,7 @@
                 "permalink": "/blog/tags/about-me"
               }
             ],
-            "readingTime": 0.72,
+            "readingTime": 0.85,
             "truncated": false,
             "authors": [
               {
@@ -310,7 +310,7 @@
               }
             ]
           },
-          "content": "Hello, and welcome to my website. I'm glad you stopped by!\n\nMy name is Sid. I am a student at Western Washington University, currently majoring\nin cybersecurity and political science. I created *swlacy.com* to practice my web\ndevelopment skills and to provide myself a more elegant, professional location to publish\nwork, which I can tailor to my specific needs. I am humbled by your interest in my\npage, and I hope you find something here that intrigues or helps you in some capacity.\n\nWhile this site is not particularly dense in terms of posted content at the moment,\nit is my intention to make positing here a regular occurance. Check back soon to see\nmore submissions.\n\nI would love to connect with you — please, feel free to reach out to me for any reason\nvia the links below:\n\n[Email](mailto:contact@swlacy.com?subject=Hello!) • [LinkedIn](https://www.linkedin.com/in/lacysw/) • \n[GitHub](https://github.com/lacysw)"
+          "content": "Hello, and welcome to my website. I'm glad you stopped by.\n\nMy name is Sid. I am a student at Western Washington University, currently majoring in cybersecurity and political science. I created *swlacy.com* to practice my web development skills and to provide myself a more elegant, professional location to publish work, which I can tailor to my specific needs. I intend for this space to become a trove of information others can use to learn from alongside myself. I am humbled by your interest in my page, and I hope you find something here that intrigues or helps you in some capacity.\n\nWhile this site is not particularly dense in terms of posted content at the moment, regularly uploading new articles is a personal goal I have set for myself... If nothing interests you now, please revist soon to see new content.\n\nI would love to connect with you — please, feel free to reach out to me for any reason via the links below:\n\n[Email](mailto:contact@swlacy.com?subject=Hello!) • [LinkedIn](https://www.linkedin.com/in/lacysw/) • [GitHub](https://github.com/lacysw)"
         }
       ],
       "blogListPaginated": [

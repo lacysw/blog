@@ -2,7 +2,7 @@
   "permalink": "/blog/about-me",
   "source": "@site/blog/2021-12-10-about-me.md",
   "title": "About Me",
-  "description": "Hello, and welcome to my website. I'm glad you stopped by!",
+  "description": "Hello, and welcome to my website. I'm glad you stopped by.",
   "date": "2021-12-10T00:00:00.000Z",
   "formattedDate": "December 10, 2021",
   "tags": [
@@ -15,7 +15,7 @@
       "permalink": "/blog/tags/about-me"
     }
   ],
-  "readingTime": 0.72,
+  "readingTime": 0.85,
   "truncated": false,
   "authors": [
     {
