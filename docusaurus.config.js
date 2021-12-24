@@ -101,4 +101,25 @@ const config = {
     }),
 };
 
-module.exports = config;
+module.exports = {
+  themeConfig: {
+    colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: false,
+      respectPrefersColorScheme: false,
+      switchConfig: {
+        darkIcon: '🔅',
+        darkIconStyle: {
+          marginLeft: '2px',
+        },
+        // Unicode icons such as '\u2600' will work
+        // Unicode with 5 chars require brackets: '\u{1F602}'
+        lightIcon: '🔆',
+        lightIconStyle: {
+          marginLeft: '1px',
+        },
+      },
+    },
+    "hideableSidebar": true,
+  },
+};
