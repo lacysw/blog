@@ -273,9 +273,9 @@ export default {
       "additionalLanguages": []
     },
     "colorMode": {
-      "defaultMode": "dark",
+      "defaultMode": "light",
       "disableSwitch": false,
-      "respectPrefersColorScheme": false,
+      "respectPrefersColorScheme": true,
       "switchConfig": {
         "darkIcon": "🌜",
         "darkIconStyle": {},
@@ -287,7 +287,7 @@ export default {
       "versionPersistence": "localStorage"
     },
     "metadata": [],
-    "hideableSidebar": false,
+    "hideableSidebar": true,
     "tableOfContents": {
       "minHeadingLevel": 2,
       "maxHeadingLevel": 3
