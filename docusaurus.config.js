@@ -18,18 +18,15 @@ const config = {
   trailingSlash: false,
   plugins: [
     // ... Your other plugins.
+    'plugin-image-zoom',
     [
       require.resolve("@easyops-cn/docusaurus-search-local"),
       {
         highlightSearchTermsOnTargetPage: true,
-        // ... Your options.
+        indexPages: true,
         // `hashed` is recommended as long-term-cache of index file is possible.
         hashed: true,
-        // For Docs using Chinese, The `language` is recommended to set to:
-        // ```
         language: ["en"],
-        // ```
-        // When applying `zh` in language, please install `nodejieba` in your project.
       },
     ],
   ],
@@ -59,6 +56,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      zoomSelector: '.markdown img',
       navbar: {
         title: 'Sid\'s Blog',
         logo: {
@@ -68,7 +66,7 @@ const config = {
         items: [
           {to: '/docs/welcome', label: 'Docs & Tutorials', position: 'left'},
           {to: '/blog', label: 'Blog', position: 'left'},
-          {to: '/blog/about-me', label: 'About Me', position: 'left'},
+          {to: '/about-me', label: 'About Me', position: 'left'},
           {href: 'mailto:contact@swlacy.com?subject=Hello!', label: 'Email Me', position: 'right'},
           {href: 'https://www.linkedin.com/in/lacysw/', label: 'LinkedIn', position: 'right'},
           {href: 'https://github.com/lacysw', label: 'GitHub', position: 'right'},

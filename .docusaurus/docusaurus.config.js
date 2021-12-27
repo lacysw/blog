@@ -10,10 +10,12 @@ export default {
   "projectName": "swlacy.com",
   "trailingSlash": false,
   "plugins": [
+    "plugin-image-zoom",
     [
       "/home/sid/blog/node_modules/@easyops-cn/docusaurus-search-local/dist/server/server/index.js",
       {
         "highlightSearchTermsOnTargetPage": true,
+        "indexPages": true,
         "hashed": true,
         "language": [
           "en"
@@ -38,6 +40,7 @@ export default {
     ]
   ],
   "themeConfig": {
+    "zoomSelector": ".markdown img",
     "navbar": {
       "title": "Sid's Blog",
       "logo": {
@@ -56,7 +59,7 @@ export default {
           "position": "left"
         },
         {
-          "to": "/blog/about-me",
+          "to": "/about-me",
           "label": "About Me",
           "position": "left"
         },

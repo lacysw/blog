@@ -4,16 +4,18 @@
         <title>Hi, my name is Sid. Blog</title>
         <link>https://swlacy.com/blog</link>
         <description>Hi, my name is Sid. Blog</description>
-        <lastBuildDate>Fri, 10 Dec 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 27 Dec 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[About Me]]></title>
-            <link>https://swlacy.com/blog/about-me</link>
-            <guid>about-me</guid>
-            <pubDate>Fri, 10 Dec 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[Hello, and welcome to my website. I'm glad you stopped by.]]></description>
-            <content:encoded><![CDATA[<p>Hello, and welcome to my website. I&#x27;m glad you stopped by.</p><p>My name is Sid. I am a student at Western Washington University, currently majoring in cybersecurity and political science. I created <em>swlacy.com</em> to practice my web development skills and to provide myself a more elegant, professional location to publish work, which I can tailor to my specific needs. I intend for this space to become a trove of information others can use to learn from alongside myself. I am humbled by your interest in my page, and I hope you find something here that intrigues or helps you in some capacity.</p><p>While this site is not particularly dense in terms of posted content at the moment, regularly uploading new articles is a personal goal I have set for myself... If nothing interests you now, please revist soon to see new content.</p><p>I would love to connect with you — please, feel free to reach out to me for any reason via the links below:</p><p><a href="mailto:contact@swlacy.com?subject=Hello!">Email</a> • <a href="https://www.linkedin.com/in/lacysw/">LinkedIn</a> • <a href="https://github.com/lacysw">GitHub</a></p>]]></content:encoded>
+            <title><![CDATA[First Post]]></title>
+            <link>https://swlacy.com/blog/first-post</link>
+            <guid>first-post</guid>
+            <pubDate>Mon, 27 Dec 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hello, and welcome! You are currently reading my first "official" post here, having now fleshed out all of the necessary features of my new website, swlacy.com. This space is designed to fulfill my needs as a platform to publish technical content and reflect on my learning as a cybersecurity and political science student.]]></description>
+            <content:encoded><![CDATA[<p>Hello, and welcome! You are currently reading my first &quot;official&quot; post here, having now fleshed out all of the necessary features of my new website, <em>swlacy.com</em>. This space is designed to fulfill my needs as a platform to publish technical content and reflect on my learning as a cybersecurity and political science student.</p><p>There is not any particular wealth of content as I write this blog submission; most notably, you may find more information about me <a href="/about-me">here</a> or view my first tutorial/walkthrough publication on HackTheBox&#x27;s Previse challenge <a href="/docs/Reports/hack-the-box/previse">here</a>, but that highlights the extent of my uploads so far.</p><p>I have been hard at work tuning this website and maintaining the WWU Cybersecurity Club over the 2021 holiday season; expect more articles and blog posts to appear soon enough.</p><p>Kind regards,<br/>
+<!-- -->Sid Lacy<br/>
+<a href="mailto:contact@swlacy.com?subject=Hello!">Email</a> • <a href="https://www.linkedin.com/in/lacysw/">LinkedIn</a> • <a href="https://github.com/lacysw">GitHub</a></p>]]></content:encoded>
         </item>
     </channel>
 </rss>

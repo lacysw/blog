@@ -2,8 +2,8 @@
   "title": "Recent posts",
   "items": [
     {
-      "title": "About Me",
-      "permalink": "/blog/about-me"
+      "title": "First Post",
+      "permalink": "/blog/first-post"
     }
   ]
 }

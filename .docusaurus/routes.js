@@ -4,18 +4,23 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/blog',
-    component: ComponentCreator('/blog','b8a'),
+    path: '/about-me',
+    component: ComponentCreator('/about-me','23c'),
     exact: true
   },
   {
-    path: '/blog/about-me',
-    component: ComponentCreator('/blog/about-me','f6f'),
+    path: '/blog',
+    component: ComponentCreator('/blog','a84'),
     exact: true
   },
   {
     path: '/blog/archive',
     component: ComponentCreator('/blog/archive','f4c'),
+    exact: true
+  },
+  {
+    path: '/blog/first-post',
+    component: ComponentCreator('/blog/first-post','a4a'),
     exact: true
   },
   {
@@ -25,12 +30,12 @@ export default [
   },
   {
     path: '/blog/tags/about-me',
-    component: ComponentCreator('/blog/tags/about-me','5be'),
+    component: ComponentCreator('/blog/tags/about-me','44e'),
     exact: true
   },
   {
     path: '/blog/tags/welcome',
-    component: ComponentCreator('/blog/tags/welcome','006'),
+    component: ComponentCreator('/blog/tags/welcome','916'),
     exact: true
   },
   {

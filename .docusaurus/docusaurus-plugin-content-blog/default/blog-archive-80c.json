@@ -1,14 +1,14 @@
 {
   "blogPosts": [
     {
-      "id": "about-me",
+      "id": "first-post",
       "metadata": {
-        "permalink": "/blog/about-me",
-        "source": "@site/blog/2021-12-10-about-me.md",
-        "title": "About Me",
-        "description": "Hello, and welcome to my website. I'm glad you stopped by.",
-        "date": "2021-12-10T00:00:00.000Z",
-        "formattedDate": "December 10, 2021",
+        "permalink": "/blog/first-post",
+        "source": "@site/blog/2021-12-27-first-post.md",
+        "title": "First Post",
+        "description": "Hello, and welcome! You are currently reading my first \"official\" post here, having now fleshed out all of the necessary features of my new website, swlacy.com. This space is designed to fulfill my needs as a platform to publish technical content and reflect on my learning as a cybersecurity and political science student.",
+        "date": "2021-12-27T00:00:00.000Z",
+        "formattedDate": "December 27, 2021",
         "tags": [
           {
             "label": "welcome",
@@ -19,19 +19,19 @@
             "permalink": "/blog/tags/about-me"
           }
         ],
-        "readingTime": 0.85,
+        "readingTime": 0.685,
         "truncated": false,
         "authors": [
           {
             "name": "Sid Lacy",
             "title": "Website Maintainer",
             "url": "https://swlacy.com",
-            "imageURL": "github.com/lacysw.png",
+            "imageURL": "https://avatars.githubusercontent.com/u/77074184?v=4",
             "key": "sid"
           }
         ]
       },
-      "content": "Hello, and welcome to my website. I'm glad you stopped by.\n\nMy name is Sid. I am a student at Western Washington University, currently majoring in cybersecurity and political science. I created *swlacy.com* to practice my web development skills and to provide myself a more elegant, professional location to publish work, which I can tailor to my specific needs. I intend for this space to become a trove of information others can use to learn from alongside myself. I am humbled by your interest in my page, and I hope you find something here that intrigues or helps you in some capacity.\n\nWhile this site is not particularly dense in terms of posted content at the moment, regularly uploading new articles is a personal goal I have set for myself... If nothing interests you now, please revist soon to see new content.\n\nI would love to connect with you — please, feel free to reach out to me for any reason via the links below:\n\n[Email](mailto:contact@swlacy.com?subject=Hello!) • [LinkedIn](https://www.linkedin.com/in/lacysw/) • [GitHub](https://github.com/lacysw)"
+      "content": "Hello, and welcome! You are currently reading my first \"official\" post here, having now fleshed out all of the necessary features of my new website, *swlacy.com*. This space is designed to fulfill my needs as a platform to publish technical content and reflect on my learning as a cybersecurity and political science student.\n\nThere is not any particular wealth of content as I write this blog submission; most notably, you may find more information about me [here](/about-me) or view my first tutorial/walkthrough publication on HackTheBox's Previse challenge [here](/docs/Reports/hack-the-box/previse), but that highlights the extent of my uploads so far.\n\nI have been hard at work tuning this website and maintaining the WWU Cybersecurity Club over the 2021 holiday season; expect more articles and blog posts to appear soon enough.\n\nKind regards,  \nSid Lacy  \n[Email](mailto:contact@swlacy.com?subject=Hello!) • [LinkedIn](https://www.linkedin.com/in/lacysw/) • [GitHub](https://github.com/lacysw)"
     }
   ]
 }
