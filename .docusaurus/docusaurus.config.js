@@ -40,6 +40,12 @@ export default {
     ]
   ],
   "themeConfig": {
+    "metadata": [
+      {
+        "name": "keywords",
+        "content": "security, cybersecurity, infosec, Sid, Lacy, swlacy, blog, WWU"
+      }
+    ],
     "zoomSelector": ".markdown img",
     "navbar": {
       "title": "Sid's Blog",
@@ -353,7 +359,6 @@ export default {
     "docs": {
       "versionPersistence": "localStorage"
     },
-    "metadata": [],
     "tableOfContents": {
       "minHeadingLevel": 2,
       "maxHeadingLevel": 3

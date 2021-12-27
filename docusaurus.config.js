@@ -56,6 +56,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      metadata: [{name: 'keywords', content: 'security, cybersecurity, infosec, Sid, Lacy, swlacy, blog, WWU'}],
       zoomSelector: '.markdown img',
       navbar: {
         title: 'Sid\'s Blog',
