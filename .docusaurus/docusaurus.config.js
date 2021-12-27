@@ -1,5 +1,5 @@
 export default {
-  "title": "Hi, my name is Sid.",
+  "title": "Sid's Blog",
   "tagline": "I write about computer security.",
   "url": "https://swlacy.com",
   "baseUrl": "/",
@@ -49,7 +49,7 @@ export default {
       },
       "items": [
         {
-          "to": "/docs/welcome",
+          "to": "/docs",
           "label": "Docs & Tutorials",
           "position": "left"
         },

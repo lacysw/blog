@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://swlacy.com/blog</id>
-    <title>Hi, my name is Sid. Blog</title>
+    <title>Sid's Blog Blog</title>
     <updated>2021-12-27T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://swlacy.com/blog"/>
-    <subtitle>Hi, my name is Sid. Blog</subtitle>
+    <subtitle>Sid's Blog Blog</subtitle>
     <icon>https://swlacy.com/img/logo.svg</icon>
     <entry>
         <title type="html"><![CDATA[First Post]]></title>

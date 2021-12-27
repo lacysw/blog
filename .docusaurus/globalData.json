@@ -11,8 +11,8 @@
           "mainDocId": "welcome",
           "docs": [
             {
-              "id": "Reports/hack-the-box/previse",
-              "path": "/docs/Reports/hack-the-box/previse",
+              "id": "reports/previse",
+              "path": "/docs/reports/previse",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -47,7 +47,7 @@
             },
             {
               "id": "welcome",
-              "path": "/docs/welcome",
+              "path": "/docs/",
               "sidebar": "tutorialSidebar"
             }
           ]

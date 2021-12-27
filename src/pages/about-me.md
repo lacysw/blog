@@ -1,6 +1,6 @@
 # About Me & My Goals for This Site
 ![Crater Lake](/img/craterLake.jpg "Crater Lake, shot by me in the summer of 2021")
-Hello, and welcome to my website. I'm glad you stopped by. Pictured above: Crater Lake, shot by me in the summer of 2021.
+Hello, and welcome to my website. I'm glad you stopped by.
 
 ## Who are you?
 My name is Sid Lacy. I am a student at Western Washington University, double-majoring in cybersecurity and political science; I aspire to one day fill a role in my professional life that sees some intersection between the two. Currently, I also cohead and represent the [Western Washington University Cybersecurity Club](https://wwucyber.com) as a member of the Cybersecurity Department, working with my peers to spread awareness and discuss contemporary news related to cybersecurity, and to promote activity in security-related technical events.

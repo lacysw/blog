@@ -17,24 +17,21 @@
           "contentPathLocalized": "/home/sid/blog/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
-              "unversionedId": "Reports/hack-the-box/previse",
-              "id": "Reports/hack-the-box/previse",
-              "title": "Previse",
+              "unversionedId": "reports/previse",
+              "id": "reports/previse",
+              "title": "HackTheBox — Previse",
               "description": "Hello, and thank you for expressing interest in my report on Previse, a CTF hosted by Hack the Box. Previse was uploaded by HTB user m4lwhere 138 days prior to the publication of this report and is currently considered by the HTB community to be easy to intermediate in terms of difficulty.",
-              "source": "@site/docs/Reports/hack-the-box/previse.md",
-              "sourceDirName": "Reports/hack-the-box",
-              "slug": "/Reports/hack-the-box/previse",
-              "permalink": "/docs/Reports/hack-the-box/previse",
+              "source": "@site/docs/reports/previse.md",
+              "sourceDirName": "reports",
+              "slug": "/reports/previse",
+              "permalink": "/docs/reports/previse",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
+              "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Welcome!",
-                "permalink": "/docs/welcome"
+                "permalink": "/docs/"
               },
               "next": {
                 "title": "Introduction",
@@ -154,8 +151,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Previse",
-                "permalink": "/docs/Reports/hack-the-box/previse"
+                "title": "HackTheBox — Previse",
+                "permalink": "/docs/reports/previse"
               },
               "next": {
                 "title": "Setting Up Your Development Environment",
@@ -194,18 +191,19 @@
               "description": "The Docs & Tutorials section hosts a growing number of technical articles, mostly focused on infosec challenges and Linux-related development projects. While relatively sparse now, my intention is to share my interesting activity here, so if nothing immediately sparks your interest, please check back soon. The sidebar on the left can be used to navigate between the pages of this section.",
               "source": "@site/docs/welcome.md",
               "sourceDirName": ".",
-              "slug": "/welcome",
-              "permalink": "/docs/welcome",
+              "slug": "/",
+              "permalink": "/docs/",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
               "frontMatter": {
-                "sidebar_position": 1
+                "sidebar_position": 1,
+                "slug": "/"
               },
               "sidebar": "tutorialSidebar",
               "next": {
-                "title": "Previse",
-                "permalink": "/docs/Reports/hack-the-box/previse"
+                "title": "HackTheBox — Previse",
+                "permalink": "/docs/reports/previse"
               }
             }
           ],
@@ -222,16 +220,8 @@
                 "collapsed": true,
                 "items": [
                   {
-                    "type": "category",
-                    "label": "Hack the Box",
-                    "collapsible": true,
-                    "collapsed": true,
-                    "items": [
-                      {
-                        "type": "doc",
-                        "id": "Reports/hack-the-box/previse"
-                      }
-                    ]
+                    "type": "doc",
+                    "id": "reports/previse"
                   }
                 ]
               },
@@ -298,8 +288,8 @@
                 "permalink": "/blog/tags/about-me"
               }
             ],
-            "readingTime": 0.685,
-            "truncated": false,
+            "readingTime": 0.69,
+            "truncated": true,
             "authors": [
               {
                 "name": "Sid Lacy",
@@ -310,7 +300,7 @@
               }
             ]
           },
-          "content": "Hello, and welcome! You are currently reading my first \"official\" post here, having now fleshed out all of the necessary features of my new website, *swlacy.com*. This space is designed to fulfill my needs as a platform to publish technical content and reflect on my learning as a cybersecurity and political science student.\n\nThere is not any particular wealth of content as I write this blog submission; most notably, you may find more information about me [here](/about-me) or view my first tutorial/walkthrough publication on HackTheBox's Previse challenge [here](/docs/Reports/hack-the-box/previse), but that highlights the extent of my uploads so far.\n\nI have been hard at work tuning this website and maintaining the WWU Cybersecurity Club over the 2021 holiday season; expect more articles and blog posts to appear soon enough.\n\nKind regards,  \nSid Lacy  \n[Email](mailto:contact@swlacy.com?subject=Hello!) • [LinkedIn](https://www.linkedin.com/in/lacysw/) • [GitHub](https://github.com/lacysw)"
+          "content": "Hello, and welcome! You are currently reading my first \"official\" post here, having now fleshed out all of the necessary features of my new website, *swlacy.com*. This space is designed to fulfill my needs as a platform to publish technical content and reflect on my learning as a cybersecurity and political science student.\n\n<!--truncate-->\n\nThere is not any particular wealth of content as I write this blog submission; most notably, you may find more information about me [here](/about-me) or view my first tutorial/walkthrough publication on HackTheBox's Previse challenge [here](/docs/Reports/hack-the-box/previse), but that highlights the extent of my uploads so far.\n\nI have been hard at work tuning this website and maintaining the WWU Cybersecurity Club over the 2021 holiday season; expect more articles and blog posts to appear soon enough.\n\nKind regards,  \nSid Lacy  \n[Email](mailto:contact@swlacy.com?subject=Hello!) • [LinkedIn](https://www.linkedin.com/in/lacysw/) • [GitHub](https://github.com/lacysw)"
         }
       ],
       "blogListPaginated": [

@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/vsDark');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Hi, my name is Sid.',
+  title: 'Sid\'s Blog',
   tagline: 'I write about computer security.',
   url: 'https://swlacy.com',
   baseUrl: '/',
@@ -64,7 +64,7 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          {to: '/docs/welcome', label: 'Docs & Tutorials', position: 'left'},
+          {to: '/docs', label: 'Docs & Tutorials', position: 'left'},
           {to: '/blog', label: 'Blog', position: 'left'},
           {to: '/about-me', label: 'About Me', position: 'left'},
           {href: 'mailto:contact@swlacy.com?subject=Hello!', label: 'Email Me', position: 'right'},

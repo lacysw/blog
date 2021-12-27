@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require('../../static/img/laptop-svgrepo-com.svg').default,
     description: (
       <>
-        The <a href="docs/welcome"><b>Docs & Tutorials</b></a> section contains a growing number of
+        The <a href="docs"><b>Docs & Tutorials</b></a> section contains a growing number of
         security and development-focused technical articles.
       </>
     ),

@@ -45,11 +45,17 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','757'),
+    component: ComponentCreator('/docs','ea9'),
     routes: [
       {
-        path: '/docs/Reports/hack-the-box/previse',
-        component: ComponentCreator('/docs/Reports/hack-the-box/previse','52e'),
+        path: '/docs',
+        component: ComponentCreator('/docs','1fc'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/reports/previse',
+        component: ComponentCreator('/docs/reports/previse','5cb'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
@@ -86,12 +92,6 @@ export default [
       {
         path: '/docs/website-hosting/register-domain',
         component: ComponentCreator('/docs/website-hosting/register-domain','c0e'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/welcome',
-        component: ComponentCreator('/docs/welcome','a64'),
         exact: true,
         'sidebar': "tutorialSidebar"
       }

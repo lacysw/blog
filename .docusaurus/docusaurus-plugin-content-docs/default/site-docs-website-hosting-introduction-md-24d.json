@@ -15,8 +15,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Previse",
-    "permalink": "/docs/Reports/hack-the-box/previse"
+    "title": "HackTheBox — Previse",
+    "permalink": "/docs/reports/previse"
   },
   "next": {
     "title": "Setting Up Your Development Environment",

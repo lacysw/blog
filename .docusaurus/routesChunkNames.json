@@ -50,13 +50,17 @@
   "/search-79a": {
     "component": "1a4e3797"
   },
-  "/docs-757": {
+  "/docs-ea9": {
     "component": "1be78505",
     "versionMetadata": "935f2afb"
   },
-  "/docs/Reports/hack-the-box/previse-52e": {
+  "/docs-1fc": {
     "component": "17896441",
-    "content": "484533c8"
+    "content": "ebfee794"
+  },
+  "/docs/reports/previse-5cb": {
+    "component": "17896441",
+    "content": "aae6590c"
   },
   "/docs/website-hosting/bonus-761": {
     "component": "17896441",
@@ -81,10 +85,6 @@
   "/docs/website-hosting/register-domain-c0e": {
     "component": "17896441",
     "content": "a62ac7ba"
-  },
-  "/docs/welcome-a64": {
-    "component": "17896441",
-    "content": "ebfee794"
   },
   "/-deb": {
     "component": "c4f5d8e4",

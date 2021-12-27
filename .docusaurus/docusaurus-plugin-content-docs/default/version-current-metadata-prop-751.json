@@ -11,7 +11,7 @@
       {
         "type": "link",
         "label": "Welcome!",
-        "href": "/docs/welcome",
+        "href": "/docs/",
         "docId": "welcome"
       },
       {
@@ -21,18 +21,10 @@
         "collapsed": true,
         "items": [
           {
-            "type": "category",
-            "label": "Hack the Box",
-            "collapsible": true,
-            "collapsed": true,
-            "items": [
-              {
-                "type": "link",
-                "label": "Previse",
-                "href": "/docs/Reports/hack-the-box/previse",
-                "docId": "Reports/hack-the-box/previse"
-              }
-            ]
+            "type": "link",
+            "label": "HackTheBox — Previse",
+            "href": "/docs/reports/previse",
+            "docId": "reports/previse"
           }
         ]
       },
@@ -83,9 +75,9 @@
     ]
   },
   "docs": {
-    "Reports/hack-the-box/previse": {
-      "id": "Reports/hack-the-box/previse",
-      "title": "Previse",
+    "reports/previse": {
+      "id": "reports/previse",
+      "title": "HackTheBox — Previse",
       "description": "Hello, and thank you for expressing interest in my report on Previse, a CTF hosted by Hack the Box. Previse was uploaded by HTB user m4lwhere 138 days prior to the publication of this report and is currently considered by the HTB community to be easy to intermediate in terms of difficulty.",
       "sidebar": "tutorialSidebar"
     },

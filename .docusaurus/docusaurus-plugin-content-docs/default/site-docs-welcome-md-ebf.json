@@ -5,17 +5,18 @@
   "description": "The Docs & Tutorials section hosts a growing number of technical articles, mostly focused on infosec challenges and Linux-related development projects. While relatively sparse now, my intention is to share my interesting activity here, so if nothing immediately sparks your interest, please check back soon. The sidebar on the left can be used to navigate between the pages of this section.",
   "source": "@site/docs/welcome.md",
   "sourceDirName": ".",
-  "slug": "/welcome",
-  "permalink": "/docs/welcome",
+  "slug": "/",
+  "permalink": "/docs/",
   "tags": [],
   "version": "current",
   "sidebarPosition": 1,
   "frontMatter": {
-    "sidebar_position": 1
+    "sidebar_position": 1,
+    "slug": "/"
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "Previse",
-    "permalink": "/docs/Reports/hack-the-box/previse"
+    "title": "HackTheBox — Previse",
+    "permalink": "/docs/reports/previse"
   }
 }
