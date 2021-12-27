@@ -9,7 +9,7 @@ Hello, and welcome! You are currently reading my first "official" post here, hav
 
 <!--truncate-->
 
-There is not any particular wealth of content as I write this blog submission; most notably, you may find more information about me [here](/about-me) or view my first tutorial/walkthrough publication on HackTheBox's Previse challenge [here](/docs/Reports/hack-the-box/previse), but that highlights the extent of my uploads so far.
+There is not any particular wealth of content as I write this blog submission; most notably, you may find more information about me [here](/about-me) or view my first tutorial/walkthrough publication on HackTheBox's Previse challenge [here](/docs/reports/previse), but that highlights the extent of my uploads so far.
 
 I have been hard at work tuning this website and maintaining the WWU Cybersecurity Club over the 2021 holiday season; expect more articles and blog posts to appear soon enough.
 
