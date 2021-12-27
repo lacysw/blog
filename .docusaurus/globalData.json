@@ -11,38 +11,38 @@
           "mainDocId": "welcome",
           "docs": [
             {
+              "id": "extended-tutorials/how-i-made-this-website/bonus",
+              "path": "/docs/extended-tutorials/how-i-made-this-website/bonus",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "extended-tutorials/how-i-made-this-website/deploy-to-firebase",
+              "path": "/docs/extended-tutorials/how-i-made-this-website/deploy-to-firebase",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "extended-tutorials/how-i-made-this-website/dev-env",
+              "path": "/docs/extended-tutorials/how-i-made-this-website/dev-env",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "extended-tutorials/how-i-made-this-website/edit-defaults",
+              "path": "/docs/extended-tutorials/how-i-made-this-website/edit-defaults",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "extended-tutorials/how-i-made-this-website/introduction",
+              "path": "/docs/extended-tutorials/how-i-made-this-website/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "extended-tutorials/how-i-made-this-website/register-domain",
+              "path": "/docs/extended-tutorials/how-i-made-this-website/register-domain",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "reports/previse",
               "path": "/docs/reports/previse",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "website-hosting/bonus",
-              "path": "/docs/website-hosting/bonus",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "website-hosting/deploy-to-firebase",
-              "path": "/docs/website-hosting/deploy-to-firebase",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "website-hosting/dev-env",
-              "path": "/docs/website-hosting/dev-env",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "website-hosting/edit-defaults",
-              "path": "/docs/website-hosting/edit-defaults",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "website-hosting/introduction",
-              "path": "/docs/website-hosting/introduction",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "website-hosting/register-domain",
-              "path": "/docs/website-hosting/register-domain",
               "sidebar": "tutorialSidebar"
             },
             {

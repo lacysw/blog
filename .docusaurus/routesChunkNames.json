@@ -50,7 +50,7 @@
   "/search-79a": {
     "component": "1a4e3797"
   },
-  "/docs-ea9": {
+  "/docs-b1b": {
     "component": "1be78505",
     "versionMetadata": "935f2afb"
   },
@@ -58,33 +58,33 @@
     "component": "17896441",
     "content": "ebfee794"
   },
+  "/docs/extended-tutorials/how-i-made-this-website/bonus-a1a": {
+    "component": "17896441",
+    "content": "ae889c88"
+  },
+  "/docs/extended-tutorials/how-i-made-this-website/deploy-to-firebase-902": {
+    "component": "17896441",
+    "content": "245d6eda"
+  },
+  "/docs/extended-tutorials/how-i-made-this-website/dev-env-d09": {
+    "component": "17896441",
+    "content": "409010a0"
+  },
+  "/docs/extended-tutorials/how-i-made-this-website/edit-defaults-6fb": {
+    "component": "17896441",
+    "content": "ca6f368b"
+  },
+  "/docs/extended-tutorials/how-i-made-this-website/introduction-0ca": {
+    "component": "17896441",
+    "content": "164db967"
+  },
+  "/docs/extended-tutorials/how-i-made-this-website/register-domain-355": {
+    "component": "17896441",
+    "content": "0a06d07a"
+  },
   "/docs/reports/previse-5cb": {
     "component": "17896441",
     "content": "aae6590c"
-  },
-  "/docs/website-hosting/bonus-761": {
-    "component": "17896441",
-    "content": "b23e30de"
-  },
-  "/docs/website-hosting/deploy-to-firebase-2ce": {
-    "component": "17896441",
-    "content": "6eb899e6"
-  },
-  "/docs/website-hosting/dev-env-6c5": {
-    "component": "17896441",
-    "content": "a5350fa0"
-  },
-  "/docs/website-hosting/edit-defaults-452": {
-    "component": "17896441",
-    "content": "a9fa8ce8"
-  },
-  "/docs/website-hosting/introduction-3ad": {
-    "component": "17896441",
-    "content": "24dc99d8"
-  },
-  "/docs/website-hosting/register-domain-c0e": {
-    "component": "17896441",
-    "content": "a62ac7ba"
   },
   "/-deb": {
     "component": "c4f5d8e4",

@@ -17,6 +17,152 @@
           "contentPathLocalized": "/home/sid/blog/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
+              "unversionedId": "extended-tutorials/how-i-made-this-website/bonus",
+              "id": "extended-tutorials/how-i-made-this-website/bonus",
+              "title": "Bonus: Configuring GitHub Actions & Email",
+              "description": "This page is coming soon.",
+              "source": "@site/docs/extended-tutorials/how-i-made-this-website/bonus.md",
+              "sourceDirName": "extended-tutorials/how-i-made-this-website",
+              "slug": "/extended-tutorials/how-i-made-this-website/bonus",
+              "permalink": "/docs/extended-tutorials/how-i-made-this-website/bonus",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_position": 6
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Deploying Your Site to Firebase",
+                "permalink": "/docs/extended-tutorials/how-i-made-this-website/deploy-to-firebase"
+              }
+            },
+            {
+              "unversionedId": "extended-tutorials/how-i-made-this-website/deploy-to-firebase",
+              "id": "extended-tutorials/how-i-made-this-website/deploy-to-firebase",
+              "title": "Deploying Your Site to Firebase",
+              "description": "This page is coming soon.",
+              "source": "@site/docs/extended-tutorials/how-i-made-this-website/deploy-to-firebase.md",
+              "sourceDirName": "extended-tutorials/how-i-made-this-website",
+              "slug": "/extended-tutorials/how-i-made-this-website/deploy-to-firebase",
+              "permalink": "/docs/extended-tutorials/how-i-made-this-website/deploy-to-firebase",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Registering a Domain",
+                "permalink": "/docs/extended-tutorials/how-i-made-this-website/register-domain"
+              },
+              "next": {
+                "title": "Bonus: Configuring GitHub Actions & Email",
+                "permalink": "/docs/extended-tutorials/how-i-made-this-website/bonus"
+              }
+            },
+            {
+              "unversionedId": "extended-tutorials/how-i-made-this-website/dev-env",
+              "id": "extended-tutorials/how-i-made-this-website/dev-env",
+              "title": "Setting Up Your Development Environment",
+              "description": "Of course, you can't reasonably develop a website without first configuring the tools to do so. As mentioned in the previous section, Ubuntu Server will be used to host the development environment. I write code regularly and host a variety of services on my local network, so I have a physical computer running Ubuntu Server on bare metal, which I use SSH to access. If you would also like to use Ubuntu on bare metal, you may do the same by following this guide or by creating a virtual instance using the hypervisor of your choice or Multipass (which is very simple). Alternatively, if you don't have access to another computer and cannot/would prefer not to use virtualization for whatever reason, you may use your physical computer, but note that all commands will assume use of Ubuntu 20.04.3 LTS.",
+              "source": "@site/docs/extended-tutorials/how-i-made-this-website/dev-env.md",
+              "sourceDirName": "extended-tutorials/how-i-made-this-website",
+              "slug": "/extended-tutorials/how-i-made-this-website/dev-env",
+              "permalink": "/docs/extended-tutorials/how-i-made-this-website/dev-env",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Introduction",
+                "permalink": "/docs/extended-tutorials/how-i-made-this-website/introduction"
+              },
+              "next": {
+                "title": "Editing Docusaurus Defaults",
+                "permalink": "/docs/extended-tutorials/how-i-made-this-website/edit-defaults"
+              }
+            },
+            {
+              "unversionedId": "extended-tutorials/how-i-made-this-website/edit-defaults",
+              "id": "extended-tutorials/how-i-made-this-website/edit-defaults",
+              "title": "Editing Docusaurus Defaults",
+              "description": "This page is coming soon.",
+              "source": "@site/docs/extended-tutorials/how-i-made-this-website/edit-defaults.md",
+              "sourceDirName": "extended-tutorials/how-i-made-this-website",
+              "slug": "/extended-tutorials/how-i-made-this-website/edit-defaults",
+              "permalink": "/docs/extended-tutorials/how-i-made-this-website/edit-defaults",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Setting Up Your Development Environment",
+                "permalink": "/docs/extended-tutorials/how-i-made-this-website/dev-env"
+              },
+              "next": {
+                "title": "Registering a Domain",
+                "permalink": "/docs/extended-tutorials/how-i-made-this-website/register-domain"
+              }
+            },
+            {
+              "unversionedId": "extended-tutorials/how-i-made-this-website/introduction",
+              "id": "extended-tutorials/how-i-made-this-website/introduction",
+              "title": "Introduction",
+              "description": "This tutorial aims to serve as an introduction to hosting a simple personal website using a static site generator (because apparently there aren’t enough of those already). If you like how this website appears and performs, keep reading – all of the steps I followed, from setting up a development environment and registering a domain to pushing my build to Firebase (my web host) are documented in the following few pages.",
+              "source": "@site/docs/extended-tutorials/how-i-made-this-website/introduction.md",
+              "sourceDirName": "extended-tutorials/how-i-made-this-website",
+              "slug": "/extended-tutorials/how-i-made-this-website/introduction",
+              "permalink": "/docs/extended-tutorials/how-i-made-this-website/introduction",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "HackTheBox — Previse",
+                "permalink": "/docs/reports/previse"
+              },
+              "next": {
+                "title": "Setting Up Your Development Environment",
+                "permalink": "/docs/extended-tutorials/how-i-made-this-website/dev-env"
+              }
+            },
+            {
+              "unversionedId": "extended-tutorials/how-i-made-this-website/register-domain",
+              "id": "extended-tutorials/how-i-made-this-website/register-domain",
+              "title": "Registering a Domain",
+              "description": "This page is coming soon.",
+              "source": "@site/docs/extended-tutorials/how-i-made-this-website/register-domain.md",
+              "sourceDirName": "extended-tutorials/how-i-made-this-website",
+              "slug": "/extended-tutorials/how-i-made-this-website/register-domain",
+              "permalink": "/docs/extended-tutorials/how-i-made-this-website/register-domain",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Editing Docusaurus Defaults",
+                "permalink": "/docs/extended-tutorials/how-i-made-this-website/edit-defaults"
+              },
+              "next": {
+                "title": "Deploying Your Site to Firebase",
+                "permalink": "/docs/extended-tutorials/how-i-made-this-website/deploy-to-firebase"
+              }
+            },
+            {
               "unversionedId": "reports/previse",
               "id": "reports/previse",
               "title": "HackTheBox — Previse",
@@ -35,160 +181,14 @@
               },
               "next": {
                 "title": "Introduction",
-                "permalink": "/docs/website-hosting/introduction"
-              }
-            },
-            {
-              "unversionedId": "website-hosting/bonus",
-              "id": "website-hosting/bonus",
-              "title": "Bonus: Configuring GitHub Actions & Email",
-              "description": "This page is coming soon.",
-              "source": "@site/docs/website-hosting/bonus.md",
-              "sourceDirName": "website-hosting",
-              "slug": "/website-hosting/bonus",
-              "permalink": "/docs/website-hosting/bonus",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 6,
-              "frontMatter": {
-                "sidebar_position": 6
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Deploying Your Site to Firebase",
-                "permalink": "/docs/website-hosting/deploy-to-firebase"
-              }
-            },
-            {
-              "unversionedId": "website-hosting/deploy-to-firebase",
-              "id": "website-hosting/deploy-to-firebase",
-              "title": "Deploying Your Site to Firebase",
-              "description": "This page is coming soon.",
-              "source": "@site/docs/website-hosting/deploy-to-firebase.md",
-              "sourceDirName": "website-hosting",
-              "slug": "/website-hosting/deploy-to-firebase",
-              "permalink": "/docs/website-hosting/deploy-to-firebase",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 5,
-              "frontMatter": {
-                "sidebar_position": 5
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Registering a Domain",
-                "permalink": "/docs/website-hosting/register-domain"
-              },
-              "next": {
-                "title": "Bonus: Configuring GitHub Actions & Email",
-                "permalink": "/docs/website-hosting/bonus"
-              }
-            },
-            {
-              "unversionedId": "website-hosting/dev-env",
-              "id": "website-hosting/dev-env",
-              "title": "Setting Up Your Development Environment",
-              "description": "Of course, you can't reasonably develop a website without first configuring the tools to do so. As mentioned in the previous section, Ubuntu Server will be used to host the development environment. I write code regularly and host a variety of services on my local network, so I have a physical computer running Ubuntu Server on bare metal, which I use SSH to access. If you would also like to use Ubuntu on bare metal, you may do the same by following this guide or by creating a virtual instance using the hypervisor of your choice or Multipass (which is very simple). Alternatively, if you don't have access to another computer and cannot/would prefer not to use virtualization for whatever reason, you may use your physical computer, but note that all commands will assume use of Ubuntu 20.04.3 LTS.",
-              "source": "@site/docs/website-hosting/dev-env.md",
-              "sourceDirName": "website-hosting",
-              "slug": "/website-hosting/dev-env",
-              "permalink": "/docs/website-hosting/dev-env",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_position": 2
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Introduction",
-                "permalink": "/docs/website-hosting/introduction"
-              },
-              "next": {
-                "title": "Editing Docusaurus Defaults",
-                "permalink": "/docs/website-hosting/edit-defaults"
-              }
-            },
-            {
-              "unversionedId": "website-hosting/edit-defaults",
-              "id": "website-hosting/edit-defaults",
-              "title": "Editing Docusaurus Defaults",
-              "description": "This page is coming soon.",
-              "source": "@site/docs/website-hosting/edit-defaults.md",
-              "sourceDirName": "website-hosting",
-              "slug": "/website-hosting/edit-defaults",
-              "permalink": "/docs/website-hosting/edit-defaults",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 3,
-              "frontMatter": {
-                "sidebar_position": 3
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Setting Up Your Development Environment",
-                "permalink": "/docs/website-hosting/dev-env"
-              },
-              "next": {
-                "title": "Registering a Domain",
-                "permalink": "/docs/website-hosting/register-domain"
-              }
-            },
-            {
-              "unversionedId": "website-hosting/introduction",
-              "id": "website-hosting/introduction",
-              "title": "Introduction",
-              "description": "This tutorial aims to serve as an introduction to hosting a simple personal website using a static site generator (because apparently there aren’t enough of those already). If you like how this website appears and performs, keep reading – all of the steps I followed, from setting up a development environment and registering a domain to pushing my build to Firebase (my web host) are documented in the following few pages.",
-              "source": "@site/docs/website-hosting/introduction.md",
-              "sourceDirName": "website-hosting",
-              "slug": "/website-hosting/introduction",
-              "permalink": "/docs/website-hosting/introduction",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "HackTheBox — Previse",
-                "permalink": "/docs/reports/previse"
-              },
-              "next": {
-                "title": "Setting Up Your Development Environment",
-                "permalink": "/docs/website-hosting/dev-env"
-              }
-            },
-            {
-              "unversionedId": "website-hosting/register-domain",
-              "id": "website-hosting/register-domain",
-              "title": "Registering a Domain",
-              "description": "This page is coming soon.",
-              "source": "@site/docs/website-hosting/register-domain.md",
-              "sourceDirName": "website-hosting",
-              "slug": "/website-hosting/register-domain",
-              "permalink": "/docs/website-hosting/register-domain",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 4,
-              "frontMatter": {
-                "sidebar_position": 4
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Editing Docusaurus Defaults",
-                "permalink": "/docs/website-hosting/edit-defaults"
-              },
-              "next": {
-                "title": "Deploying Your Site to Firebase",
-                "permalink": "/docs/website-hosting/deploy-to-firebase"
+                "permalink": "/docs/extended-tutorials/how-i-made-this-website/introduction"
               }
             },
             {
               "unversionedId": "welcome",
               "id": "welcome",
               "title": "Welcome!",
-              "description": "The Docs & Tutorials section hosts a growing number of technical articles, mostly focused on infosec challenges and Linux-related development projects. While relatively sparse now, my intention is to share my interesting activity here, so if nothing immediately sparks your interest, please check back soon. The sidebar on the left can be used to navigate between the pages of this section.",
+              "description": "The Docs & Tutorials section hosts a growing number of technical articles, focused primarily on cybersecurity challenges (HackTheBox, TryHackMe, etc.) and miscellaneous development projects. While relatively sparse now, I intend to share much of my interesting activity here. If nothing immediately sparks your interest, please check back soon. The left-hand sidebar can be used to navigate between the pages of this section.",
               "source": "@site/docs/welcome.md",
               "sourceDirName": ".",
               "slug": "/",
@@ -227,33 +227,41 @@
               },
               {
                 "type": "category",
-                "label": "Tutorial - Creating a Static Website: A to Z",
+                "label": "Extended Tutorials",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
-                    "type": "doc",
-                    "id": "website-hosting/introduction"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "website-hosting/dev-env"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "website-hosting/edit-defaults"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "website-hosting/register-domain"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "website-hosting/deploy-to-firebase"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "website-hosting/bonus"
+                    "type": "category",
+                    "label": "How I Made This Website",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "extended-tutorials/how-i-made-this-website/introduction"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "extended-tutorials/how-i-made-this-website/dev-env"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "extended-tutorials/how-i-made-this-website/edit-defaults"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "extended-tutorials/how-i-made-this-website/register-domain"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "extended-tutorials/how-i-made-this-website/deploy-to-firebase"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "extended-tutorials/how-i-made-this-website/bonus"
+                      }
+                    ]
                   }
                 ]
               }

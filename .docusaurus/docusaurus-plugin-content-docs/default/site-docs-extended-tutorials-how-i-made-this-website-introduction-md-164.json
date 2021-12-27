@@ -1,0 +1,25 @@
+{
+  "unversionedId": "extended-tutorials/how-i-made-this-website/introduction",
+  "id": "extended-tutorials/how-i-made-this-website/introduction",
+  "title": "Introduction",
+  "description": "This tutorial aims to serve as an introduction to hosting a simple personal website using a static site generator (because apparently there aren’t enough of those already). If you like how this website appears and performs, keep reading – all of the steps I followed, from setting up a development environment and registering a domain to pushing my build to Firebase (my web host) are documented in the following few pages.",
+  "source": "@site/docs/extended-tutorials/how-i-made-this-website/introduction.md",
+  "sourceDirName": "extended-tutorials/how-i-made-this-website",
+  "slug": "/extended-tutorials/how-i-made-this-website/introduction",
+  "permalink": "/docs/extended-tutorials/how-i-made-this-website/introduction",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "HackTheBox — Previse",
+    "permalink": "/docs/reports/previse"
+  },
+  "next": {
+    "title": "Setting Up Your Development Environment",
+    "permalink": "/docs/extended-tutorials/how-i-made-this-website/dev-env"
+  }
+}
