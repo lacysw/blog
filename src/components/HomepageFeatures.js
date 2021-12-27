@@ -4,12 +4,12 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Visit Documentation & Tutorials',
+    title: 'Explore Documentation',
     Svg: require('../../static/img/laptop-svgrepo-com.svg').default,
     description: (
       <>
-        The <a href="docs/welcome">Docs & Tutorials</a> section hosts a growing number
-        of technical tutorials, mostly focused on infosec and Linux.
+        The <a href="docs/welcome"><b>Docs & Tutorials</b></a> section contains a growing number of
+        security and development-focused technical articles.
       </>
     ),
   },
@@ -18,8 +18,8 @@ const FeatureList = [
     Svg: require('../../static/img/documentation-svgrepo-com.svg').default,
     description: (
       <>
-        I also host <a href="blog">my personal blog</a> here and I'd be humbled if you
-        read an entry.
+        I also host <a href="blog"><b>my personal blog</b></a> here, where I highlight the less-technical
+        elements of my other posts — I'd be humbled if you read an entry.
       </>
     ),
   },
@@ -28,8 +28,9 @@ const FeatureList = [
     Svg: require('../../static/img/chat-svgrepo-com.svg').default,
     description: (
       <>
-        You can reach me via <a href="mailto:contact@swlacy.com?subject=Hello!">email</a> and <a href="https://www.linkedin.com/in/lacysw/">LinkedIn</a>. Alternatively,
-        view my work hosted on <a href="https://github.com/lacysw">GitHub</a>.
+        You can reach me for any reason via <a href="mailto:contact@swlacy.com?subject=Hello!"><b>email</b></a> or
+        at <a href="https://www.linkedin.com/in/lacysw/"><b>LinkedIn</b></a>.
+        Alternatively, view or add to my work on <a href="https://github.com/lacysw"><b>GitHub</b></a>.
       </>
     ),
   },

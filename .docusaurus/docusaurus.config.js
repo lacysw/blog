@@ -1,6 +1,6 @@
 export default {
-  "title": "Sid's Blog",
-  "tagline": "Welcome — I'm glad you're here",
+  "title": "Hi, my name is Sid.",
+  "tagline": "I write about computer security.",
   "url": "https://swlacy.com",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
@@ -80,7 +80,7 @@ export default {
     },
     "footer": {
       "style": "light",
-      "copyright": "Copyright © 2021 Sid Lacy • Generated with <a href=\"https://docusaurus.io\"> Docusaurus </a> • Last Built 2021.12.24 UTC",
+      "copyright": "Copyright © 2021 Sid Lacy • Generated with <a href=\"https://docusaurus.io\"> Docusaurus </a> • Last Built 2021.12.27 UTC",
       "links": []
     },
     "prism": {
