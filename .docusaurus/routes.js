@@ -45,11 +45,23 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','b1b'),
+    component: ComponentCreator('/docs','c9a'),
     routes: [
       {
         path: '/docs',
         component: ComponentCreator('/docs','1fc'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/automation',
+        component: ComponentCreator('/docs/automation','24c'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/automation/linux/basic-linux-security-report',
+        component: ComponentCreator('/docs/automation/linux/basic-linux-security-report','8a8'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },

@@ -30,6 +30,34 @@
       },
       {
         "type": "category",
+        "label": "Automation",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Header",
+            "href": "/docs/automation",
+            "docId": "automation/welcome"
+          },
+          {
+            "type": "category",
+            "label": "Linux",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Basic Linux Security Report",
+                "href": "/docs/automation/linux/basic-linux-security-report",
+                "docId": "automation/linux/basic-linux-security-report"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "category",
         "label": "Extended Tutorials",
         "collapsible": true,
         "collapsed": true,
@@ -83,6 +111,18 @@
     ]
   },
   "docs": {
+    "automation/linux/basic-linux-security-report": {
+      "id": "automation/linux/basic-linux-security-report",
+      "title": "Basic Linux Security Report",
+      "description": "Check on the simple things — for use in competition scenarios. Mirrored on wwucyber.com.",
+      "sidebar": "tutorialSidebar"
+    },
+    "automation/welcome": {
+      "id": "automation/welcome",
+      "title": "Header",
+      "description": "The Automation subsection contains a variety of short scripts I have written or modified both for personal use and team-based application during security competitions. Please note that there are also references to and inclusion of the work of others here; if I have not authored code under this section in its entirety, all other contributors are cited appropriately.",
+      "sidebar": "tutorialSidebar"
+    },
     "extended-tutorials/how-i-made-this-website/bonus": {
       "id": "extended-tutorials/how-i-made-this-website/bonus",
       "title": "Bonus: Configuring GitHub Actions & Email",

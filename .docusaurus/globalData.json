@@ -11,6 +11,16 @@
           "mainDocId": "welcome",
           "docs": [
             {
+              "id": "automation/linux/basic-linux-security-report",
+              "path": "/docs/automation/linux/basic-linux-security-report",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "automation/welcome",
+              "path": "/docs/automation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "extended-tutorials/how-i-made-this-website/bonus",
               "path": "/docs/extended-tutorials/how-i-made-this-website/bonus",
               "sidebar": "tutorialSidebar"

@@ -11,6 +11,7 @@ export default {
   '409010a0': [() => import(/* webpackChunkName: '409010a0' */ "@site/docs/extended-tutorials/how-i-made-this-website/dev-env.md"), "@site/docs/extended-tutorials/how-i-made-this-website/dev-env.md", require.resolveWeak("@site/docs/extended-tutorials/how-i-made-this-website/dev-env.md")],
   '5e9f5e1a': [() => import(/* webpackChunkName: '5e9f5e1a' */ "@generated/docusaurus.config"), "@generated/docusaurus.config", require.resolveWeak("@generated/docusaurus.config")],
   '6875c492': [() => import(/* webpackChunkName: '6875c492' */ "@theme/BlogTagsPostsPage"), "@theme/BlogTagsPostsPage", require.resolveWeak("@theme/BlogTagsPostsPage")],
+  '71c9ec29': [() => import(/* webpackChunkName: '71c9ec29' */ "@site/docs/automation/welcome.md"), "@site/docs/automation/welcome.md", require.resolveWeak("@site/docs/automation/welcome.md")],
   '814f3328': [() => import(/* webpackChunkName: '814f3328' */ "~blog/default/blog-post-list-prop-default.json"), "~blog/default/blog-post-list-prop-default.json", require.resolveWeak("~blog/default/blog-post-list-prop-default.json")],
   '89641113': [() => import(/* webpackChunkName: '89641113' */ "@site/blog/2021-12-27-first-post.md?truncated=true"), "@site/blog/2021-12-27-first-post.md?truncated=true", require.resolveWeak("@site/blog/2021-12-27-first-post.md?truncated=true")],
   '935f2afb': [() => import(/* webpackChunkName: '935f2afb' */ "~docs/default/version-current-metadata-prop-751.json"), "~docs/default/version-current-metadata-prop-751.json", require.resolveWeak("~docs/default/version-current-metadata-prop-751.json")],
@@ -26,5 +27,6 @@ export default {
   'c4f5d8e4': [() => import(/* webpackChunkName: 'c4f5d8e4' */ "@site/src/pages/index.js"), "@site/src/pages/index.js", require.resolveWeak("@site/src/pages/index.js")],
   'ca6f368b': [() => import(/* webpackChunkName: 'ca6f368b' */ "@site/docs/extended-tutorials/how-i-made-this-website/edit-defaults.md"), "@site/docs/extended-tutorials/how-i-made-this-website/edit-defaults.md", require.resolveWeak("@site/docs/extended-tutorials/how-i-made-this-website/edit-defaults.md")],
   'ccc49370': [() => import(/* webpackChunkName: 'ccc49370' */ "@theme/BlogPostPage"), "@theme/BlogPostPage", require.resolveWeak("@theme/BlogPostPage")],
+  'ce5568e0': [() => import(/* webpackChunkName: 'ce5568e0' */ "@site/docs/automation/linux/basic-linux-security-report.md"), "@site/docs/automation/linux/basic-linux-security-report.md", require.resolveWeak("@site/docs/automation/linux/basic-linux-security-report.md")],
   'ebfee794': [() => import(/* webpackChunkName: 'ebfee794' */ "@site/docs/welcome.md"), "@site/docs/welcome.md", require.resolveWeak("@site/docs/welcome.md")],
   'f6ba3702': [() => import(/* webpackChunkName: 'f6ba3702' */ "~blog/default/blog-tags-welcome-11d.json"), "~blog/default/blog-tags-welcome-11d.json", require.resolveWeak("~blog/default/blog-tags-welcome-11d.json")],};

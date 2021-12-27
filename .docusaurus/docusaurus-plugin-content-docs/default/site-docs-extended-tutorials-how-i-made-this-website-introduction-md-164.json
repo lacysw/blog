@@ -15,8 +15,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "HackTheBox — Previse",
-    "permalink": "/docs/reports/previse"
+    "title": "Basic Linux Security Report",
+    "permalink": "/docs/automation/linux/basic-linux-security-report"
   },
   "next": {
     "title": "Setting Up Your Development Environment",

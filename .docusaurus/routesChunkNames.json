@@ -50,13 +50,21 @@
   "/search-79a": {
     "component": "1a4e3797"
   },
-  "/docs-b1b": {
+  "/docs-c9a": {
     "component": "1be78505",
     "versionMetadata": "935f2afb"
   },
   "/docs-1fc": {
     "component": "17896441",
     "content": "ebfee794"
+  },
+  "/docs/automation-24c": {
+    "component": "17896441",
+    "content": "71c9ec29"
+  },
+  "/docs/automation/linux/basic-linux-security-report-8a8": {
+    "component": "17896441",
+    "content": "ce5568e0"
   },
   "/docs/extended-tutorials/how-i-made-this-website/bonus-a1a": {
     "component": "17896441",
