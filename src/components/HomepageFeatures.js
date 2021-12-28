@@ -29,7 +29,7 @@ const FeatureList = [
     description: (
       <>
         You can reach me for any reason via <a href="mailto:contact@swlacy.com?subject=Hello!"><b>email</b></a>,
-        on <a href="https://discordapp.com/users/796071665154129931/"><b>Discord</b></a> or
+        on <a href="https://discordapp.com/users/796071665154129931/"><b>Discord</b></a>, or
         at <a href="https://www.linkedin.com/in/lacysw/"><b>LinkedIn</b></a>.
         Alternatively, view or add to my work on <a href="https://github.com/lacysw"><b>GitHub</b></a>.
       </>
