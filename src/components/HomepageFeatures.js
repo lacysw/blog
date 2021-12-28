@@ -5,7 +5,7 @@ import styles from './HomepageFeatures.module.css';
 const FeatureList = [
   {
     title: 'Explore Documentation',
-    Svg: require('../../static/img/laptop-svgrepo-com.svg').default,
+    Svg: require('/img/docs.svg').default,
     description: (
       <>
         The <a href="docs"><b>Docs & Tutorials</b></a> section contains a growing number of
@@ -15,7 +15,7 @@ const FeatureList = [
   },
   {
     title: 'Read My Blog',
-    Svg: require('../../static/img/documentation-svgrepo-com.svg').default,
+    Svg: require('/img/blog.svg').default,
     description: (
       <>
         I also host <a href="blog"><b>my personal blog</b></a> here, where I highlight the less-technical
@@ -25,7 +25,7 @@ const FeatureList = [
   },
   {
     title: 'Contact Me',
-    Svg: require('../../static/img/chat-svgrepo-com.svg').default,
+    Svg: require('/img/inbox.svg').default,
     description: (
       <>
         You can reach me for any reason via <a href="mailto:contact@swlacy.com?subject=Hello!"><b>email</b></a> or
