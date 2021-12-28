@@ -10,6 +10,13 @@ export default {
   "projectName": "swlacy.com",
   "trailingSlash": false,
   "plugins": [
+    [
+      "@docusaurus/plugin-google-gtag",
+      {
+        "trackingID": "G-1NNF4HX49Z",
+        "anonymizeIP": true
+      }
+    ],
     "plugin-image-zoom",
     [
       "/home/sid/blog/node_modules/@easyops-cn/docusaurus-search-local/dist/server/server/index.js",

@@ -18,6 +18,13 @@ const config = {
   trailingSlash: false,
   plugins: [
     // ... Your other plugins.
+    [
+      '@docusaurus/plugin-google-gtag',
+      {
+        trackingID: 'G-1NNF4HX49Z',
+        anonymizeIP: true,
+      },
+    ],
     'plugin-image-zoom',
     [
       require.resolve("@easyops-cn/docusaurus-search-local"),

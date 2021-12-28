@@ -440,6 +440,9 @@
   "docusaurus-theme-classic": {
     "default": null
   },
+  "docusaurus-plugin-google-gtag": {
+    "default": null
+  },
   "docusaurus-plugin-image-zoom": {
     "default": null
   },
