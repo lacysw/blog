@@ -75,9 +75,10 @@ const config = {
           {to: '/docs', label: 'Docs & Tutorials', position: 'left'},
           {to: '/blog', label: 'Blog', position: 'left'},
           {to: '/about-me', label: 'About Me', position: 'left'},
-          {href: 'mailto:contact@swlacy.com?subject=Hello!', label: 'Email Me', position: 'right'},
-          {href: 'https://www.linkedin.com/in/lacysw/', label: 'LinkedIn', position: 'right'},
-          {href: 'https://github.com/lacysw', label: 'GitHub', position: 'right'},
+          {href: 'mailto:contact@swlacy.com?subject=Hello!', className: 'header-email-link', position: 'right',},
+          {href: 'https://discordapp.com/users/796071665154129931/', className: 'header-discord-link', position: 'right',},
+          {href: 'https://www.linkedin.com/in/lacysw/', className: 'header-linkedin-link', position: 'right',},
+          {href: 'https://github.com/lacysw', className: 'header-github-link', position: 'right',},
         ],
       },
       footer: {

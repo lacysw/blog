@@ -4,7 +4,7 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Explore Documentation',
+    title: 'Explore My Uploads',
     Svg: require('/img/docs.svg').default,
     description: (
       <>
@@ -24,7 +24,7 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Contact Me',
+    title: 'Get In Contact',
     Svg: require('/img/inbox.svg').default,
     description: (
       <>

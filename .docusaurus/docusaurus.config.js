@@ -78,17 +78,22 @@ export default {
         },
         {
           "href": "mailto:contact@swlacy.com?subject=Hello!",
-          "label": "Email Me",
+          "className": "header-email-link",
+          "position": "right"
+        },
+        {
+          "href": "https://discordapp.com/users/796071665154129931/",
+          "className": "header-discord-link",
           "position": "right"
         },
         {
           "href": "https://www.linkedin.com/in/lacysw/",
-          "label": "LinkedIn",
+          "className": "header-linkedin-link",
           "position": "right"
         },
         {
           "href": "https://github.com/lacysw",
-          "label": "GitHub",
+          "className": "header-github-link",
           "position": "right"
         }
       ],

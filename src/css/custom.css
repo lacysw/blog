@@ -26,3 +26,63 @@ html[data-theme='dark'] {
   --ifm-color-primary-lighter: #a6bca4;
   --ifm-color-primary-lightest: #c0cfbf;
 }
+
+/* Email glyph*/
+.header-email-link:hover {
+  opacity: 0.6;
+}
+.header-email-link:before {
+  content: '';
+  width: 24px;
+  height: 24px;
+  display: flex;
+  background: url(/img/glyphs/emailLight.svg) no-repeat;
+}
+html[data-theme='dark'] .header-email-link:before {
+  background: url(/img/glyphs/emailDark.svg) no-repeat;
+}
+
+/* Discord glyph*/
+.header-discord-link:hover {
+  opacity: 0.6;
+}
+.header-discord-link:before {
+  content: '';
+  width: 24px;
+  height: 24px;
+  display: flex;
+  background: url(/img/glyphs/discordLight.svg) no-repeat;
+}
+html[data-theme='dark'] .header-discord-link:before {
+  background: url(/img/glyphs/discordDark.svg) no-repeat;
+}
+
+/* LinkedIn glyph*/
+.header-linkedin-link:hover {
+  opacity: 0.6;
+}
+.header-linkedin-link:before {
+  content: '';
+  width: 24px;
+  height: 24px;
+  display: flex;
+  background: url(/img/glyphs/linkedinLight.svg) no-repeat;
+}
+html[data-theme='dark'] .header-linkedin-link:before {
+  background: url(/img/glyphs/linkedinDark.svg) no-repeat;
+}
+
+/* GitHub glyph*/
+.header-github-link:hover {
+  opacity: 0.6;
+}
+.header-github-link:before {
+  content: '';
+  width: 24px;
+  height: 24px;
+  display: flex;
+  background: url(/img/glyphs/githubLight.svg) no-repeat;
+}
+html[data-theme='dark'] .header-github-link:before {
+  background: url(/img/glyphs/githubDark.svg) no-repeat;
+}
