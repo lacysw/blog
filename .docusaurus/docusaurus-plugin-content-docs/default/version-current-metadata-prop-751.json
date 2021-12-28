@@ -77,8 +77,8 @@
               {
                 "type": "link",
                 "label": "Setting Up Your Development Environment",
-                "href": "/docs/extended-tutorials/how-i-made-this-website/dev-env",
-                "docId": "extended-tutorials/how-i-made-this-website/dev-env"
+                "href": "/docs/extended-tutorials/how-i-made-this-website/development-environment",
+                "docId": "extended-tutorials/how-i-made-this-website/development-environment"
               },
               {
                 "type": "link",
@@ -135,10 +135,10 @@
       "description": "This page is coming soon.",
       "sidebar": "tutorialSidebar"
     },
-    "extended-tutorials/how-i-made-this-website/dev-env": {
-      "id": "extended-tutorials/how-i-made-this-website/dev-env",
+    "extended-tutorials/how-i-made-this-website/development-environment": {
+      "id": "extended-tutorials/how-i-made-this-website/development-environment",
       "title": "Setting Up Your Development Environment",
-      "description": "Of course, you can't reasonably develop a website without first configuring the tools to do so. As mentioned in the previous section, Ubuntu Server will be used to host the development environment. I write code regularly and host a variety of services on my local network, so I have a physical computer running Ubuntu Server on bare metal, which I use SSH to access. If you would also like to use Ubuntu on bare metal, you may do the same by following this guide or by creating a virtual instance using the hypervisor of your choice or Multipass (which is very simple). Alternatively, if you don't have access to another computer and cannot/would prefer not to use virtualization for whatever reason, you may use your physical computer, but note that all commands will assume use of Ubuntu 20.04.3 LTS.",
+      "description": "Of course, you can't reasonably develop a website without first configuring the tools to do so. As mentioned in the previous section, Ubuntu Server will be used to host the development environment. I write code regularly and host a variety of services on my local network, so I have a physical computer running Ubuntu Server on bare metal, which I use SSH to access. If you would also like to use Ubuntu (not required), you may do the same by following this guide or by creating a virtual instance using the hypervisor of your choice or Multipass. Alternatively, if you don't have access to another computer and cannot/would prefer not to use virtualization for whatever reason, you may use your physical computer.",
       "sidebar": "tutorialSidebar"
     },
     "extended-tutorials/how-i-made-this-website/edit-defaults": {
@@ -150,7 +150,7 @@
     "extended-tutorials/how-i-made-this-website/introduction": {
       "id": "extended-tutorials/how-i-made-this-website/introduction",
       "title": "Introduction",
-      "description": "This tutorial aims to serve as an introduction to hosting a simple personal website using a static site generator (because apparently there aren’t enough of those already). If you like how this website appears and performs, keep reading – all of the steps I followed, from setting up a development environment and registering a domain to pushing my build to Firebase (my web host) are documented in the following few pages.",
+      "description": "This tutorial aims to serve as an introduction to hosting a simple personal website using a static site generator (because apparently there aren’t enough of those already). If you like how this website appears and performs, keep reading — all of the steps I followed, from setting up a development environment and registering a domain to pushing my build to Firebase (my web host) are documented in the following few pages.",
       "sidebar": "tutorialSidebar"
     },
     "extended-tutorials/how-i-made-this-website/register-domain": {

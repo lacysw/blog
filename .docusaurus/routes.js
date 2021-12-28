@@ -45,7 +45,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','c9a'),
+    component: ComponentCreator('/docs','670'),
     routes: [
       {
         path: '/docs',
@@ -78,8 +78,8 @@ export default [
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/extended-tutorials/how-i-made-this-website/dev-env',
-        component: ComponentCreator('/docs/extended-tutorials/how-i-made-this-website/dev-env','d09'),
+        path: '/docs/extended-tutorials/how-i-made-this-website/development-environment',
+        component: ComponentCreator('/docs/extended-tutorials/how-i-made-this-website/development-environment','50f'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
