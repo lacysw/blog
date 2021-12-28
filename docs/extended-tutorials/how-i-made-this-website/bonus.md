@@ -8,4 +8,4 @@ sidebar_position: 6
 
 ---
 
-[Suggest an improvement](mailto:contact@swlacy.com?subject=Suggestion%20Regarding%20docs/website-hosting/bonus)
+Questions, comments, or other feedback? [I can be reached over email](mailto:contact@swlacy.com).

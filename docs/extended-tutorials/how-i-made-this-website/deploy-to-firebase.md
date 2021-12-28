@@ -8,4 +8,4 @@ sidebar_position: 5
 
 ---
 
-[Suggest an improvement](mailto:contact@swlacy.com?subject=Suggestion%20Regarding%20docs/website-hosting/deploy-to-firebase)
+Questions, comments, or other feedback? [I can be reached over email](mailto:contact@swlacy.com).

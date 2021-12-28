@@ -19,26 +19,15 @@ function NotFound() {
         <div className="row">
           <div className="col col--6 col--offset-3">
             <h1 className="hero__title">
-              <Translate
-                id="theme.NotFound.title"
-                description="The title of the 404 page">
-                That's a 404...
-              </Translate>
+              That's a 404...
             </h1>
             <p>
-              <Translate
-                id="theme.NotFound.p1"
-                description="The first paragraph of the 404 page">
-                Sorry, the linked resource could not be found.
-              </Translate>
+              Sorry, the linked resource could not be found.
             </p>
             <p>
-              <Translate
-                id="theme.NotFound.p2"
-                description="The 2nd paragraph of the 404 page">
-                If you believe you have received this message in error, please send me an email at
-                contact@swlacy.com and I will investigate the issue as soon as possible.
-              </Translate>
+              If you believe you have received this message in error,
+              please <a href="mailto:contact@swlacy.com?subject=404">send me an email </a> and
+              I will investigate the issue as soon as possible.
             </p>
             <p>
               <Translate

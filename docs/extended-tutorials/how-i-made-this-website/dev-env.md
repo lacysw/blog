@@ -30,4 +30,4 @@ If not, ensure the previous instructions have all been followed in order. At thi
 
 ---
 
-[Suggest an improvement](mailto:contact@swlacy.com?subject=Suggestion%20Regarding%20docs/website-hosting/dev-env)
+Questions, comments, or other feedback? [I can be reached over email](mailto:contact@swlacy.com).

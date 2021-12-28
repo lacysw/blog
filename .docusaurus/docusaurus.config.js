@@ -89,7 +89,7 @@ export default {
     },
     "footer": {
       "style": "light",
-      "copyright": "Copyright © 2021 Sid Lacy • Generated with <a href=\"https://docusaurus.io\"> Docusaurus </a> • Last Built 2021.12.27 UTC",
+      "copyright": "Copyright © 2021 Sid Lacy • Generated with <a href=\"https://docusaurus.io\"> Docusaurus </a> • Last Built 2021.12.28 UTC",
       "links": []
     },
     "prism": {

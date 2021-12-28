@@ -14,4 +14,4 @@ While this site is not particularly dense in terms of posted content at the mome
 
 > *How can I contact you?*
 
-Do you have feedback on an article I have published here? Would you like to work on a project together? Simply want to chat? Thank you for your time — you may reach me for any reason via [Email](mailto:contact@swlacy.com?subject=Hello!) (preferred) or connect over [LinkedIn](https://www.linkedin.com/in/lacysw/).
+Do you have feedback on an article I have published here? Would you like to work on a project together? Simply want to chat? Thank you for your time — you may reach out to me for any reason via [Email](mailto:contact@swlacy.com?subject=Hello!) (preferred) or connect over [LinkedIn](https://www.linkedin.com/in/lacysw/).
