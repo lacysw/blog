@@ -29,7 +29,7 @@ html[data-theme='dark'] {
 
 /* Email glyph*/
 .header-email-link:hover {
-  opacity: 0.6;
+  opacity: 0.75;
 }
 .header-email-link:before {
   content: '';
@@ -44,7 +44,7 @@ html[data-theme='dark'] .header-email-link:before {
 
 /* Discord glyph*/
 .header-discord-link:hover {
-  opacity: 0.6;
+  opacity: 0.75;
 }
 .header-discord-link:before {
   content: '';
@@ -59,7 +59,7 @@ html[data-theme='dark'] .header-discord-link:before {
 
 /* LinkedIn glyph*/
 .header-linkedin-link:hover {
-  opacity: 0.6;
+  opacity: 0.75;
 }
 .header-linkedin-link:before {
   content: '';
@@ -74,12 +74,13 @@ html[data-theme='dark'] .header-linkedin-link:before {
 
 /* GitHub glyph*/
 .header-github-link:hover {
-  opacity: 0.6;
+  opacity: 0.75;
 }
 .header-github-link:before {
   content: '';
   width: 24px;
   height: 24px;
+  padding-right: 8px;
   display: flex;
   background: url(/img/glyphs/githubLight.svg) no-repeat;
 }
