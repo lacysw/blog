@@ -13,7 +13,7 @@ export default {
     [
       "@docusaurus/plugin-google-gtag",
       {
-        "trackingID": "G-1NNF4HX49Z",
+        "trackingID": "G-DRHYH7YG6P",
         "anonymizeIP": true
       }
     ],
