@@ -50,7 +50,7 @@ export default {
     "metadata": [
       {
         "name": "keywords",
-        "content": "security, cybersecurity, infosec, Sid, Lacy, swlacy, blog, WWU"
+        "content": "security, cybersecurity, infosec, Sid, Lacy, swlacy, swlacy.com, blog, WWU, student, hackthebox, htb, tryhackme, thm, walkthrough, tutorial"
       }
     ],
     "zoomSelector": ".markdown img",

@@ -63,7 +63,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      metadata: [{name: 'keywords', content: 'security, cybersecurity, infosec, Sid, Lacy, swlacy, blog, WWU'}],
+      metadata: [{name: 'keywords', content: 'security, cybersecurity, infosec, Sid, Lacy, swlacy, swlacy.com, blog, WWU, student, hackthebox, htb, tryhackme, thm, walkthrough, tutorial'}],
       zoomSelector: '.markdown img',
       navbar: {
         title: 'Sid\'s Blog',
