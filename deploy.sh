@@ -2,7 +2,7 @@
  
 read -p "Message: " msg
 
-npm run build
+yarn build
 firebase deploy
 
 git add .
