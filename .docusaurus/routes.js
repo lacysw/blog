@@ -4,106 +4,106 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/about-me',
-    component: ComponentCreator('/about-me','23c'),
+    path: '/about-me/',
+    component: ComponentCreator('/about-me/','945'),
     exact: true
   },
   {
-    path: '/blog',
-    component: ComponentCreator('/blog','a84'),
+    path: '/blog/',
+    component: ComponentCreator('/blog/','1e8'),
     exact: true
   },
   {
-    path: '/blog/archive',
-    component: ComponentCreator('/blog/archive','f4c'),
+    path: '/blog/archive/',
+    component: ComponentCreator('/blog/archive/','38a'),
     exact: true
   },
   {
-    path: '/blog/first-post',
-    component: ComponentCreator('/blog/first-post','a4a'),
+    path: '/blog/first-post/',
+    component: ComponentCreator('/blog/first-post/','c85'),
     exact: true
   },
   {
-    path: '/blog/tags',
-    component: ComponentCreator('/blog/tags','e13'),
+    path: '/blog/tags/',
+    component: ComponentCreator('/blog/tags/','0ff'),
     exact: true
   },
   {
-    path: '/blog/tags/about-me',
-    component: ComponentCreator('/blog/tags/about-me','44e'),
+    path: '/blog/tags/about-me/',
+    component: ComponentCreator('/blog/tags/about-me/','cf9'),
     exact: true
   },
   {
-    path: '/blog/tags/welcome',
-    component: ComponentCreator('/blog/tags/welcome','916'),
+    path: '/blog/tags/welcome/',
+    component: ComponentCreator('/blog/tags/welcome/','10b'),
     exact: true
   },
   {
-    path: '/search',
-    component: ComponentCreator('/search','79a'),
+    path: '/search/',
+    component: ComponentCreator('/search/','1e3'),
     exact: true
   },
   {
-    path: '/docs',
-    component: ComponentCreator('/docs','670'),
+    path: '/docs/',
+    component: ComponentCreator('/docs/','739'),
     routes: [
       {
-        path: '/docs',
-        component: ComponentCreator('/docs','1fc'),
+        path: '/docs/',
+        component: ComponentCreator('/docs/','c5e'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/automation',
-        component: ComponentCreator('/docs/automation','24c'),
+        path: '/docs/automation/',
+        component: ComponentCreator('/docs/automation/','8ab'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/automation/linux/basic-linux-security-report',
-        component: ComponentCreator('/docs/automation/linux/basic-linux-security-report','8a8'),
+        path: '/docs/automation/linux/basic-linux-security-report/',
+        component: ComponentCreator('/docs/automation/linux/basic-linux-security-report/','265'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/extended-tutorials/how-i-made-this-website/bonus',
-        component: ComponentCreator('/docs/extended-tutorials/how-i-made-this-website/bonus','a1a'),
+        path: '/docs/extended-tutorials/how-i-made-this-website/bonus/',
+        component: ComponentCreator('/docs/extended-tutorials/how-i-made-this-website/bonus/','784'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/extended-tutorials/how-i-made-this-website/deploy-to-firebase',
-        component: ComponentCreator('/docs/extended-tutorials/how-i-made-this-website/deploy-to-firebase','902'),
+        path: '/docs/extended-tutorials/how-i-made-this-website/deploy-to-firebase/',
+        component: ComponentCreator('/docs/extended-tutorials/how-i-made-this-website/deploy-to-firebase/','613'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/extended-tutorials/how-i-made-this-website/development-environment',
-        component: ComponentCreator('/docs/extended-tutorials/how-i-made-this-website/development-environment','50f'),
+        path: '/docs/extended-tutorials/how-i-made-this-website/development-environment/',
+        component: ComponentCreator('/docs/extended-tutorials/how-i-made-this-website/development-environment/','d47'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/extended-tutorials/how-i-made-this-website/edit-defaults',
-        component: ComponentCreator('/docs/extended-tutorials/how-i-made-this-website/edit-defaults','6fb'),
+        path: '/docs/extended-tutorials/how-i-made-this-website/edit-defaults/',
+        component: ComponentCreator('/docs/extended-tutorials/how-i-made-this-website/edit-defaults/','657'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/extended-tutorials/how-i-made-this-website/introduction',
-        component: ComponentCreator('/docs/extended-tutorials/how-i-made-this-website/introduction','0ca'),
+        path: '/docs/extended-tutorials/how-i-made-this-website/introduction/',
+        component: ComponentCreator('/docs/extended-tutorials/how-i-made-this-website/introduction/','1b8'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/extended-tutorials/how-i-made-this-website/register-domain',
-        component: ComponentCreator('/docs/extended-tutorials/how-i-made-this-website/register-domain','355'),
+        path: '/docs/extended-tutorials/how-i-made-this-website/register-domain/',
+        component: ComponentCreator('/docs/extended-tutorials/how-i-made-this-website/register-domain/','0e2'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/reports/previse',
-        component: ComponentCreator('/docs/reports/previse','5cb'),
+        path: '/docs/reports/previse/',
+        component: ComponentCreator('/docs/reports/previse/','18a'),
         exact: true,
         'sidebar': "tutorialSidebar"
       }

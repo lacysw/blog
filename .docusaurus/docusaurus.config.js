@@ -8,7 +8,7 @@ export default {
   "favicon": "img/logo.svg",
   "organizationName": "lacysw",
   "projectName": "swlacy.com",
-  "trailingSlash": false,
+  "trailingSlash": true,
   "plugins": [
     [
       "@docusaurus/plugin-google-gtag",

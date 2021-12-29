@@ -1,9 +1,9 @@
 {
-  "/about-me-23c": {
+  "/about-me/-945": {
     "component": "1f391b9e",
     "content": "a91b54f4"
   },
-  "/blog-a84": {
+  "/blog/-1e8": {
     "component": "a6aa9e1f",
     "sidebar": "814f3328",
     "items": [
@@ -13,21 +13,21 @@
     ],
     "metadata": "b2b675dd"
   },
-  "/blog/archive-f4c": {
+  "/blog/archive/-38a": {
     "component": "9e4087bc",
     "archive": "b2f554cd"
   },
-  "/blog/first-post-a4a": {
+  "/blog/first-post/-c85": {
     "component": "ccc49370",
     "sidebar": "814f3328",
     "content": "c177b66e"
   },
-  "/blog/tags-e13": {
+  "/blog/tags/-0ff": {
     "component": "01a85c17",
     "sidebar": "814f3328",
     "tags": "a7023ddc"
   },
-  "/blog/tags/about-me-44e": {
+  "/blog/tags/about-me/-cf9": {
     "component": "6875c492",
     "sidebar": "814f3328",
     "items": [
@@ -37,7 +37,7 @@
     ],
     "metadata": "37e9e45c"
   },
-  "/blog/tags/welcome-916": {
+  "/blog/tags/welcome/-10b": {
     "component": "6875c492",
     "sidebar": "814f3328",
     "items": [
@@ -47,50 +47,50 @@
     ],
     "metadata": "f6ba3702"
   },
-  "/search-79a": {
+  "/search/-1e3": {
     "component": "1a4e3797"
   },
-  "/docs-670": {
+  "/docs/-739": {
     "component": "1be78505",
     "versionMetadata": "935f2afb"
   },
-  "/docs-1fc": {
+  "/docs/-c5e": {
     "component": "17896441",
     "content": "ebfee794"
   },
-  "/docs/automation-24c": {
+  "/docs/automation/-8ab": {
     "component": "17896441",
     "content": "71c9ec29"
   },
-  "/docs/automation/linux/basic-linux-security-report-8a8": {
+  "/docs/automation/linux/basic-linux-security-report/-265": {
     "component": "17896441",
     "content": "ce5568e0"
   },
-  "/docs/extended-tutorials/how-i-made-this-website/bonus-a1a": {
+  "/docs/extended-tutorials/how-i-made-this-website/bonus/-784": {
     "component": "17896441",
     "content": "ae889c88"
   },
-  "/docs/extended-tutorials/how-i-made-this-website/deploy-to-firebase-902": {
+  "/docs/extended-tutorials/how-i-made-this-website/deploy-to-firebase/-613": {
     "component": "17896441",
     "content": "245d6eda"
   },
-  "/docs/extended-tutorials/how-i-made-this-website/development-environment-50f": {
+  "/docs/extended-tutorials/how-i-made-this-website/development-environment/-d47": {
     "component": "17896441",
     "content": "d26870ce"
   },
-  "/docs/extended-tutorials/how-i-made-this-website/edit-defaults-6fb": {
+  "/docs/extended-tutorials/how-i-made-this-website/edit-defaults/-657": {
     "component": "17896441",
     "content": "ca6f368b"
   },
-  "/docs/extended-tutorials/how-i-made-this-website/introduction-0ca": {
+  "/docs/extended-tutorials/how-i-made-this-website/introduction/-1b8": {
     "component": "17896441",
     "content": "164db967"
   },
-  "/docs/extended-tutorials/how-i-made-this-website/register-domain-355": {
+  "/docs/extended-tutorials/how-i-made-this-website/register-domain/-0e2": {
     "component": "17896441",
     "content": "0a06d07a"
   },
-  "/docs/reports/previse-5cb": {
+  "/docs/reports/previse/-18a": {
     "component": "17896441",
     "content": "aae6590c"
   },

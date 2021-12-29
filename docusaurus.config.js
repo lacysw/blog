@@ -15,7 +15,7 @@ const config = {
   favicon: 'img/logo.svg',
   organizationName: 'lacysw', // Usually your GitHub org/user name.
   projectName: 'swlacy.com', // Usually your repo name.
-  trailingSlash: false,
+  trailingSlash: true,
   plugins: [
     // ... Your other plugins.
     [
