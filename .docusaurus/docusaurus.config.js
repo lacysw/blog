@@ -62,17 +62,17 @@ export default {
       },
       "items": [
         {
-          "to": "/docs",
+          "to": "/docs/",
           "label": "Docs & Tutorials",
           "position": "left"
         },
         {
-          "to": "/blog",
+          "to": "/blog/",
           "label": "Blog",
           "position": "left"
         },
         {
-          "to": "/about-me",
+          "to": "/about-me/",
           "label": "About Me",
           "position": "left"
         },

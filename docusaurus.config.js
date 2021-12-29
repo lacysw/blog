@@ -72,9 +72,9 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          {to: '/docs', label: 'Docs & Tutorials', position: 'left'},
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {to: '/about-me', label: 'About Me', position: 'left'},
+          {to: '/docs/', label: 'Docs & Tutorials', position: 'left'},
+          {to: '/blog/', label: 'Blog', position: 'left'},
+          {to: '/about-me/', label: 'About Me', position: 'left'},
           {href: 'mailto:contact@swlacy.com?subject=Hello!', className: 'header-email-link', position: 'right',},
           {href: 'https://discordapp.com/users/796071665154129931/', className: 'header-discord-link', position: 'right',},
           {href: 'https://www.linkedin.com/in/lacysw/', className: 'header-linkedin-link', position: 'right',},
