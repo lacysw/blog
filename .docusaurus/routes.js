@@ -45,7 +45,7 @@ export default [
   },
   {
     path: '/docs/',
-    component: ComponentCreator('/docs/','739'),
+    component: ComponentCreator('/docs/','c87'),
     routes: [
       {
         path: '/docs/',
@@ -54,56 +54,68 @@ export default [
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/automation/',
-        component: ComponentCreator('/docs/automation/','8ab'),
+        path: '/docs/development/',
+        component: ComponentCreator('/docs/development/','4cd'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/automation/linux/basic-linux-security-report/',
-        component: ComponentCreator('/docs/automation/linux/basic-linux-security-report/','265'),
+        path: '/docs/development/how-i-made-this-website/bonus/',
+        component: ComponentCreator('/docs/development/how-i-made-this-website/bonus/','06c'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/extended-tutorials/how-i-made-this-website/bonus/',
-        component: ComponentCreator('/docs/extended-tutorials/how-i-made-this-website/bonus/','784'),
+        path: '/docs/development/how-i-made-this-website/deploy-to-firebase/',
+        component: ComponentCreator('/docs/development/how-i-made-this-website/deploy-to-firebase/','801'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/extended-tutorials/how-i-made-this-website/deploy-to-firebase/',
-        component: ComponentCreator('/docs/extended-tutorials/how-i-made-this-website/deploy-to-firebase/','613'),
+        path: '/docs/development/how-i-made-this-website/development-environment/',
+        component: ComponentCreator('/docs/development/how-i-made-this-website/development-environment/','d94'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/extended-tutorials/how-i-made-this-website/development-environment/',
-        component: ComponentCreator('/docs/extended-tutorials/how-i-made-this-website/development-environment/','d47'),
+        path: '/docs/development/how-i-made-this-website/edit-defaults/',
+        component: ComponentCreator('/docs/development/how-i-made-this-website/edit-defaults/','ce2'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/extended-tutorials/how-i-made-this-website/edit-defaults/',
-        component: ComponentCreator('/docs/extended-tutorials/how-i-made-this-website/edit-defaults/','657'),
+        path: '/docs/development/how-i-made-this-website/introduction/',
+        component: ComponentCreator('/docs/development/how-i-made-this-website/introduction/','152'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/extended-tutorials/how-i-made-this-website/introduction/',
-        component: ComponentCreator('/docs/extended-tutorials/how-i-made-this-website/introduction/','1b8'),
+        path: '/docs/development/how-i-made-this-website/register-domain/',
+        component: ComponentCreator('/docs/development/how-i-made-this-website/register-domain/','6a0'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/extended-tutorials/how-i-made-this-website/register-domain/',
-        component: ComponentCreator('/docs/extended-tutorials/how-i-made-this-website/register-domain/','0e2'),
+        path: '/docs/reports/',
+        component: ComponentCreator('/docs/reports/','b43'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
         path: '/docs/reports/previse/',
         component: ComponentCreator('/docs/reports/previse/','18a'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/scripts/',
+        component: ComponentCreator('/docs/scripts/','a77'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/scripts/linux/basic-linux-security-report/',
+        component: ComponentCreator('/docs/scripts/linux/basic-linux-security-report/','c0c'),
         exact: true,
         'sidebar': "tutorialSidebar"
       }

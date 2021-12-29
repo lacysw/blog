@@ -16,10 +16,74 @@
       },
       {
         "type": "category",
+        "label": "Development",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Subsection Header: Development",
+            "href": "/docs/development",
+            "docId": "development/welcome"
+          },
+          {
+            "type": "category",
+            "label": "How I Made This Website",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Introduction",
+                "href": "/docs/development/how-i-made-this-website/introduction",
+                "docId": "development/how-i-made-this-website/introduction"
+              },
+              {
+                "type": "link",
+                "label": "Setting Up Your Development Environment",
+                "href": "/docs/development/how-i-made-this-website/development-environment",
+                "docId": "development/how-i-made-this-website/development-environment"
+              },
+              {
+                "type": "link",
+                "label": "Editing Docusaurus Defaults",
+                "href": "/docs/development/how-i-made-this-website/edit-defaults",
+                "docId": "development/how-i-made-this-website/edit-defaults"
+              },
+              {
+                "type": "link",
+                "label": "Registering a Domain",
+                "href": "/docs/development/how-i-made-this-website/register-domain",
+                "docId": "development/how-i-made-this-website/register-domain"
+              },
+              {
+                "type": "link",
+                "label": "Deploying Your Site to Firebase",
+                "href": "/docs/development/how-i-made-this-website/deploy-to-firebase",
+                "docId": "development/how-i-made-this-website/deploy-to-firebase"
+              },
+              {
+                "type": "link",
+                "label": "Bonus: Configuring GitHub Actions & Email",
+                "href": "/docs/development/how-i-made-this-website/bonus",
+                "docId": "development/how-i-made-this-website/bonus"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "category",
         "label": "Reports",
         "collapsible": true,
         "collapsed": true,
         "items": [
+          {
+            "type": "link",
+            "label": "Subsection Header: Reports",
+            "href": "/docs/reports",
+            "docId": "reports/welcome"
+          },
           {
             "type": "link",
             "label": "HackTheBox — Previse",
@@ -30,15 +94,15 @@
       },
       {
         "type": "category",
-        "label": "Automation",
+        "label": "Scripts",
         "collapsible": true,
         "collapsed": true,
         "items": [
           {
             "type": "link",
-            "label": "Header",
-            "href": "/docs/automation",
-            "docId": "automation/welcome"
+            "label": "Subsection Header: Scripts",
+            "href": "/docs/scripts",
+            "docId": "scripts/welcome"
           },
           {
             "type": "category",
@@ -49,60 +113,8 @@
               {
                 "type": "link",
                 "label": "Basic Linux Security Report",
-                "href": "/docs/automation/linux/basic-linux-security-report",
-                "docId": "automation/linux/basic-linux-security-report"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "type": "category",
-        "label": "Extended Tutorials",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "category",
-            "label": "How I Made This Website",
-            "collapsible": true,
-            "collapsed": true,
-            "items": [
-              {
-                "type": "link",
-                "label": "Introduction",
-                "href": "/docs/extended-tutorials/how-i-made-this-website/introduction",
-                "docId": "extended-tutorials/how-i-made-this-website/introduction"
-              },
-              {
-                "type": "link",
-                "label": "Setting Up Your Development Environment",
-                "href": "/docs/extended-tutorials/how-i-made-this-website/development-environment",
-                "docId": "extended-tutorials/how-i-made-this-website/development-environment"
-              },
-              {
-                "type": "link",
-                "label": "Editing Docusaurus Defaults",
-                "href": "/docs/extended-tutorials/how-i-made-this-website/edit-defaults",
-                "docId": "extended-tutorials/how-i-made-this-website/edit-defaults"
-              },
-              {
-                "type": "link",
-                "label": "Registering a Domain",
-                "href": "/docs/extended-tutorials/how-i-made-this-website/register-domain",
-                "docId": "extended-tutorials/how-i-made-this-website/register-domain"
-              },
-              {
-                "type": "link",
-                "label": "Deploying Your Site to Firebase",
-                "href": "/docs/extended-tutorials/how-i-made-this-website/deploy-to-firebase",
-                "docId": "extended-tutorials/how-i-made-this-website/deploy-to-firebase"
-              },
-              {
-                "type": "link",
-                "label": "Bonus: Configuring GitHub Actions & Email",
-                "href": "/docs/extended-tutorials/how-i-made-this-website/bonus",
-                "docId": "extended-tutorials/how-i-made-this-website/bonus"
+                "href": "/docs/scripts/linux/basic-linux-security-report",
+                "docId": "scripts/linux/basic-linux-security-report"
               }
             ]
           }
@@ -111,58 +123,70 @@
     ]
   },
   "docs": {
-    "automation/linux/basic-linux-security-report": {
-      "id": "automation/linux/basic-linux-security-report",
-      "title": "Basic Linux Security Report",
-      "description": "Check on the simple things — for use in competition scenarios. Mirrored on wwucyber.com.",
-      "sidebar": "tutorialSidebar"
-    },
-    "automation/welcome": {
-      "id": "automation/welcome",
-      "title": "Header",
-      "description": "The Automation subsection contains a variety of short scripts I have written or modified both for personal use and team-based application during security competitions. Please note that there are also references to and inclusion of the work of others here; if I have not authored code under this section in its entirety, all other contributors are cited appropriately.",
-      "sidebar": "tutorialSidebar"
-    },
-    "extended-tutorials/how-i-made-this-website/bonus": {
-      "id": "extended-tutorials/how-i-made-this-website/bonus",
+    "development/how-i-made-this-website/bonus": {
+      "id": "development/how-i-made-this-website/bonus",
       "title": "Bonus: Configuring GitHub Actions & Email",
       "description": "This page is coming soon.",
       "sidebar": "tutorialSidebar"
     },
-    "extended-tutorials/how-i-made-this-website/deploy-to-firebase": {
-      "id": "extended-tutorials/how-i-made-this-website/deploy-to-firebase",
+    "development/how-i-made-this-website/deploy-to-firebase": {
+      "id": "development/how-i-made-this-website/deploy-to-firebase",
       "title": "Deploying Your Site to Firebase",
       "description": "This page is coming soon.",
       "sidebar": "tutorialSidebar"
     },
-    "extended-tutorials/how-i-made-this-website/development-environment": {
-      "id": "extended-tutorials/how-i-made-this-website/development-environment",
+    "development/how-i-made-this-website/development-environment": {
+      "id": "development/how-i-made-this-website/development-environment",
       "title": "Setting Up Your Development Environment",
       "description": "Of course, you can't reasonably develop a website without first configuring the tools to do so. As mentioned in the previous section, Ubuntu Server will be used to host the development environment. I write code regularly and host a variety of services on my local network, so I have a physical computer running Ubuntu Server on bare metal, which I use SSH to access. If you would also like to use Ubuntu (not required), you may do the same by following this guide or by creating a virtual instance using the hypervisor of your choice or Multipass. Alternatively, if you don't have access to another computer and cannot/would prefer not to use virtualization for whatever reason, you may use your physical computer.",
       "sidebar": "tutorialSidebar"
     },
-    "extended-tutorials/how-i-made-this-website/edit-defaults": {
-      "id": "extended-tutorials/how-i-made-this-website/edit-defaults",
+    "development/how-i-made-this-website/edit-defaults": {
+      "id": "development/how-i-made-this-website/edit-defaults",
       "title": "Editing Docusaurus Defaults",
       "description": "This page is coming soon.",
       "sidebar": "tutorialSidebar"
     },
-    "extended-tutorials/how-i-made-this-website/introduction": {
-      "id": "extended-tutorials/how-i-made-this-website/introduction",
+    "development/how-i-made-this-website/introduction": {
+      "id": "development/how-i-made-this-website/introduction",
       "title": "Introduction",
       "description": "This tutorial aims to serve as an introduction to hosting a simple personal website using a static site generator (because apparently there aren’t enough of those already). If you like how this website appears and performs, keep reading — all of the steps I followed, from setting up a development environment and registering a domain to pushing my build to Firebase (my web host) are documented in the following few pages.",
       "sidebar": "tutorialSidebar"
     },
-    "extended-tutorials/how-i-made-this-website/register-domain": {
-      "id": "extended-tutorials/how-i-made-this-website/register-domain",
+    "development/how-i-made-this-website/register-domain": {
+      "id": "development/how-i-made-this-website/register-domain",
       "title": "Registering a Domain",
       "description": "This page is coming soon.",
+      "sidebar": "tutorialSidebar"
+    },
+    "development/welcome": {
+      "id": "development/welcome",
+      "title": "Subsection Header: Development",
+      "description": "The Development subsection articles on longer, multi-phase projects.",
       "sidebar": "tutorialSidebar"
     },
     "reports/previse": {
       "id": "reports/previse",
       "title": "HackTheBox — Previse",
       "description": "Hello, and thank you for expressing interest in my report on Previse, a CTF hosted by Hack the Box. Previse was uploaded by HTB user m4lwhere 138 days prior to the publication of this report and is currently considered by the HTB community to be easy to intermediate in terms of difficulty.",
+      "sidebar": "tutorialSidebar"
+    },
+    "reports/welcome": {
+      "id": "reports/welcome",
+      "title": "Subsection Header: Reports",
+      "description": "The Reports subsection features personal write-ups on projects I have completed, especially including CTF challenges from competition hosts such as HackTheBox and TryHackMe.",
+      "sidebar": "tutorialSidebar"
+    },
+    "scripts/linux/basic-linux-security-report": {
+      "id": "scripts/linux/basic-linux-security-report",
+      "title": "Basic Linux Security Report",
+      "description": "Check on the simple things — for use in competition scenarios. Mirrored on wwucyber.com.",
+      "sidebar": "tutorialSidebar"
+    },
+    "scripts/welcome": {
+      "id": "scripts/welcome",
+      "title": "Subsection Header: Scripts",
+      "description": "The Scripts subsection contains a variety of code snippets I have written or modified, generally for personal use and team-based application during security competitions. Please note that there are also references to and inclusion of the work of others here; if I have not authored code under this section in its entirety, all other contributors are cited appropriately.",
       "sidebar": "tutorialSidebar"
     },
     "welcome": {

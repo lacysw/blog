@@ -16,7 +16,7 @@
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "HackTheBox — Previse",
-    "permalink": "/docs/reports/previse"
+    "title": "Subsection Header: Development",
+    "permalink": "/docs/development"
   }
 }

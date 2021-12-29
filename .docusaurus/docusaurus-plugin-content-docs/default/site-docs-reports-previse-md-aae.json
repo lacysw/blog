@@ -12,11 +12,11 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Welcome!",
-    "permalink": "/docs/"
+    "title": "Subsection Header: Reports",
+    "permalink": "/docs/reports"
   },
   "next": {
-    "title": "Header",
-    "permalink": "/docs/automation"
+    "title": "Subsection Header: Scripts",
+    "permalink": "/docs/scripts"
   }
 }

@@ -17,62 +17,14 @@
           "contentPathLocalized": "/home/sid/blog/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
-              "unversionedId": "automation/linux/basic-linux-security-report",
-              "id": "automation/linux/basic-linux-security-report",
-              "title": "Basic Linux Security Report",
-              "description": "Check on the simple things — for use in competition scenarios. Mirrored on wwucyber.com.",
-              "source": "@site/docs/automation/linux/basic-linux-security-report.md",
-              "sourceDirName": "automation/linux",
-              "slug": "/automation/linux/basic-linux-security-report",
-              "permalink": "/docs/automation/linux/basic-linux-security-report",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Header",
-                "permalink": "/docs/automation"
-              },
-              "next": {
-                "title": "Introduction",
-                "permalink": "/docs/extended-tutorials/how-i-made-this-website/introduction"
-              }
-            },
-            {
-              "unversionedId": "automation/welcome",
-              "id": "automation/welcome",
-              "title": "Header",
-              "description": "The Automation subsection contains a variety of short scripts I have written or modified both for personal use and team-based application during security competitions. Please note that there are also references to and inclusion of the work of others here; if I have not authored code under this section in its entirety, all other contributors are cited appropriately.",
-              "source": "@site/docs/automation/welcome.md",
-              "sourceDirName": "automation",
-              "slug": "/automation",
-              "permalink": "/docs/automation",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1,
-                "slug": "/automation"
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "HackTheBox — Previse",
-                "permalink": "/docs/reports/previse"
-              },
-              "next": {
-                "title": "Basic Linux Security Report",
-                "permalink": "/docs/automation/linux/basic-linux-security-report"
-              }
-            },
-            {
-              "unversionedId": "extended-tutorials/how-i-made-this-website/bonus",
-              "id": "extended-tutorials/how-i-made-this-website/bonus",
+              "unversionedId": "development/how-i-made-this-website/bonus",
+              "id": "development/how-i-made-this-website/bonus",
               "title": "Bonus: Configuring GitHub Actions & Email",
               "description": "This page is coming soon.",
-              "source": "@site/docs/extended-tutorials/how-i-made-this-website/bonus.md",
-              "sourceDirName": "extended-tutorials/how-i-made-this-website",
-              "slug": "/extended-tutorials/how-i-made-this-website/bonus",
-              "permalink": "/docs/extended-tutorials/how-i-made-this-website/bonus",
+              "source": "@site/docs/development/how-i-made-this-website/bonus.md",
+              "sourceDirName": "development/how-i-made-this-website",
+              "slug": "/development/how-i-made-this-website/bonus",
+              "permalink": "/docs/development/how-i-made-this-website/bonus",
               "tags": [],
               "version": "current",
               "sidebarPosition": 6,
@@ -82,18 +34,22 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Deploying Your Site to Firebase",
-                "permalink": "/docs/extended-tutorials/how-i-made-this-website/deploy-to-firebase"
+                "permalink": "/docs/development/how-i-made-this-website/deploy-to-firebase"
+              },
+              "next": {
+                "title": "Subsection Header: Reports",
+                "permalink": "/docs/reports"
               }
             },
             {
-              "unversionedId": "extended-tutorials/how-i-made-this-website/deploy-to-firebase",
-              "id": "extended-tutorials/how-i-made-this-website/deploy-to-firebase",
+              "unversionedId": "development/how-i-made-this-website/deploy-to-firebase",
+              "id": "development/how-i-made-this-website/deploy-to-firebase",
               "title": "Deploying Your Site to Firebase",
               "description": "This page is coming soon.",
-              "source": "@site/docs/extended-tutorials/how-i-made-this-website/deploy-to-firebase.md",
-              "sourceDirName": "extended-tutorials/how-i-made-this-website",
-              "slug": "/extended-tutorials/how-i-made-this-website/deploy-to-firebase",
-              "permalink": "/docs/extended-tutorials/how-i-made-this-website/deploy-to-firebase",
+              "source": "@site/docs/development/how-i-made-this-website/deploy-to-firebase.md",
+              "sourceDirName": "development/how-i-made-this-website",
+              "slug": "/development/how-i-made-this-website/deploy-to-firebase",
+              "permalink": "/docs/development/how-i-made-this-website/deploy-to-firebase",
               "tags": [],
               "version": "current",
               "sidebarPosition": 5,
@@ -103,22 +59,22 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Registering a Domain",
-                "permalink": "/docs/extended-tutorials/how-i-made-this-website/register-domain"
+                "permalink": "/docs/development/how-i-made-this-website/register-domain"
               },
               "next": {
                 "title": "Bonus: Configuring GitHub Actions & Email",
-                "permalink": "/docs/extended-tutorials/how-i-made-this-website/bonus"
+                "permalink": "/docs/development/how-i-made-this-website/bonus"
               }
             },
             {
-              "unversionedId": "extended-tutorials/how-i-made-this-website/development-environment",
-              "id": "extended-tutorials/how-i-made-this-website/development-environment",
+              "unversionedId": "development/how-i-made-this-website/development-environment",
+              "id": "development/how-i-made-this-website/development-environment",
               "title": "Setting Up Your Development Environment",
               "description": "Of course, you can't reasonably develop a website without first configuring the tools to do so. As mentioned in the previous section, Ubuntu Server will be used to host the development environment. I write code regularly and host a variety of services on my local network, so I have a physical computer running Ubuntu Server on bare metal, which I use SSH to access. If you would also like to use Ubuntu (not required), you may do the same by following this guide or by creating a virtual instance using the hypervisor of your choice or Multipass. Alternatively, if you don't have access to another computer and cannot/would prefer not to use virtualization for whatever reason, you may use your physical computer.",
-              "source": "@site/docs/extended-tutorials/how-i-made-this-website/development-environment.md",
-              "sourceDirName": "extended-tutorials/how-i-made-this-website",
-              "slug": "/extended-tutorials/how-i-made-this-website/development-environment",
-              "permalink": "/docs/extended-tutorials/how-i-made-this-website/development-environment",
+              "source": "@site/docs/development/how-i-made-this-website/development-environment.md",
+              "sourceDirName": "development/how-i-made-this-website",
+              "slug": "/development/how-i-made-this-website/development-environment",
+              "permalink": "/docs/development/how-i-made-this-website/development-environment",
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
@@ -128,22 +84,22 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Introduction",
-                "permalink": "/docs/extended-tutorials/how-i-made-this-website/introduction"
+                "permalink": "/docs/development/how-i-made-this-website/introduction"
               },
               "next": {
                 "title": "Editing Docusaurus Defaults",
-                "permalink": "/docs/extended-tutorials/how-i-made-this-website/edit-defaults"
+                "permalink": "/docs/development/how-i-made-this-website/edit-defaults"
               }
             },
             {
-              "unversionedId": "extended-tutorials/how-i-made-this-website/edit-defaults",
-              "id": "extended-tutorials/how-i-made-this-website/edit-defaults",
+              "unversionedId": "development/how-i-made-this-website/edit-defaults",
+              "id": "development/how-i-made-this-website/edit-defaults",
               "title": "Editing Docusaurus Defaults",
               "description": "This page is coming soon.",
-              "source": "@site/docs/extended-tutorials/how-i-made-this-website/edit-defaults.md",
-              "sourceDirName": "extended-tutorials/how-i-made-this-website",
-              "slug": "/extended-tutorials/how-i-made-this-website/edit-defaults",
-              "permalink": "/docs/extended-tutorials/how-i-made-this-website/edit-defaults",
+              "source": "@site/docs/development/how-i-made-this-website/edit-defaults.md",
+              "sourceDirName": "development/how-i-made-this-website",
+              "slug": "/development/how-i-made-this-website/edit-defaults",
+              "permalink": "/docs/development/how-i-made-this-website/edit-defaults",
               "tags": [],
               "version": "current",
               "sidebarPosition": 3,
@@ -153,22 +109,22 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Setting Up Your Development Environment",
-                "permalink": "/docs/extended-tutorials/how-i-made-this-website/development-environment"
+                "permalink": "/docs/development/how-i-made-this-website/development-environment"
               },
               "next": {
                 "title": "Registering a Domain",
-                "permalink": "/docs/extended-tutorials/how-i-made-this-website/register-domain"
+                "permalink": "/docs/development/how-i-made-this-website/register-domain"
               }
             },
             {
-              "unversionedId": "extended-tutorials/how-i-made-this-website/introduction",
-              "id": "extended-tutorials/how-i-made-this-website/introduction",
+              "unversionedId": "development/how-i-made-this-website/introduction",
+              "id": "development/how-i-made-this-website/introduction",
               "title": "Introduction",
               "description": "This tutorial aims to serve as an introduction to hosting a simple personal website using a static site generator (because apparently there aren’t enough of those already). If you like how this website appears and performs, keep reading — all of the steps I followed, from setting up a development environment and registering a domain to pushing my build to Firebase (my web host) are documented in the following few pages.",
-              "source": "@site/docs/extended-tutorials/how-i-made-this-website/introduction.md",
-              "sourceDirName": "extended-tutorials/how-i-made-this-website",
-              "slug": "/extended-tutorials/how-i-made-this-website/introduction",
-              "permalink": "/docs/extended-tutorials/how-i-made-this-website/introduction",
+              "source": "@site/docs/development/how-i-made-this-website/introduction.md",
+              "sourceDirName": "development/how-i-made-this-website",
+              "slug": "/development/how-i-made-this-website/introduction",
+              "permalink": "/docs/development/how-i-made-this-website/introduction",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -177,23 +133,23 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Basic Linux Security Report",
-                "permalink": "/docs/automation/linux/basic-linux-security-report"
+                "title": "Subsection Header: Development",
+                "permalink": "/docs/development"
               },
               "next": {
                 "title": "Setting Up Your Development Environment",
-                "permalink": "/docs/extended-tutorials/how-i-made-this-website/development-environment"
+                "permalink": "/docs/development/how-i-made-this-website/development-environment"
               }
             },
             {
-              "unversionedId": "extended-tutorials/how-i-made-this-website/register-domain",
-              "id": "extended-tutorials/how-i-made-this-website/register-domain",
+              "unversionedId": "development/how-i-made-this-website/register-domain",
+              "id": "development/how-i-made-this-website/register-domain",
               "title": "Registering a Domain",
               "description": "This page is coming soon.",
-              "source": "@site/docs/extended-tutorials/how-i-made-this-website/register-domain.md",
-              "sourceDirName": "extended-tutorials/how-i-made-this-website",
-              "slug": "/extended-tutorials/how-i-made-this-website/register-domain",
-              "permalink": "/docs/extended-tutorials/how-i-made-this-website/register-domain",
+              "source": "@site/docs/development/how-i-made-this-website/register-domain.md",
+              "sourceDirName": "development/how-i-made-this-website",
+              "slug": "/development/how-i-made-this-website/register-domain",
+              "permalink": "/docs/development/how-i-made-this-website/register-domain",
               "tags": [],
               "version": "current",
               "sidebarPosition": 4,
@@ -203,11 +159,37 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Editing Docusaurus Defaults",
-                "permalink": "/docs/extended-tutorials/how-i-made-this-website/edit-defaults"
+                "permalink": "/docs/development/how-i-made-this-website/edit-defaults"
               },
               "next": {
                 "title": "Deploying Your Site to Firebase",
-                "permalink": "/docs/extended-tutorials/how-i-made-this-website/deploy-to-firebase"
+                "permalink": "/docs/development/how-i-made-this-website/deploy-to-firebase"
+              }
+            },
+            {
+              "unversionedId": "development/welcome",
+              "id": "development/welcome",
+              "title": "Subsection Header: Development",
+              "description": "The Development subsection articles on longer, multi-phase projects.",
+              "source": "@site/docs/development/welcome.md",
+              "sourceDirName": "development",
+              "slug": "/development",
+              "permalink": "/docs/development",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "slug": "/development"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Welcome!",
+                "permalink": "/docs/"
+              },
+              "next": {
+                "title": "Introduction",
+                "permalink": "/docs/development/how-i-made-this-website/introduction"
               }
             },
             {
@@ -224,12 +206,82 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Welcome!",
-                "permalink": "/docs/"
+                "title": "Subsection Header: Reports",
+                "permalink": "/docs/reports"
               },
               "next": {
-                "title": "Header",
-                "permalink": "/docs/automation"
+                "title": "Subsection Header: Scripts",
+                "permalink": "/docs/scripts"
+              }
+            },
+            {
+              "unversionedId": "reports/welcome",
+              "id": "reports/welcome",
+              "title": "Subsection Header: Reports",
+              "description": "The Reports subsection features personal write-ups on projects I have completed, especially including CTF challenges from competition hosts such as HackTheBox and TryHackMe.",
+              "source": "@site/docs/reports/welcome.md",
+              "sourceDirName": "reports",
+              "slug": "/reports",
+              "permalink": "/docs/reports",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "slug": "/reports"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Bonus: Configuring GitHub Actions & Email",
+                "permalink": "/docs/development/how-i-made-this-website/bonus"
+              },
+              "next": {
+                "title": "HackTheBox — Previse",
+                "permalink": "/docs/reports/previse"
+              }
+            },
+            {
+              "unversionedId": "scripts/linux/basic-linux-security-report",
+              "id": "scripts/linux/basic-linux-security-report",
+              "title": "Basic Linux Security Report",
+              "description": "Check on the simple things — for use in competition scenarios. Mirrored on wwucyber.com.",
+              "source": "@site/docs/scripts/linux/basic-linux-security-report.md",
+              "sourceDirName": "scripts/linux",
+              "slug": "/scripts/linux/basic-linux-security-report",
+              "permalink": "/docs/scripts/linux/basic-linux-security-report",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Subsection Header: Scripts",
+                "permalink": "/docs/scripts"
+              }
+            },
+            {
+              "unversionedId": "scripts/welcome",
+              "id": "scripts/welcome",
+              "title": "Subsection Header: Scripts",
+              "description": "The Scripts subsection contains a variety of code snippets I have written or modified, generally for personal use and team-based application during security competitions. Please note that there are also references to and inclusion of the work of others here; if I have not authored code under this section in its entirety, all other contributors are cited appropriately.",
+              "source": "@site/docs/scripts/welcome.md",
+              "sourceDirName": "scripts",
+              "slug": "/scripts",
+              "permalink": "/docs/scripts",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "slug": "/scripts"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "HackTheBox — Previse",
+                "permalink": "/docs/reports/previse"
+              },
+              "next": {
+                "title": "Basic Linux Security Report",
+                "permalink": "/docs/scripts/linux/basic-linux-security-report"
               }
             },
             {
@@ -250,8 +302,8 @@
               },
               "sidebar": "tutorialSidebar",
               "next": {
-                "title": "HackTheBox — Previse",
-                "permalink": "/docs/reports/previse"
+                "title": "Subsection Header: Development",
+                "permalink": "/docs/development"
               }
             }
           ],
@@ -263,10 +315,58 @@
               },
               {
                 "type": "category",
+                "label": "Development",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "development/welcome"
+                  },
+                  {
+                    "type": "category",
+                    "label": "How I Made This Website",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "development/how-i-made-this-website/introduction"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "development/how-i-made-this-website/development-environment"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "development/how-i-made-this-website/edit-defaults"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "development/how-i-made-this-website/register-domain"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "development/how-i-made-this-website/deploy-to-firebase"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "development/how-i-made-this-website/bonus"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "category",
                 "label": "Reports",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
+                  {
+                    "type": "doc",
+                    "id": "reports/welcome"
+                  },
                   {
                     "type": "doc",
                     "id": "reports/previse"
@@ -275,13 +375,13 @@
               },
               {
                 "type": "category",
-                "label": "Automation",
+                "label": "Scripts",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
                     "type": "doc",
-                    "id": "automation/welcome"
+                    "id": "scripts/welcome"
                   },
                   {
                     "type": "category",
@@ -291,47 +391,7 @@
                     "items": [
                       {
                         "type": "doc",
-                        "id": "automation/linux/basic-linux-security-report"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "category",
-                "label": "Extended Tutorials",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "category",
-                    "label": "How I Made This Website",
-                    "collapsible": true,
-                    "collapsed": true,
-                    "items": [
-                      {
-                        "type": "doc",
-                        "id": "extended-tutorials/how-i-made-this-website/introduction"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "extended-tutorials/how-i-made-this-website/development-environment"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "extended-tutorials/how-i-made-this-website/edit-defaults"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "extended-tutorials/how-i-made-this-website/register-domain"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "extended-tutorials/how-i-made-this-website/deploy-to-firebase"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "extended-tutorials/how-i-made-this-website/bonus"
+                        "id": "scripts/linux/basic-linux-security-report"
                       }
                     ]
                   }
