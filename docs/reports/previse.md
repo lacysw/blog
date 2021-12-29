@@ -1,7 +1,7 @@
 ---
 keywords: ['sid', 'lacy', 'blog', 'website', 'cybersecurity', 'security', 'computer', 'hackthebox', 'htb', 'tech', 'previse']
 description: HackTheBox Previse Walkthrough
-image: previse6.png
+image: previse6-f814f1c57b721dd54edb67eed863a9ae.png
 ---
 # HackTheBox — Previse
 Hello, and thank you for expressing interest in my report on [Previse](https://app.hackthebox.com/machines/Previse), a CTF hosted by Hack the Box. Previse was uploaded by HTB user [m4lwhere](https://app.hackthebox.com/users/107145) 138 days prior to the publication of this report and is currently considered by the HTB community to be easy to intermediate in terms of difficulty.
