@@ -1,9 +1,9 @@
 ---
 keywords: ['sid', 'lacy', 'about', 'blog', 'website', 'cybersecurity', 'security', 'computer', 'hackthebox', 'htb', 'tech']
 description: About Me & My Goals for This Site
-image: https://i.imgur.com/mErPwqL.png
 hide_table_of_contents: true
 ---
+
 # About Me & My Goals for This Site
 
 ![Crater Lake](/img/craterLake.jpg "Crater Lake, OR; shot by me in the summer of 2021")

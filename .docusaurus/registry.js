@@ -29,5 +29,5 @@ export default {
   'ccc49370': [() => import(/* webpackChunkName: 'ccc49370' */ "@theme/BlogPostPage"), "@theme/BlogPostPage", require.resolveWeak("@theme/BlogPostPage")],
   'ebfee794': [() => import(/* webpackChunkName: 'ebfee794' */ "@site/docs/welcome.md"), "@site/docs/welcome.md", require.resolveWeak("@site/docs/welcome.md")],
   'eedb6254': [() => import(/* webpackChunkName: 'eedb6254' */ "@site/docs/reports/welcome.md"), "@site/docs/reports/welcome.md", require.resolveWeak("@site/docs/reports/welcome.md")],
-  'ef212305': [() => import(/* webpackChunkName: 'ef212305' */ "~blog/default/blog-tags-about-182.json"), "~blog/default/blog-tags-about-182.json", require.resolveWeak("~blog/default/blog-tags-about-182.json")],
-  'f64cc608': [() => import(/* webpackChunkName: 'f64cc608' */ "@site/docs/scripts/linux/basic-linux-security-report.md"), "@site/docs/scripts/linux/basic-linux-security-report.md", require.resolveWeak("@site/docs/scripts/linux/basic-linux-security-report.md")],};
+  'f64cc608': [() => import(/* webpackChunkName: 'f64cc608' */ "@site/docs/scripts/linux/basic-linux-security-report.md"), "@site/docs/scripts/linux/basic-linux-security-report.md", require.resolveWeak("@site/docs/scripts/linux/basic-linux-security-report.md")],
+  'f6ba3702': [() => import(/* webpackChunkName: 'f6ba3702' */ "~blog/default/blog-tags-welcome-11d.json"), "~blog/default/blog-tags-welcome-11d.json", require.resolveWeak("~blog/default/blog-tags-welcome-11d.json")],};
