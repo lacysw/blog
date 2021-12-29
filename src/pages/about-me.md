@@ -1,7 +1,7 @@
 ---
 keywords: ['sid', 'lacy', 'about', 'blog', 'website', 'cybersecurity', 'security', 'computer', 'hackthebox', 'htb', 'tech']
 description: About Me & My Goals for This Site
-image: /static/craterLake-372617dac67264a6a4181cc925cc5610.jpg
+image: https://i.imgur.com/mErPwqL.png
 hide_table_of_contents: true
 ---
 # About Me & My Goals for This Site
