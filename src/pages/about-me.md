@@ -1,5 +1,5 @@
 # About Me & My Goals for This Site
-![Crater Lake](/img/craterLake.jpg "Crater Lake, shot by me in the summer of 2021")
+![Crater Lake](/img/craterLake.jpg "Crater Lake, OR; shot by me in the summer of 2021")
 Hello, and welcome to my website. I'm glad you stopped by.
 
 ## Summary
@@ -16,14 +16,19 @@ While this site is not particularly dense in terms of posted content at the mome
 
 > *How can I contact you?*
 
-Do you have feedback on an article I have published here? Would you like to work on a project together? Want to chat? Thank you for your time — you may reach out to me for any reason via [Email](mailto:contact@swlacy.com?subject=Hello!) (preferred) or connect over [LinkedIn](https://www.linkedin.com/in/lacysw/).
+Do you have feedback on an article I have published here? Would you like to work on a project together? Just want to chat? I am honored! You may reach out to me for any reason via [Email](mailto:contact@swlacy.com?subject=Hello!) (preferred) or connect over [LinkedIn](https://www.linkedin.com/in/lacysw/).
 
-Are you trying to reach me in a professional capacity? Perhaps you would like to see my [resume (PDF)](/resume.pdf). See the LaTeX source code [here](https://github.com/lacysw/resume/blob/main/resume.tex).
+Are you trying to speak to me in a professional capacity? Perhaps you would also like to see my [resume (PDF)](/resume.pdf). The LaTeX source code is hosted on GitHub under [lacysw/resume](https://github.com/lacysw/resume/blob/main/resume.tex).
+
+---
 
 ## Qualifications
 > *What gives you the right to post about security — do you even know what you're doing?*
 
 Most of the time — after all, this site is dedicated to the application of personal learning, and I use it as such. Not always, but the content of my posts frequently illustrate the use of tools or methodologies I discover for myself while writing.
+
+### Resume
+[Download (PDF)](/resume.pdf).
 
 ### Professional Certifications
 
