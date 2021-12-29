@@ -3,3 +3,4 @@
 .docusaurus
 .firebase
 yarn.lock
+*.log
