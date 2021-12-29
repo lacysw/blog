@@ -1,16 +1,9 @@
 {
-  "/blog/tags/welcome": {
+  "/blog/tags/about": {
     "allTagsPath": "/blog/tags",
-    "slug": "/blog/tags/welcome",
-    "name": "welcome",
+    "slug": "/blog/tags/about",
+    "name": "about",
     "count": 1,
-    "permalink": "/blog/tags/welcome"
-  },
-  "/blog/tags/about-me": {
-    "allTagsPath": "/blog/tags",
-    "slug": "/blog/tags/about-me",
-    "name": "about me",
-    "count": 1,
-    "permalink": "/blog/tags/about-me"
+    "permalink": "/blog/tags/about"
   }
 }

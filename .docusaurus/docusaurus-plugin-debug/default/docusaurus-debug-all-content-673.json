@@ -37,7 +37,7 @@
                 "permalink": "/docs/development/how-i-made-this-website/deploy-to-firebase"
               },
               "next": {
-                "title": "Subsection Header: Reports",
+                "title": "First Post",
                 "permalink": "/docs/reports"
               }
             },
@@ -196,17 +196,33 @@
               "unversionedId": "reports/previse",
               "id": "reports/previse",
               "title": "HackTheBox — Previse",
-              "description": "Hello, and thank you for expressing interest in my report on Previse, a CTF hosted by Hack the Box. Previse was uploaded by HTB user m4lwhere 138 days prior to the publication of this report and is currently considered by the HTB community to be easy to intermediate in terms of difficulty.",
+              "description": "HackTheBox Previse Walkthrough",
               "source": "@site/docs/reports/previse.md",
               "sourceDirName": "reports",
               "slug": "/reports/previse",
               "permalink": "/docs/reports/previse",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "frontMatter": {
+                "keywords": [
+                  "sid",
+                  "lacy",
+                  "blog",
+                  "website",
+                  "cybersecurity",
+                  "security",
+                  "computer",
+                  "hackthebox",
+                  "htb",
+                  "tech",
+                  "previse"
+                ],
+                "description": "HackTheBox Previse Walkthrough",
+                "image": "previse6.png"
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Subsection Header: Reports",
+                "title": "First Post",
                 "permalink": "/docs/reports"
               },
               "next": {
@@ -217,18 +233,45 @@
             {
               "unversionedId": "reports/welcome",
               "id": "reports/welcome",
-              "title": "Subsection Header: Reports",
-              "description": "The Reports subsection features personal write-ups on projects I have completed, especially including CTF challenges from competition hosts such as HackTheBox and TryHackMe.",
+              "title": "First Post",
+              "description": "First Post",
               "source": "@site/docs/reports/welcome.md",
               "sourceDirName": "reports",
               "slug": "/reports",
               "permalink": "/docs/reports",
-              "tags": [],
+              "tags": [
+                {
+                  "label": "about",
+                  "permalink": "/docs/tags/about"
+                }
+              ],
               "version": "current",
               "sidebarPosition": 1,
               "frontMatter": {
                 "sidebar_position": 1,
-                "slug": "/reports"
+                "slug": "/reports",
+                "title": "First Post",
+                "authors": [
+                  "sid"
+                ],
+                "keywords": [
+                  "sid",
+                  "lacy",
+                  "blog",
+                  "website",
+                  "cybersecurity",
+                  "security",
+                  "computer",
+                  "hackthebox",
+                  "htb",
+                  "tech"
+                ],
+                "tags": [
+                  "about"
+                ],
+                "description": "First Post",
+                "image": "/img/craterLake.jpg",
+                "hide_table_of_contents": true
               },
               "sidebar": "tutorialSidebar",
               "previous": {
@@ -288,7 +331,7 @@
               "unversionedId": "welcome",
               "id": "welcome",
               "title": "Welcome!",
-              "description": "The Docs & Tutorials section hosts a growing number of technical articles, focused primarily on cybersecurity challenges (HackTheBox, TryHackMe, etc.) and miscellaneous development projects. While relatively sparse now, I intend to share much of my interesting activity here. If nothing immediately sparks your interest, please check back soon. The left-hand sidebar can be used to navigate between the pages of this section.",
+              "description": "The Documents section hosts a growing number of technical articles, focused primarily on cybersecurity challenges (HackTheBox, TryHackMe, etc.) and miscellaneous development projects. While relatively sparse now, I intend to share much of my interesting activity here. If nothing immediately sparks your interest, please check back soon. The left-hand sidebar can be used to navigate between the pages of this section.",
               "source": "@site/docs/welcome.md",
               "sourceDirName": ".",
               "slug": "/",
@@ -415,17 +458,13 @@
             "permalink": "/blog/first-post",
             "source": "@site/blog/2021-12-27-first-post.md",
             "title": "First Post",
-            "description": "Hello, and welcome! You are currently reading my first \"official\" post here, having now fleshed out all of the necessary features of my new website, swlacy.com. This space is designed to fulfill my needs as a platform to publish technical content and reflect on my learning as a cybersecurity and political science student.",
+            "description": "First Post",
             "date": "2021-12-27T00:00:00.000Z",
             "formattedDate": "December 27, 2021",
             "tags": [
               {
-                "label": "welcome",
-                "permalink": "/blog/tags/welcome"
-              },
-              {
-                "label": "about me",
-                "permalink": "/blog/tags/about-me"
+                "label": "about",
+                "permalink": "/blog/tags/about"
               }
             ],
             "readingTime": 0.69,
@@ -462,19 +501,12 @@
         }
       ],
       "blogTags": {
-        "/blog/tags/welcome": {
-          "name": "welcome",
+        "/blog/tags/about": {
+          "name": "about",
           "items": [
             "first-post"
           ],
-          "permalink": "/blog/tags/welcome"
-        },
-        "/blog/tags/about-me": {
-          "name": "about me",
-          "items": [
-            "first-post"
-          ],
-          "permalink": "/blog/tags/about-me"
+          "permalink": "/blog/tags/about"
         }
       },
       "blogTagsListPath": "/blog/tags"

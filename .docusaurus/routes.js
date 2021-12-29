@@ -29,13 +29,8 @@ export default [
     exact: true
   },
   {
-    path: '/blog/tags/about-me/',
-    component: ComponentCreator('/blog/tags/about-me/','cf9'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/welcome/',
-    component: ComponentCreator('/blog/tags/welcome/','10b'),
+    path: '/blog/tags/about/',
+    component: ComponentCreator('/blog/tags/about/','c33'),
     exact: true
   },
   {

@@ -2,7 +2,11 @@
 slug: first-post
 title: First Post
 authors: [sid]
-tags: [welcome, about me]
+keywords: ['sid', 'lacy', 'blog', 'website', 'cybersecurity', 'security', 'computer', 'hackthebox', 'htb', 'tech']
+tags: [about]
+description: First Post
+image: /img/craterLake.jpg
+hide_table_of_contents: true
 ---
 
 Hello, and welcome! You are currently reading my first "official" post here, having now fleshed out all of the necessary features of my new website, *swlacy.com*. This space is designed to fulfill my needs as a platform to publish technical content and reflect on my learning as a cybersecurity and political science student.
