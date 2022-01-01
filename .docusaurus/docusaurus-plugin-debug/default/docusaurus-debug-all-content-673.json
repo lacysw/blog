@@ -37,7 +37,7 @@
                 "permalink": "/docs/development/how-i-made-this-website/deploy-to-firebase"
               },
               "next": {
-                "title": "First Post",
+                "title": "Subsection Header: Reports",
                 "permalink": "/docs/reports"
               }
             },
@@ -217,12 +217,11 @@
                   "tech",
                   "previse"
                 ],
-                "description": "HackTheBox Previse Walkthrough",
-                "image": "previse6.png"
+                "description": "HackTheBox Previse Walkthrough"
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "First Post",
+                "title": "Subsection Header: Reports",
                 "permalink": "/docs/reports"
               },
               "next": {
@@ -233,45 +232,18 @@
             {
               "unversionedId": "reports/welcome",
               "id": "reports/welcome",
-              "title": "First Post",
-              "description": "First Post",
+              "title": "Subsection Header: Reports",
+              "description": "The Reports subsection features personal write-ups on projects I have completed, especially including CTF challenges from competition hosts such as HackTheBox and TryHackMe.",
               "source": "@site/docs/reports/welcome.md",
               "sourceDirName": "reports",
               "slug": "/reports",
               "permalink": "/docs/reports",
-              "tags": [
-                {
-                  "label": "about",
-                  "permalink": "/docs/tags/about"
-                }
-              ],
+              "tags": [],
               "version": "current",
               "sidebarPosition": 1,
               "frontMatter": {
                 "sidebar_position": 1,
-                "slug": "/reports",
-                "title": "First Post",
-                "authors": [
-                  "sid"
-                ],
-                "keywords": [
-                  "sid",
-                  "lacy",
-                  "blog",
-                  "website",
-                  "cybersecurity",
-                  "security",
-                  "computer",
-                  "hackthebox",
-                  "htb",
-                  "tech"
-                ],
-                "tags": [
-                  "about"
-                ],
-                "description": "First Post",
-                "image": "/img/craterLake.jpg",
-                "hide_table_of_contents": true
+                "slug": "/reports"
               },
               "sidebar": "tutorialSidebar",
               "previous": {
@@ -463,8 +435,8 @@
             "formattedDate": "December 27, 2021",
             "tags": [
               {
-                "label": "about",
-                "permalink": "/blog/tags/about"
+                "label": "welcome",
+                "permalink": "/blog/tags/welcome"
               }
             ],
             "readingTime": 0.69,
@@ -501,12 +473,12 @@
         }
       ],
       "blogTags": {
-        "/blog/tags/about": {
-          "name": "about",
+        "/blog/tags/welcome": {
+          "name": "welcome",
           "items": [
             "first-post"
           ],
-          "permalink": "/blog/tags/about"
+          "permalink": "/blog/tags/welcome"
         }
       },
       "blogTagsListPath": "/blog/tags"
