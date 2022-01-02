@@ -2,6 +2,10 @@
   "title": "Recent posts",
   "items": [
     {
+      "title": "Documenting My Network",
+      "permalink": "/blog/documenting-my-network"
+    },
+    {
       "title": "First Post",
       "permalink": "/blog/first-post"
     }

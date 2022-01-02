@@ -10,12 +10,17 @@ export default [
   },
   {
     path: '/blog/',
-    component: ComponentCreator('/blog/','1e8'),
+    component: ComponentCreator('/blog/','5f0'),
     exact: true
   },
   {
     path: '/blog/archive/',
     component: ComponentCreator('/blog/archive/','38a'),
+    exact: true
+  },
+  {
+    path: '/blog/documenting-my-network/',
+    component: ComponentCreator('/blog/documenting-my-network/','eda'),
     exact: true
   },
   {
@@ -26,6 +31,21 @@ export default [
   {
     path: '/blog/tags/',
     component: ComponentCreator('/blog/tags/','0ff'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/homelab/',
+    component: ComponentCreator('/blog/tags/homelab/','7af'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/networking/',
+    component: ComponentCreator('/blog/tags/networking/','8a7'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/projects/',
+    component: ComponentCreator('/blog/tags/projects/','40f'),
     exact: true
   },
   {

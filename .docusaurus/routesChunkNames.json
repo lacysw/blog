@@ -3,10 +3,13 @@
     "component": "1f391b9e",
     "content": "a91b54f4"
   },
-  "/blog/-1e8": {
+  "/blog/-5f0": {
     "component": "a6aa9e1f",
     "sidebar": "814f3328",
     "items": [
+      {
+        "content": "4459e2b1"
+      },
       {
         "content": "89641113"
       }
@@ -17,6 +20,11 @@
     "component": "9e4087bc",
     "archive": "b2f554cd"
   },
+  "/blog/documenting-my-network/-eda": {
+    "component": "ccc49370",
+    "sidebar": "814f3328",
+    "content": "b58ae89f"
+  },
   "/blog/first-post/-c85": {
     "component": "ccc49370",
     "sidebar": "814f3328",
@@ -26,6 +34,36 @@
     "component": "01a85c17",
     "sidebar": "814f3328",
     "tags": "a7023ddc"
+  },
+  "/blog/tags/homelab/-7af": {
+    "component": "6875c492",
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "4459e2b1"
+      }
+    ],
+    "metadata": "ca2bbf05"
+  },
+  "/blog/tags/networking/-8a7": {
+    "component": "6875c492",
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "4459e2b1"
+      }
+    ],
+    "metadata": "1d1d5773"
+  },
+  "/blog/tags/projects/-40f": {
+    "component": "6875c492",
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "4459e2b1"
+      }
+    ],
+    "metadata": "0e22a4b2"
   },
   "/blog/tags/welcome/-10b": {
     "component": "6875c492",
