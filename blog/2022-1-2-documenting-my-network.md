@@ -7,8 +7,6 @@ tags: [networking, projects, homelab]
 description: Documenting My Network
 ---
 
-## Introduction
-
 I recently interviewed virtually for a remote junior sysadmin role at a local company. Ultimately, I was not extended an offer of employment; however, I feel I learned a lot from the interview process, especially considering the rather unconventional nature of the questions I was asked. I'll expand on this point in the future, as much of the discussion to be had there is outside the scope of this post.
 
 One topic the company hiring manager and sysadmin team raised with me during the technical interview round was my network and home lab; specifically, if I could describe it in detail and what I might change about it given the opportunity. As I was sharing my screen at the time, what better to show than a plot of my network as I reviewed each component? Alas, what documentation I did have was poor quality and severely outdated — overall, not something of any genuine use.
@@ -37,7 +35,7 @@ Interfaces `eth1` and `eth2` connect to a virtual switch on my router, which pul
 
 ### Wireless Access Points
 
-Serving the main house is a retired Netgear [R6700v3] router/switch/AP combo unit. This used to be my main router and AP but now operates exclusively in AP mode. Side note: I resent the R6700v3, and I regret purchasing it. Perhaps it's better with [DD-WRT](https://wiki.dd-wrt.com/wiki/index.php/Netgear_R6700v3), but I haven't tried for myself; the stock Netgear firmware is terrible, however: very slow, buggy, and [vulnerable](https://securityaffairs.co/wordpress/126179/hacking/netgear-nighthawk-r6700v3-flaws.html). I'm glad it isn't exposed to the Internet any longer. Do yourself a favor and stay away from this product (and Netgear as a whole, [if you value your sanity](https://www.tomsguide.com/news/netgear-router-patches-nov21)).
+Serving the main house is a retired Netgear Nighthawk [R6700v3](https://www.netgear.com/support/product/R6700v3.aspx) router/switch/AP combo unit. This used to be my main router and AP but now operates exclusively in AP mode. Side note: I resent the R6700v3, and I regret purchasing it. Perhaps it's better with [DD-WRT](https://wiki.dd-wrt.com/wiki/index.php/Netgear_R6700v3), but I haven't tried for myself; the stock Netgear firmware is terrible, however: very slow, buggy, and [vulnerable](https://securityaffairs.co/wordpress/126179/hacking/netgear-nighthawk-r6700v3-flaws.html). I'm glad it isn't exposed to the Internet any longer. Do yourself a favor and stay away from this product (and Netgear as a whole, [if you value your sanity](https://www.tomsguide.com/news/netgear-router-patches-nov21)).
 
 The garage and outbuilding, conversely, are wirelessly supported with hardware I like quite a lot: Ubiquiti's [Access Point WiFi 6 Lite](https://store.ui.com/products/unifi-ap-6-lite). I haven't had any issues with Ubiquiti gear so far — admittedly, that means very little outside of an enterprise context.
 
