@@ -101,7 +101,7 @@ export default {
     },
     "footer": {
       "style": "light",
-      "copyright": "Copyright © 2022 Sid Lacy • Generated with <a href=\"https://docusaurus.io\"> Docusaurus </a> • Last Built 2022.01.02 UTC",
+      "copyright": "Copyright © 2022 Sid Lacy • Generated with <a href=\"https://docusaurus.io\"> Docusaurus </a> • Last Built 2022.01.12 UTC",
       "links": []
     },
     "prism": {

@@ -2,6 +2,14 @@
   "title": "Recent posts",
   "items": [
     {
+      "title": "Fishing for Malware",
+      "permalink": "/blog/fishing-for-malware"
+    },
+    {
+      "title": "Running macOS as a Cybersecurity Student",
+      "permalink": "/blog/macos-cybersecurity-student"
+    },
+    {
       "title": "Documenting My Network",
       "permalink": "/blog/documenting-my-network"
     },

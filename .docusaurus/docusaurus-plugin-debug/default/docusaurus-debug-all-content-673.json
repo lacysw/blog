@@ -425,6 +425,84 @@
       "blogSidebarTitle": "Recent posts",
       "blogPosts": [
         {
+          "id": "fishing-for-malware",
+          "metadata": {
+            "permalink": "/blog/fishing-for-malware",
+            "source": "@site/blog/2022-1-7-fishing-for-malware.md",
+            "title": "Fishing for Malware",
+            "description": "Analysis of malware dropped into my Digital Ocean honeypot",
+            "date": "2022-01-07T00:00:00.000Z",
+            "formattedDate": "January 7, 2022",
+            "tags": [
+              {
+                "label": "analysis",
+                "permalink": "/blog/tags/analysis"
+              },
+              {
+                "label": "projects",
+                "permalink": "/blog/tags/projects"
+              }
+            ],
+            "readingTime": 0.07,
+            "truncated": false,
+            "authors": [
+              {
+                "name": "Sid Lacy",
+                "title": "Website Maintainer",
+                "url": "https://swlacy.com",
+                "imageURL": "https://avatars.githubusercontent.com/u/77074184?v=4",
+                "key": "sid"
+              }
+            ],
+            "nextItem": {
+              "title": "Running macOS as a Cybersecurity Student",
+              "permalink": "/blog/macos-cybersecurity-student"
+            }
+          },
+          "content": "Post pending — check back soon.\n\n---\n\nSid Lacy\n[Email](mailto:contact@swlacy.com?subject=Hello!) • [LinkedIn](https://www.linkedin.com/in/lacysw/) • [GitHub](https://github.com/lacysw)"
+        },
+        {
+          "id": "macos-cybersecurity-student",
+          "metadata": {
+            "permalink": "/blog/macos-cybersecurity-student",
+            "source": "@site/blog/2022-1-4-running-macos-cybersecurity-student.md",
+            "title": "Running macOS as a Cybersecurity Student",
+            "description": "Running macOS as a Cybersecurity Student",
+            "date": "2022-01-04T00:00:00.000Z",
+            "formattedDate": "January 4, 2022",
+            "tags": [
+              {
+                "label": "student",
+                "permalink": "/blog/tags/student"
+              },
+              {
+                "label": "macos",
+                "permalink": "/blog/tags/macos"
+              }
+            ],
+            "readingTime": 7.335,
+            "truncated": true,
+            "authors": [
+              {
+                "name": "Sid Lacy",
+                "title": "Website Maintainer",
+                "url": "https://swlacy.com",
+                "imageURL": "https://avatars.githubusercontent.com/u/77074184?v=4",
+                "key": "sid"
+              }
+            ],
+            "prevItem": {
+              "title": "Fishing for Malware",
+              "permalink": "/blog/fishing-for-malware"
+            },
+            "nextItem": {
+              "title": "Documenting My Network",
+              "permalink": "/blog/documenting-my-network"
+            }
+          },
+          "content": "I was recently in the position to buy a new laptop, an essential tool ever since my university transitioned back to in-person courses post-Covid lockdowns. No longer could I rely on being landlocked to my bulky desktop at home; while I already had an older netbook, it was slow and rather uncomfortable for extended use. We are nothing if not spoiled for choice in the laptop market today, however — deciding on what to purchase was not an easy choice for me, especially given that I am a student with limited spending power. \n\nSo, given the myriad of powerful workstation-class, portable x86 machines for sale, why did I eventually land on an ARM-powered MacBook with comparatively poor software and virtualization support as a cybersecurity student? My intention here is not to sell anyone on my decisions, and what works well for me may not for another user, even one with a similar workflow. However, if another student encounters this post, I'd like to share my thoughts and experiences using macOS for the first time after a lifetime of Windows and Linux; to provide the perspective I wish I could have been exposed to before making the jump.\n\n<!--truncate-->\n\nFor the record, I purchased the [2020 M1 MacBook Air](https://support.apple.com/kb/SP825) for $976.31 after tax in early October of 2021, which is approximately three months before the publication of this post. I migrated all my work off of my Windows 10 desktop to the laptop shortly after its arrival — that way, I could transport my primary workstation between my house and my university campus.\n\n## My Workflow\n\nIn all honesty, doing much of anything on a laptop, especially multitasking, is not comfortable to me — juggling windows and virtual desktops is tedious and, at times, frustrating, not to mention the lack of screen real estate in general. I much prefer the traditional desktop setup. My intention with any laptop as a workstation is to use it in its intended form while traveling but to plug it into a desktop-style configuration when possible.\n\nI do all my cybersecurity homework in virtual machines and containers, which eases machine state management, provides for manipulatable environments, and abstracts my work from personal use. That includes using security tools: Nmap, Wireshark, Burp Suite, etc.; programming: C, Java, Python, PHP, JavaScript, etc.; mounting databases; executing Windows and Linux binaries, among other tasks. Therefore, I need access to a VMM and spare resources for VMs... an ill-supported ARM-based, fanless machine with only eight gigabytes of memory and less than 250 gigabytes of usable storage is not quite up to that task.\n\nFor that reason — and this is an important point — I have several virtual machines hosted on *separate servers* accessible over my LAN or remotely via an OpenVPN server I set up. I remote into these VMs for work; in that sense, my MacBook is but a thin client. I do not recommend replicating my purchase whatsoever if intending to use a single device as an all-in-one computing solution.\n\n## Pain Points\n\nBefore proceeding, I feel it's important to note that many of my complaints are not slights against the MacBook or macOS; the most significant issues I have with the device are related to my prior experience with desktop computers in general. The most notable behavior includes that which is not bad, per se, just unexpected.\n\n### Default macOS Shortcuts and Key Layout\n\nThe standard full-sized US keyboard layout dictates that the bottom left-hand side should consist of the keys control, OS modifier, and then alt, in that order, before space. The MacBook's built-in keyboard switches this up in radical fashion, replacing that order with function, control, alt, OS modifier, and then space. I rely primarily on the keyboard for all input using shortcuts in place of the mouse/touchpad, making the layout differences one of the most frustrating parts of transitioning between macOS and Windows/Linux. It is true that software such as [Karabiner Elements](https://karabiner-elements.pqrs.org) may be used to remap keys, but this requires tedious configuration, requires constantly-running software with access to all keyboard input, and doesn't change the physical layout of the buttons, which still differs from the standardized US keyboard.\n\nThen, the shortcuts themselves are also quite different. For example, in Windows and most desktop Linux distributions I've used, control + Z and control + Y undo and redo a given action within an application that supports such interaction, respectively. In macOS, control + Z is still bound to undo, but control + shift + Z is the combination to redo, whereas control + Y typically does nothing. Disrupting such a frequently used shortcut with change feels cumbersome and unwelcome — again, however, these are not inherent issues with macOS, but simply troublesome inconsistencies resulting from different patterns of use.\n\n### User Freedom and Customization \n\nWhere Windows has PowerShell, and Linux has Bash, macOS has — well, macOS has Bash too (and Zsh by default now, a welcome change). On Windows, I can spawn an elevated PowerShell instance to get what I need, and on Linux, for better or worse, I can sudo myself into an unrecoverable state. Should I simply want to remove the Chess application on macOS, however, it is required to reboot into recovery mode and disable the system integrity protection (SIP) so that I am then *allowed to execute sudo* to remove Chess.app, which will be immediately reinstalled upon the next update. Sigh.\n\nInstead, Apple would prefer users only modify the system to the extent advertised within the System Preferences app. While my previous example of removing a built-in game is ultimately insignificant and meaningless in terms of usability, the issue presented there extends into other areas of operation. Ultimately, these issues will not matter to most users, and neither do they significantly affect my workflow. That said, the level of user restriction stands out to me, as I prefer the Linux \"you are the authority of your own system\" approach on a philosophical level.\n\n### Hardware Issues\n\nThe single most annoying hardware issue I have with the M1 Air is the back of native multi-monitor support. There are two Thunderbolt 3 ports, each supporting up to 40 gigabits per second data transfer. I have two 2560x1440 displays at 60 Hz, 8-bit color depth, which works out to a total data transfer requirement of a little over 13 gigabits per second to drive both simultaneously. Why Apple decided to limit the M1 SoC from supporting more than one external display out of the box is baffling to me. Instead, I had to pay 150 dollars for a special dock that required a third-party driver to work — but it did work, indicating that the hardware is perfectly capable of supporting more than one external display in extended mode.\n\nThen, there is a strange compatibility issue between the macOS and my Logitech GPW mouse, which has not been present in any other machine I have used. Specifically, the mouse seems to \"skip\" across the screen ever so often. This problem doesn't impact my work but is relatively annoying.\n\n## Saving Graces of the MacBook\n\nLots of negativity so far, so why didn't I return the machine and opt for something else? Despite the aforementioned issues — believe me, they are annoying — the new ARM-based MacBooks are very solid in nearly every other respect. I certainly don't believe the older x86-based models are worth buying, but Apple's new hardware, being under their control to a great degree, has allowed the creation of a tightly integrated, highly optimized experience. I won't preach every benefit in exhaustive detail (plenty of other resources for that), but I believe some things deserve mention here. Whereas the performance cannot come close to my desktop computer and the benefits of the UNIX environment can be easily replicated with Linux, the incredible battery life and fanless (and thus silent) operation have been consistently impressive. Power management is aggressive, and this writing this entire post, for example, has drained my battery from 100% to 97% thus far — just see below, with VS Code, Firefox, Spotify, Zoom, and many other apps open:\n\n```\n$ sudo powermetrics\n...\nANE Power: 0 mW\nDRAM Power: 18 mW\nCPU Power: 282 mW\nGPU Power: 3 mW\nPackage Power: 305 mW\n```\n\n## Conclusion\nI intend for this post to provide another perspective on using macOS as a user of Windows and Linux, especially as a cybersecurity student. Is the M1 platform a reasonable all-in-one solution for my work? Certainly not. Operating as a thin-client, offloading computationally expensive or incompatible tasks, however, makes the base-model MacBook an exceptional tool. Disregarding raw performance and application compatibility allows issues such as battery life, display quality, etc., to gain pertinence; in those respects, the MacBook excels.\n\n---\n\nSid Lacy\n[Email](mailto:contact@swlacy.com?subject=Hello!) • [LinkedIn](https://www.linkedin.com/in/lacysw/) • [GitHub](https://github.com/lacysw)"
+        },
+        {
           "id": "documenting-my-network",
           "metadata": {
             "permalink": "/blog/documenting-my-network",
@@ -447,7 +525,7 @@
                 "permalink": "/blog/tags/homelab"
               }
             ],
-            "readingTime": 7.64,
+            "readingTime": 7.635,
             "truncated": true,
             "authors": [
               {
@@ -458,12 +536,16 @@
                 "key": "sid"
               }
             ],
+            "prevItem": {
+              "title": "Running macOS as a Cybersecurity Student",
+              "permalink": "/blog/macos-cybersecurity-student"
+            },
             "nextItem": {
               "title": "First Post",
               "permalink": "/blog/first-post"
             }
           },
-          "content": "## Introduction\n\nI recently interviewed virtually for a remote junior sysadmin role at a local company. Ultimately, I was not extended an offer of employment; however, I feel I learned a lot from the interview process, especially considering the rather unconventional nature of the questions I was asked. I'll expand on this point in the future, as much of the discussion to be had there is outside the scope of this post.\n\nOne topic the company hiring manager and sysadmin team raised with me during the technical interview round was my network and home lab; specifically, if I could describe it in detail and what I might change about it given the opportunity. As I was sharing my screen at the time, what better to show than a plot of my network as I reviewed each component? Alas, what documentation I did have was poor quality and severely outdated — overall, not something of any genuine use.\n\n<!--truncate-->\n\nI felt I should refresh my network diagram, both in case a similar situation arises and for my benefit. After all, it *is* perhaps ironic that, as invested as I am in the world of security and networking, I was still logging into my router's web interface to view devices in my DHCP pools each time I forgot the IP address of a machine I needed to connect to...\n\nFurther, I have arguably managed to be rather frugal while building my network and home lab. If you're reading this and have an interest in developing your network or home lab up from ground zero, stay with me; I'll show my hardware, machine configurations, and the services I host, and how it's possible to do the same without breaking the bank.\n\n## Logical Topology: A Rough Draft\n\n![Network Diagram](/img/netdiag.png \"A diagram of my home network\")\nUsing [Lucid](https://lucid.app), I created an illustration of the significant devices within my network and how they relate to one another. Of significant note: the majority of client devices and the model of my edge router have been excluded, as the clients on my network have no significance as they relate to the architecture of the network and I have no intention of broadcasting what router I use in case somehow a related CVE is discovered and exploited faster than I can patch it. I recognize that security by obscurity is, of course, not a viable strategy, but my point stands.\n\nIn any case, what I have shown above highlights the important parts of my hardware. My Internet plan allows for maximum realistic throughout of 540/17 Mbps, and what I have installed provides for that without issue — all Ethernet cabling is a mixture of Cat 5E and Cat 6.\n\n## Hardware\n\nAs it relates to designing a network, the physical topology of my residence is somewhat awkward: the house is not attached to the garage, and in turn, a studio-sized outbuilding branches off from the garage, though is similarly disconnected from the house. As a result, two wireless access points and two separate Ethernet runs from the garage are required to ensure LAN connectivity throughout the property.\n\n### Routing & Switching\nSince there are not many wired devices, I have managed to get away with only a few physical switches and my edge router for packet routing. All physical switches in question are [unmanaged, 5-port gigabit models from TP-Link](https://www.tp-link.com/us/home-networking/5-port-switch/tl-sg105/).\n\nInterfaces `eth1` and `eth2` connect to a virtual switch on my router, which pulls IP addresses from a single DHCP pool.  `eth1` connects to the main house and `eth2` to the outbuilding.\n\n### Wireless Access Points\n\nServing the main house is a retired Netgear [R6700v3] router/switch/AP combo unit. This used to be my main router and AP but now operates exclusively in AP mode. Side note: I resent the R6700v3, and I regret purchasing it. Perhaps it's better with [DD-WRT](https://wiki.dd-wrt.com/wiki/index.php/Netgear_R6700v3), but I haven't tried for myself; the stock Netgear firmware is terrible, however: very slow, buggy, and [vulnerable](https://securityaffairs.co/wordpress/126179/hacking/netgear-nighthawk-r6700v3-flaws.html). I'm glad it isn't exposed to the Internet any longer. Do yourself a favor and stay away from this product (and Netgear as a whole, [if you value your sanity](https://www.tomsguide.com/news/netgear-router-patches-nov21)).\n\nThe garage and outbuilding, conversely, are wirelessly supported with hardware I like quite a lot: Ubiquiti's [Access Point WiFi 6 Lite](https://store.ui.com/products/unifi-ap-6-lite). I haven't had any issues with Ubiquiti gear so far — admittedly, that means very little outside of an enterprise context.\n\n## Services\n\n### DHCP\n\nMy router serves IP addresses over two pools: `LAN` provides addresses to devices downstream of the aforementioned virtual switch. My server hardware rests in the garage, since it can be somewhat noisy, and gets addresses from `garage`.\n\n### OpenVPN\n\nMy router also runs an OpenVPN server using interface `vtun0`. I was inclined to use WireGuard, but the WireGuard binary wasn't considered stable at the time I set up my VPN interface, so I stayed with OpenVPN.\n\nI do all of my work on a MacBook, which essentially acts as a thin client to SSH/VNC into my Linux servers and VMs for the heavy-lifting on development and projects; in that respect, OpenVPN connectivity to my local network has been very useful when I'm away from home. Further, if I ever need files on local machines, my network is only a click (and a decent Internet connection) away.\n\nI'll write a post in the future on my experience using macOS for school and projects related to my in-progress cybersecurity and political science degrees, since I know many tend to shy away from Apple products in the security field.\n\n### DNS\n\nMy DHCP pools are configured to advertise the server on my network running [AdGuard Home](https://adguard.com/en/adguard-home/overview.html), a free DNS server centered around, as the name implies, blocking advertisements. While it's easy enough to run [uBlock](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) on a desktop browser (or Firefox Mobile) to avoid the great majority of advertisements on the web, the same cannot be said when considering, for instance, Roku on the TV or apps on smartphones. AdGuard is a fantastic DNS server similar to [PiHole](https://pi-hole.net/) — host blacklist files can be easily installed, and when a device tries to connect to a domain in those blacklists, AdGuard won't resolve the IP, leading to a dropped connection.\n\n> Why use AdGuard over PiHole?\n\nNo reason — both are fantastic appliances and serve the same purpose. Using the [OISD domain list](https://oisd.nl/), which works on both AdGuard and PiHole, ads are limited while not breaking any websites I use.\n\nRunning a local DNS server also has the advantage of being able to examine domain request statistics network-wide, which can lead to some interesting discoveries. My household typically makes between 40,000 and 50,000 DNS requests per any given 24-hour interval, about 40 percent of which are found on my loaded blacklists and subsequently dropped, which I find shocking. Further, it was only once I directed all of my devices towards my DNS server that I discovered the sheer volume of garbage requests sent by Roku and my Netgear router — a single Roku on my network alone sends about 7,000 requests per day to scribe.logs.roku.com and cloudservices.roku.com, collectively. I assume both are related to telemetry.\n\n### VS Code Server\n\nUsing an M1 MacBook for work, I am locked out of running a great deal of software related to cybersecurity, either because ARM, macOS, or both aren't supported by the tools I need. To bypass this issue, I use VS Code's SSH extension to develop on x86 hardware running Linux. That way, I don't have to consider compatibility issues while writing code. The Markdown source file that contains the text on this page, as well as Node.js to build this website, are all accessed by my laptop remotely in this manner.\n\n### Microsoft Key Management Service\n\nSince I often work with Windows 10 VMs (in an educational context), I use [vlmcsd](https://hub.docker.com/r/mikolatero/vlmcsd/) to license new images. Note: I do not condone piracy — a third-party KMS server could be used for that purpose.\n\n### Proxmox\n\nI use [Proxmox VE](https://www.proxmox.com/en/proxmox-ve) as a bare-metal VMM, chosen over ESXi for its advanced feature set and as a learning experience. As it stands, my host Proxmox host is less-than-powerful. Linux guests perform acceptably, though Windows 10, given its graphical acceleration requirements, makes for a rough experience. Further, I only have 250 gigabytes of storage space, which severely limits the number of guests I can store.\n\n## Next Steps\n\nReflecting on my current network configuration, my needs are served. However, my Proxmox host is sorely deserving of an upgrade. Looking towards the future, I'd like to purchase a few terabytes of solid-state storage and configure ZFS in RAID 1, just in case something goes wrong. Further, I have a spare Nvidia GT 1030 I'd like to try to configure for GPU passthrough to improve the desktop performance for Windows guests — whether I can avoid the dreaded [error code 43](https://mathiashueber.com/fighting-error-43-nvidia-gpu-virtual-machine/) on Pascal architecture remains to be seen.\n\nAs a student, I am not flush with money. Assuming that changed, I would like to build a powerful computer and virtualize everything off of it through Proxmox. In that sense, I suppose all-inclusive virtualization is my end goal.\n\n---\n\nSid Lacy\n[Email](mailto:contact@swlacy.com?subject=Hello!) • [LinkedIn](https://www.linkedin.com/in/lacysw/) • [GitHub](https://github.com/lacysw)"
+          "content": "I recently interviewed virtually for a remote junior sysadmin role at a local company. Ultimately, I was not extended an offer of employment; however, I feel I learned a lot from the interview process, especially considering the rather unconventional nature of the questions I was asked. I'll expand on this point in the future, as much of the discussion to be had there is outside the scope of this post.\n\nOne topic the company hiring manager and sysadmin team raised with me during the technical interview round was my network and home lab; specifically, if I could describe it in detail and what I might change about it given the opportunity. As I was sharing my screen at the time, what better to show than a plot of my network as I reviewed each component? Alas, what documentation I did have was poor quality and severely outdated — overall, not something of any genuine use.\n\n<!--truncate-->\n\nI felt I should refresh my network diagram, both in case a similar situation arises and for my benefit. After all, it *is* perhaps ironic that, as invested as I am in the world of security and networking, I was still logging into my router's web interface to view devices in my DHCP pools each time I forgot the IP address of a machine I needed to connect to...\n\nFurther, I have arguably managed to be rather frugal while building my network and home lab. If you're reading this and have an interest in developing your network or home lab up from ground zero, stay with me; I'll show my hardware, machine configurations, and the services I host, and how it's possible to do the same without breaking the bank.\n\n## Logical Topology: A Rough Draft\n\n![Network Diagram](/img/netdiag.png \"A diagram of my home network\")\nUsing [Lucid](https://lucid.app), I created an illustration of the significant devices within my network and how they relate to one another. Of significant note: the majority of client devices and the model of my edge router have been excluded, as the clients on my network have no significance as they relate to the architecture of the network and I have no intention of broadcasting what router I use in case somehow a related CVE is discovered and exploited faster than I can patch it. I recognize that security by obscurity is, of course, not a viable strategy, but my point stands.\n\nIn any case, what I have shown above highlights the important parts of my hardware. My Internet plan allows for maximum realistic throughout of 540/17 Mbps, and what I have installed provides for that without issue — all Ethernet cabling is a mixture of Cat 5E and Cat 6.\n\n## Hardware\n\nAs it relates to designing a network, the physical topology of my residence is somewhat awkward: the house is not attached to the garage, and in turn, a studio-sized outbuilding branches off from the garage, though is similarly disconnected from the house. As a result, two wireless access points and two separate Ethernet runs from the garage are required to ensure LAN connectivity throughout the property.\n\n### Routing & Switching\nSince there are not many wired devices, I have managed to get away with only a few physical switches and my edge router for packet routing. All physical switches in question are [unmanaged, 5-port gigabit models from TP-Link](https://www.tp-link.com/us/home-networking/5-port-switch/tl-sg105/).\n\nInterfaces `eth1` and `eth2` connect to a virtual switch on my router, which pulls IP addresses from a single DHCP pool.  `eth1` connects to the main house and `eth2` to the outbuilding.\n\n### Wireless Access Points\n\nServing the main house is a retired Netgear Nighthawk [R6700v3](https://www.netgear.com/support/product/R6700v3.aspx) router/switch/AP combo unit. This used to be my main router and AP but now operates exclusively in AP mode. Side note: I resent the R6700v3, and I regret purchasing it. Perhaps it's better with [DD-WRT](https://wiki.dd-wrt.com/wiki/index.php/Netgear_R6700v3), but I haven't tried for myself; the stock Netgear firmware is terrible, however: very slow, buggy, and [vulnerable](https://securityaffairs.co/wordpress/126179/hacking/netgear-nighthawk-r6700v3-flaws.html). I'm glad it isn't exposed to the Internet any longer. Do yourself a favor and stay away from this product (and Netgear as a whole, [if you value your sanity](https://www.tomsguide.com/news/netgear-router-patches-nov21)).\n\nThe garage and outbuilding, conversely, are wirelessly supported with hardware I like quite a lot: Ubiquiti's [Access Point WiFi 6 Lite](https://store.ui.com/products/unifi-ap-6-lite). I haven't had any issues with Ubiquiti gear so far — admittedly, that means very little outside of an enterprise context.\n\n## Services\n\n### DHCP\n\nMy router serves IP addresses over two pools: `LAN` provides addresses to devices downstream of the aforementioned virtual switch. My server hardware rests in the garage, since it can be somewhat noisy, and gets addresses from `garage`.\n\n### OpenVPN\n\nMy router also runs an OpenVPN server using interface `vtun0`. I was inclined to use WireGuard, but the WireGuard binary wasn't considered stable at the time I set up my VPN interface, so I stayed with OpenVPN.\n\nI do all of my work on a MacBook, which essentially acts as a thin client to SSH/VNC into my Linux servers and VMs for the heavy-lifting on development and projects; in that respect, OpenVPN connectivity to my local network has been very useful when I'm away from home. Further, if I ever need files on local machines, my network is only a click (and a decent Internet connection) away.\n\nI'll write a post in the future on my experience using macOS for school and projects related to my in-progress cybersecurity and political science degrees, since I know many tend to shy away from Apple products in the security field.\n\n### DNS\n\nMy DHCP pools are configured to advertise the server on my network running [AdGuard Home](https://adguard.com/en/adguard-home/overview.html), a free DNS server centered around, as the name implies, blocking advertisements. While it's easy enough to run [uBlock](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) on a desktop browser (or Firefox Mobile) to avoid the great majority of advertisements on the web, the same cannot be said when considering, for instance, Roku on the TV or apps on smartphones. AdGuard is a fantastic DNS server similar to [PiHole](https://pi-hole.net/) — host blacklist files can be easily installed, and when a device tries to connect to a domain in those blacklists, AdGuard won't resolve the IP, leading to a dropped connection.\n\n> Why use AdGuard over PiHole?\n\nNo reason — both are fantastic appliances and serve the same purpose. Using the [OISD domain list](https://oisd.nl/), which works on both AdGuard and PiHole, ads are limited while not breaking any websites I use.\n\nRunning a local DNS server also has the advantage of being able to examine domain request statistics network-wide, which can lead to some interesting discoveries. My household typically makes between 40,000 and 50,000 DNS requests per any given 24-hour interval, about 40 percent of which are found on my loaded blacklists and subsequently dropped, which I find shocking. Further, it was only once I directed all of my devices towards my DNS server that I discovered the sheer volume of garbage requests sent by Roku and my Netgear router — a single Roku on my network alone sends about 7,000 requests per day to scribe.logs.roku.com and cloudservices.roku.com, collectively. I assume both are related to telemetry.\n\n### VS Code Server\n\nUsing an M1 MacBook for work, I am locked out of running a great deal of software related to cybersecurity, either because ARM, macOS, or both aren't supported by the tools I need. To bypass this issue, I use VS Code's SSH extension to develop on x86 hardware running Linux. That way, I don't have to consider compatibility issues while writing code. The Markdown source file that contains the text on this page, as well as Node.js to build this website, are all accessed by my laptop remotely in this manner.\n\n### Microsoft Key Management Service\n\nSince I often work with Windows 10 VMs (in an educational context), I use [vlmcsd](https://hub.docker.com/r/mikolatero/vlmcsd/) to license new images. Note: I do not condone piracy — a third-party KMS server could be used for that purpose.\n\n### Proxmox\n\nI use [Proxmox VE](https://www.proxmox.com/en/proxmox-ve) as a bare-metal VMM, chosen over ESXi for its advanced feature set and as a learning experience. As it stands, my host Proxmox host is less-than-powerful. Linux guests perform acceptably, though Windows 10, given its graphical acceleration requirements, makes for a rough experience. Further, I only have 250 gigabytes of storage space, which severely limits the number of guests I can store.\n\n## Next Steps\n\nReflecting on my current network configuration, my needs are served. However, my Proxmox host is sorely deserving of an upgrade. Looking towards the future, I'd like to purchase a few terabytes of solid-state storage and configure ZFS in RAID 1, just in case something goes wrong. Further, I have a spare Nvidia GT 1030 I'd like to try to configure for GPU passthrough to improve the desktop performance for Windows guests — whether I can avoid the dreaded [error code 43](https://mathiashueber.com/fighting-error-43-nvidia-gpu-virtual-machine/) on Pascal architecture remains to be seen.\n\nAs a student, I am not flush with money. Assuming that changed, I would like to build a powerful computer and virtualize everything off of it through Proxmox. In that sense, I suppose all-inclusive virtualization is my end goal.\n\n---\n\nSid Lacy\n[Email](mailto:contact@swlacy.com?subject=Hello!) • [LinkedIn](https://www.linkedin.com/in/lacysw/) • [GitHub](https://github.com/lacysw)"
         },
         {
           "id": "first-post",
@@ -506,32 +588,56 @@
             "page": 1,
             "postsPerPage": 10,
             "totalPages": 1,
-            "totalCount": 2,
+            "totalCount": 4,
             "previousPage": null,
             "nextPage": null,
             "blogDescription": "Blog",
             "blogTitle": "Blog"
           },
           "items": [
+            "fishing-for-malware",
+            "macos-cybersecurity-student",
             "documenting-my-network",
             "first-post"
           ]
         }
       ],
       "blogTags": {
+        "/blog/tags/analysis": {
+          "name": "analysis",
+          "items": [
+            "fishing-for-malware"
+          ],
+          "permalink": "/blog/tags/analysis"
+        },
+        "/blog/tags/projects": {
+          "name": "projects",
+          "items": [
+            "fishing-for-malware",
+            "documenting-my-network"
+          ],
+          "permalink": "/blog/tags/projects"
+        },
+        "/blog/tags/student": {
+          "name": "student",
+          "items": [
+            "macos-cybersecurity-student"
+          ],
+          "permalink": "/blog/tags/student"
+        },
+        "/blog/tags/macos": {
+          "name": "macos",
+          "items": [
+            "macos-cybersecurity-student"
+          ],
+          "permalink": "/blog/tags/macos"
+        },
         "/blog/tags/networking": {
           "name": "networking",
           "items": [
             "documenting-my-network"
           ],
           "permalink": "/blog/tags/networking"
-        },
-        "/blog/tags/projects": {
-          "name": "projects",
-          "items": [
-            "documenting-my-network"
-          ],
-          "permalink": "/blog/tags/projects"
         },
         "/blog/tags/homelab": {
           "name": "homelab",

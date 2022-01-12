@@ -3,10 +3,16 @@
     "component": "1f391b9e",
     "content": "a91b54f4"
   },
-  "/blog/-5f0": {
+  "/blog/-6e6": {
     "component": "a6aa9e1f",
     "sidebar": "814f3328",
     "items": [
+      {
+        "content": "e59c563e"
+      },
+      {
+        "content": "f1ba7193"
+      },
       {
         "content": "4459e2b1"
       },
@@ -30,10 +36,30 @@
     "sidebar": "814f3328",
     "content": "c177b66e"
   },
+  "/blog/fishing-for-malware/-8d4": {
+    "component": "ccc49370",
+    "sidebar": "814f3328",
+    "content": "0cd46f77"
+  },
+  "/blog/macos-cybersecurity-student/-9d6": {
+    "component": "ccc49370",
+    "sidebar": "814f3328",
+    "content": "1add4c66"
+  },
   "/blog/tags/-0ff": {
     "component": "01a85c17",
     "sidebar": "814f3328",
     "tags": "a7023ddc"
+  },
+  "/blog/tags/analysis/-84c": {
+    "component": "6875c492",
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "e59c563e"
+      }
+    ],
+    "metadata": "2f7b540d"
   },
   "/blog/tags/homelab/-7af": {
     "component": "6875c492",
@@ -45,6 +71,16 @@
     ],
     "metadata": "ca2bbf05"
   },
+  "/blog/tags/macos/-3e5": {
+    "component": "6875c492",
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "f1ba7193"
+      }
+    ],
+    "metadata": "0193b68e"
+  },
   "/blog/tags/networking/-8a7": {
     "component": "6875c492",
     "sidebar": "814f3328",
@@ -55,15 +91,28 @@
     ],
     "metadata": "1d1d5773"
   },
-  "/blog/tags/projects/-40f": {
+  "/blog/tags/projects/-c1d": {
     "component": "6875c492",
     "sidebar": "814f3328",
     "items": [
+      {
+        "content": "e59c563e"
+      },
       {
         "content": "4459e2b1"
       }
     ],
     "metadata": "0e22a4b2"
+  },
+  "/blog/tags/student/-a3c": {
+    "component": "6875c492",
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "f1ba7193"
+      }
+    ],
+    "metadata": "7f440044"
   },
   "/blog/tags/welcome/-10b": {
     "component": "6875c492",

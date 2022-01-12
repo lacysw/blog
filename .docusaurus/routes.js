@@ -10,7 +10,7 @@ export default [
   },
   {
     path: '/blog/',
-    component: ComponentCreator('/blog/','5f0'),
+    component: ComponentCreator('/blog/','6e6'),
     exact: true
   },
   {
@@ -29,13 +29,33 @@ export default [
     exact: true
   },
   {
+    path: '/blog/fishing-for-malware/',
+    component: ComponentCreator('/blog/fishing-for-malware/','8d4'),
+    exact: true
+  },
+  {
+    path: '/blog/macos-cybersecurity-student/',
+    component: ComponentCreator('/blog/macos-cybersecurity-student/','9d6'),
+    exact: true
+  },
+  {
     path: '/blog/tags/',
     component: ComponentCreator('/blog/tags/','0ff'),
     exact: true
   },
   {
+    path: '/blog/tags/analysis/',
+    component: ComponentCreator('/blog/tags/analysis/','84c'),
+    exact: true
+  },
+  {
     path: '/blog/tags/homelab/',
     component: ComponentCreator('/blog/tags/homelab/','7af'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/macos/',
+    component: ComponentCreator('/blog/tags/macos/','3e5'),
     exact: true
   },
   {
@@ -45,7 +65,12 @@ export default [
   },
   {
     path: '/blog/tags/projects/',
-    component: ComponentCreator('/blog/tags/projects/','40f'),
+    component: ComponentCreator('/blog/tags/projects/','c1d'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/student/',
+    component: ComponentCreator('/blog/tags/student/','a3c'),
     exact: true
   },
   {
