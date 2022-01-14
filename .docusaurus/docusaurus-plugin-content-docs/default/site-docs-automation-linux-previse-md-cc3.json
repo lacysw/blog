@@ -1,0 +1,22 @@
+{
+  "unversionedId": "automation/linux/previse",
+  "id": "automation/linux/previse",
+  "title": "Basic Linux Security Report",
+  "description": "Check on the simple things.",
+  "source": "@site/docs/automation/linux/previse.md",
+  "sourceDirName": "automation/linux",
+  "slug": "/automation/linux/previse",
+  "permalink": "/docs/automation/linux/previse",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Header",
+    "permalink": "/docs/automation"
+  },
+  "next": {
+    "title": "Introduction",
+    "permalink": "/docs/extended-tutorials/how-i-made-this-website/introduction"
+  }
+}

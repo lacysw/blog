@@ -1,0 +1,25 @@
+{
+  "unversionedId": "website-hosting/register-domain",
+  "id": "website-hosting/register-domain",
+  "title": "Registering a Domain",
+  "description": "This page is coming soon.",
+  "source": "@site/docs/website-hosting/register-domain.md",
+  "sourceDirName": "website-hosting",
+  "slug": "/website-hosting/register-domain",
+  "permalink": "/docs/website-hosting/register-domain",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Editing Docusaurus Defaults",
+    "permalink": "/docs/website-hosting/edit-defaults"
+  },
+  "next": {
+    "title": "Deploying Your Site to Firebase",
+    "permalink": "/docs/website-hosting/deploy-to-firebase"
+  }
+}

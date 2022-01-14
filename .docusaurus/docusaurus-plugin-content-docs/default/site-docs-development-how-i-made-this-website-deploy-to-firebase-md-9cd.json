@@ -1,0 +1,25 @@
+{
+  "unversionedId": "development/how-i-made-this-website/deploy-to-firebase",
+  "id": "development/how-i-made-this-website/deploy-to-firebase",
+  "title": "Deploying Your Site to Firebase",
+  "description": "This page is coming soon.",
+  "source": "@site/docs/development/how-i-made-this-website/deploy-to-firebase.md",
+  "sourceDirName": "development/how-i-made-this-website",
+  "slug": "/development/how-i-made-this-website/deploy-to-firebase",
+  "permalink": "/docs/development/how-i-made-this-website/deploy-to-firebase",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Registering a Domain",
+    "permalink": "/docs/development/how-i-made-this-website/register-domain"
+  },
+  "next": {
+    "title": "Bonus: Configuring GitHub Actions & Email",
+    "permalink": "/docs/development/how-i-made-this-website/bonus"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "/blog/tags/analysis": {
+    "allTagsPath": "/blog/tags",
+    "slug": "/blog/tags/analysis",
+    "name": "analysis",
+    "count": 1,
+    "permalink": "/blog/tags/analysis"
+  },
+  "/blog/tags/projects": {
+    "allTagsPath": "/blog/tags",
+    "slug": "/blog/tags/projects",
+    "name": "projects",
+    "count": 2,
+    "permalink": "/blog/tags/projects"
+  },
+  "/blog/tags/student": {
+    "allTagsPath": "/blog/tags",
+    "slug": "/blog/tags/student",
+    "name": "student",
+    "count": 1,
+    "permalink": "/blog/tags/student"
+  },
+  "/blog/tags/macos": {
+    "allTagsPath": "/blog/tags",
+    "slug": "/blog/tags/macos",
+    "name": "macos",
+    "count": 1,
+    "permalink": "/blog/tags/macos"
+  },
+  "/blog/tags/networking": {
+    "allTagsPath": "/blog/tags",
+    "slug": "/blog/tags/networking",
+    "name": "networking",
+    "count": 1,
+    "permalink": "/blog/tags/networking"
+  },
+  "/blog/tags/homelab": {
+    "allTagsPath": "/blog/tags",
+    "slug": "/blog/tags/homelab",
+    "name": "homelab",
+    "count": 1,
+    "permalink": "/blog/tags/homelab"
+  },
+  "/blog/tags/welcome": {
+    "allTagsPath": "/blog/tags",
+    "slug": "/blog/tags/welcome",
+    "name": "welcome",
+    "count": 1,
+    "permalink": "/blog/tags/welcome"
+  }
+}

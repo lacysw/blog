@@ -1,0 +1,26 @@
+{
+  "unversionedId": "development/welcome",
+  "id": "development/welcome",
+  "title": "Subsection Header: Development",
+  "description": "The Development subsection articles on longer, multi-phase projects.",
+  "source": "@site/docs/development/welcome.md",
+  "sourceDirName": "development",
+  "slug": "/development",
+  "permalink": "/docs/development",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "slug": "/development"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Welcome!",
+    "permalink": "/docs/"
+  },
+  "next": {
+    "title": "Introduction",
+    "permalink": "/docs/development/how-i-made-this-website/introduction"
+  }
+}
