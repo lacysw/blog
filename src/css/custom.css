@@ -87,3 +87,7 @@ html[data-theme='dark'] .header-linkedin-link:before {
 html[data-theme='dark'] .header-github-link:before {
   background: url(/img/glyphs/githubDark.svg) no-repeat;
 }
+
+.element {
+  background: rgb(0, 0, 0) none repeat scroll 0% 0%;
+}

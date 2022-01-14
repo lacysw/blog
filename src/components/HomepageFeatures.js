@@ -18,8 +18,8 @@ const FeatureList = [
     Svg: require('/img/blog.svg').default,
     description: (
       <>
-        I also host <a href="blog"><b>my personal blog</b></a> here, where I highlight the less-technical
-        elements of my other posts — I'd be humbled if you read an entry.
+        I also host <a href="blog"><b>my blog</b></a> here, which features less
+        technical content in general — I would be honored if you read an entry.
       </>
     ),
   },
