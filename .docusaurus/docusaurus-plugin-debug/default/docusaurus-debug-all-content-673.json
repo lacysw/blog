@@ -668,6 +668,11 @@
         "type": "jsx",
         "permalink": "/",
         "source": "@site/src/pages/index.js"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/resources",
+        "source": "@site/src/pages/resources.md"
       }
     ]
   },

@@ -26,6 +26,7 @@ export default {
   '935f2afb': [() => import(/* webpackChunkName: '935f2afb' */ "~docs/default/version-current-metadata-prop-751.json"), "~docs/default/version-current-metadata-prop-751.json", require.resolveWeak("~docs/default/version-current-metadata-prop-751.json")],
   '9cd7be60': [() => import(/* webpackChunkName: '9cd7be60' */ "@site/docs/development/how-i-made-this-website/deploy-to-firebase.md"), "@site/docs/development/how-i-made-this-website/deploy-to-firebase.md", require.resolveWeak("@site/docs/development/how-i-made-this-website/deploy-to-firebase.md")],
   '9e4087bc': [() => import(/* webpackChunkName: '9e4087bc' */ "@theme/BlogArchivePage"), "@theme/BlogArchivePage", require.resolveWeak("@theme/BlogArchivePage")],
+  'a194631d': [() => import(/* webpackChunkName: 'a194631d' */ "@site/src/pages/resources.md"), "@site/src/pages/resources.md", require.resolveWeak("@site/src/pages/resources.md")],
   'a6aa9e1f': [() => import(/* webpackChunkName: 'a6aa9e1f' */ "@theme/BlogListPage"), "@theme/BlogListPage", require.resolveWeak("@theme/BlogListPage")],
   'a7023ddc': [() => import(/* webpackChunkName: 'a7023ddc' */ "~blog/default/blog-tags-tags-4c2.json"), "~blog/default/blog-tags-tags-4c2.json", require.resolveWeak("~blog/default/blog-tags-tags-4c2.json")],
   'a91b54f4': [() => import(/* webpackChunkName: 'a91b54f4' */ "@site/src/pages/about-me.md"), "@site/src/pages/about-me.md", require.resolveWeak("@site/src/pages/about-me.md")],

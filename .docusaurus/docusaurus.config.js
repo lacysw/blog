@@ -95,6 +95,21 @@ export default {
           "href": "https://github.com/lacysw",
           "className": "header-github-link",
           "position": "right"
+        },
+        {
+          "type": "dropdown",
+          "label": "Pages",
+          "position": "left",
+          "items": [
+            {
+              "label": "WWU Cybersecurity Club",
+              "href": "https://wwucyber.com"
+            },
+            {
+              "label": "Resources",
+              "to": "/resources"
+            }
+          ]
         }
       ],
       "hideOnScroll": false

@@ -79,6 +79,11 @@ export default [
     exact: true
   },
   {
+    path: '/resources/',
+    component: ComponentCreator('/resources/','b32'),
+    exact: true
+  },
+  {
     path: '/search/',
     component: ComponentCreator('/search/','1e3'),
     exact: true

@@ -79,6 +79,13 @@ const config = {
           {href: 'https://discordapp.com/users/796071665154129931/', className: 'header-discord-link', position: 'right',},
           {href: 'https://www.linkedin.com/in/lacysw/', className: 'header-linkedin-link', position: 'right',},
           {href: 'https://github.com/lacysw', className: 'header-github-link', position: 'right',},
+          {type: 'dropdown', label: 'Pages', position: 'left',
+            items: [
+              {label: 'WWU Cybersecurity Club', href: 'https://wwucyber.com'},
+              {label: 'Resources', to: '/resources'},
+
+            ],
+          },
         ],
       },
       footer: {
