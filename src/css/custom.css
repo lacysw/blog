@@ -91,3 +91,7 @@ html[data-theme='dark'] .header-github-link:before {
 .element {
   background: rgb(0, 0, 0) none repeat scroll 0% 0%;
 }
+
+.medium-zoom-overlay {
+  background: var(--ifm-background-white) !important;
+}
