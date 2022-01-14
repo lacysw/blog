@@ -1,0 +1,25 @@
+{
+  "unversionedId": "website-hosting/deploy-to-firebase",
+  "id": "website-hosting/deploy-to-firebase",
+  "title": "Deploying Your Site to Firebase",
+  "description": "This page is coming soon.",
+  "source": "@site/docs/website-hosting/deploy-to-firebase.md",
+  "sourceDirName": "website-hosting",
+  "slug": "/website-hosting/deploy-to-firebase",
+  "permalink": "/docs/website-hosting/deploy-to-firebase",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Registering a Domain",
+    "permalink": "/docs/website-hosting/register-domain"
+  },
+  "next": {
+    "title": "Bonus: Configuring GitHub Actions & Email",
+    "permalink": "/docs/website-hosting/bonus"
+  }
+}

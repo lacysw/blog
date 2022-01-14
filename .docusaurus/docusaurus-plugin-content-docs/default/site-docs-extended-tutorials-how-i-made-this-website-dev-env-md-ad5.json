@@ -1,0 +1,25 @@
+{
+  "unversionedId": "Extended Tutorials/how-i-made-this-website/dev-env",
+  "id": "Extended Tutorials/how-i-made-this-website/dev-env",
+  "title": "Setting Up Your Development Environment",
+  "description": "Of course, you can't reasonably develop a website without first configuring the tools to do so. As mentioned in the previous section, Ubuntu Server will be used to host the development environment. I write code regularly and host a variety of services on my local network, so I have a physical computer running Ubuntu Server on bare metal, which I use SSH to access. If you would also like to use Ubuntu on bare metal, you may do the same by following this guide or by creating a virtual instance using the hypervisor of your choice or Multipass (which is very simple). Alternatively, if you don't have access to another computer and cannot/would prefer not to use virtualization for whatever reason, you may use your physical computer, but note that all commands will assume use of Ubuntu 20.04.3 LTS.",
+  "source": "@site/docs/Extended Tutorials/how-i-made-this-website/dev-env.md",
+  "sourceDirName": "Extended Tutorials/how-i-made-this-website",
+  "slug": "/Extended Tutorials/how-i-made-this-website/dev-env",
+  "permalink": "/docs/Extended Tutorials/how-i-made-this-website/dev-env",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/docs/Extended Tutorials/how-i-made-this-website/introduction"
+  },
+  "next": {
+    "title": "Editing Docusaurus Defaults",
+    "permalink": "/docs/Extended Tutorials/how-i-made-this-website/edit-defaults"
+  }
+}

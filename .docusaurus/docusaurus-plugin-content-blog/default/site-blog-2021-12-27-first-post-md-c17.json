@@ -1,0 +1,29 @@
+{
+  "permalink": "/blog/first-post",
+  "source": "@site/blog/2021-12-27-first-post.md",
+  "title": "First Post",
+  "description": "First Post",
+  "date": "2021-12-27T00:00:00.000Z",
+  "formattedDate": "December 27, 2021",
+  "tags": [
+    {
+      "label": "welcome",
+      "permalink": "/blog/tags/welcome"
+    }
+  ],
+  "readingTime": 0.69,
+  "truncated": true,
+  "authors": [
+    {
+      "name": "Sid Lacy",
+      "title": "Website Maintainer",
+      "url": "https://swlacy.com",
+      "imageURL": "https://avatars.githubusercontent.com/u/77074184?v=4",
+      "key": "sid"
+    }
+  ],
+  "prevItem": {
+    "title": "Documenting My Network",
+    "permalink": "/blog/documenting-my-network"
+  }
+}

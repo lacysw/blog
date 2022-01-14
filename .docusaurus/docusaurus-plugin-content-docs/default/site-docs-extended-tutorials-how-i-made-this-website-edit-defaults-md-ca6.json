@@ -1,0 +1,25 @@
+{
+  "unversionedId": "extended-tutorials/how-i-made-this-website/edit-defaults",
+  "id": "extended-tutorials/how-i-made-this-website/edit-defaults",
+  "title": "Editing Docusaurus Defaults",
+  "description": "This page is coming soon.",
+  "source": "@site/docs/extended-tutorials/how-i-made-this-website/edit-defaults.md",
+  "sourceDirName": "extended-tutorials/how-i-made-this-website",
+  "slug": "/extended-tutorials/how-i-made-this-website/edit-defaults",
+  "permalink": "/docs/extended-tutorials/how-i-made-this-website/edit-defaults",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Setting Up Your Development Environment",
+    "permalink": "/docs/extended-tutorials/how-i-made-this-website/development-environment"
+  },
+  "next": {
+    "title": "Registering a Domain",
+    "permalink": "/docs/extended-tutorials/how-i-made-this-website/register-domain"
+  }
+}

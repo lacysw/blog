@@ -1,0 +1,18 @@
+{
+  "unversionedId": "wwucyber/linux/previse",
+  "id": "wwucyber/linux/previse",
+  "title": "HackTheBox — Previse",
+  "description": "Hello, and thank you for expressing interest in my report on Previse, a CTF hosted by Hack the Box. Previse was uploaded by HTB user m4lwhere 138 days prior to the publication of this report and is currently considered by the HTB community to be easy to intermediate in terms of difficulty.",
+  "source": "@site/docs/wwucyber/linux/previse.md",
+  "sourceDirName": "wwucyber/linux",
+  "slug": "/wwucyber/linux/previse",
+  "permalink": "/docs/wwucyber/linux/previse",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Welcome!",
+    "permalink": "/docs/"
+  }
+}

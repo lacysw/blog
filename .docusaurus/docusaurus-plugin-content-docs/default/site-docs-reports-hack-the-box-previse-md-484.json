@@ -1,0 +1,25 @@
+{
+  "unversionedId": "Reports/hack-the-box/previse",
+  "id": "Reports/hack-the-box/previse",
+  "title": "Previse",
+  "description": "Hello, and thank you for expressing interest in my report on Previse, a CTF hosted by Hack the Box. Previse was uploaded by HTB user m4lwhere 138 days prior to the publication of this report and is currently considered by the HTB community to be easy to intermediate in terms of difficulty.",
+  "source": "@site/docs/Reports/hack-the-box/previse.md",
+  "sourceDirName": "Reports/hack-the-box",
+  "slug": "/Reports/hack-the-box/previse",
+  "permalink": "/docs/Reports/hack-the-box/previse",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Welcome!",
+    "permalink": "/docs/"
+  },
+  "next": {
+    "title": "Introduction",
+    "permalink": "/docs/website-hosting/introduction"
+  }
+}

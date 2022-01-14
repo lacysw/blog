@@ -1,0 +1,25 @@
+{
+  "unversionedId": "extended-tutorials/how-i-made-this-website/register-domain",
+  "id": "extended-tutorials/how-i-made-this-website/register-domain",
+  "title": "Registering a Domain",
+  "description": "This page is coming soon.",
+  "source": "@site/docs/extended-tutorials/how-i-made-this-website/register-domain.md",
+  "sourceDirName": "extended-tutorials/how-i-made-this-website",
+  "slug": "/extended-tutorials/how-i-made-this-website/register-domain",
+  "permalink": "/docs/extended-tutorials/how-i-made-this-website/register-domain",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Editing Docusaurus Defaults",
+    "permalink": "/docs/extended-tutorials/how-i-made-this-website/edit-defaults"
+  },
+  "next": {
+    "title": "Deploying Your Site to Firebase",
+    "permalink": "/docs/extended-tutorials/how-i-made-this-website/deploy-to-firebase"
+  }
+}
